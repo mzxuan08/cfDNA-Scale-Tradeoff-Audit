@@ -291,7 +291,7 @@ def build_manuscripts(author, references):
         declared += f'## {heading}\n\n{body}\n\n'
     full = full[:start] + declared + full[end:]
     ai_methods = ('### 2.8. Code assistance and figure provenance\n\n'
-        'OpenAI Codex (OpenAI; desktop application used in October 2026; exact application '
+        f'{author["ai_tool"]} ({author["ai_developer"]}; desktop application used in October 2026; exact application '
         'build and underlying model version not recorded) assisted implementation and '
         'refactoring, testing, statistical-workflow code and figure-generation code. '
         'The author checked the computational logic, statistical outputs and interpretation. '
@@ -304,7 +304,7 @@ def build_manuscripts(author, references):
                         'Public study metadata had been recovered from UNITE supplementary data file S1, sheet s2,')
     # Caption disclosure concerns code-assisted drawing, not generated clinical imagery.
     caption_tail = (' The explanatory workflow in panel a was drawn with code assisted by '
-                    'OpenAI Codex (OpenAI; October 2026 desktop session; exact build and model '
+                    f'{author["ai_tool"]} ({author["ai_developer"]}; October 2026 desktop session; exact build and model '
                     'version not recorded) and checked by the author.')
     marker = 'Diagnostic composition labels never entered benchmark fitting or selection.'
     assert marker in full
@@ -654,7 +654,7 @@ def cover_letter(title, author, journal):
         'de-identified data without new recruitment or specimen collection; its ethics '
         'statement accurately reports the absence of a new institutional determination. '
         'There is no specific grant funding and no competing interest. Assistance '
-        'from OpenAI Codex is disclosed in Methods and in the AI-use declaration.\n\n'
+        f'from {author["ai_tool"]} is disclosed in Methods and in the AI-use declaration.\n\n'
         'I request the traditional subscription publishing model rather than optional '
         'author-pays open access, subject to the journal’s current publishing terms.\n\n'
         f'Sincerely,\n\n{author["name"]}\n\n{author["affiliation"]}\n\n{author["email"]}\n')
@@ -1076,7 +1076,7 @@ def write_checklist(highlights, counts, integrity, validation, copies):
         '2. GitHub查询返回404，仓库尚未核验为公开；本脚本没有发布。创建并上传候选目录后再将Data and code availability中的待发布状态改为实际公开状态。\n'
         '3. Zenodo DOI尚未分配。完成归档后把真实DOI及版本号写入完整稿、CITATION.cff和README，不能使用伪造DOI或全零ORCID。\n'
         '4. 软件MIT不等于第三方数据MIT。核对原始数据及参考资源的再分发条款；轻量包不含原始片段、患者特征矩阵或大缓存。\n'
-        '5. 已按Elsevier当前AI政策披露代码、统计/绘图代码和文字辅助及人工责任。精确Codex应用构建号及底层模型版本未记录，稿件如实说明；若编辑要求精确版本，补充实际记录。\n'
+        '5. 已按Elsevier当前AI政策披露代码、统计/绘图代码和文字辅助及人工责任。所用AI工具的精确应用构建号及底层模型版本未记录，稿件如实说明；若编辑要求精确版本，补充实际记录。\n'
         '6. 两刊作者指南网页本次返回403，不能宣称已逐条核实其2026全部个性化要求。正式提交时核对字数、文章类别、图表格式和匿名要求；订阅模式可避免可选OA APC，但本包不保证所有附加费用一律为0。\n\n'
         '## 三分钟网页操作指南\n\n'
         '**第1分钟：选择去向。** bioRxiv使用官方入口 https://www.biorxiv.org/submit-a-manuscript ，先用Word将04另存为PDF并确认图文完整，'

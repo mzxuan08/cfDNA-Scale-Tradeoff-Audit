@@ -1,0 +1,21 @@
+{
+  "participants": 585,
+  "windows": 477,
+  "ratio_missing": 0,
+  "ratio_total": 279045,
+  "length_missing": 0,
+  "seconds": 151.23499999998603,
+  "seed": 2026,
+  "all_fits_converged": true,
+  "stage_missing": 331,
+  "matrix_sha256": "be7aed9e3ade19f3f492f6700251e54511c382e75f9781cf8f877f2f3b94c612",
+  "clinical_refitting": "new source-only ElasticNet calibration and sensitivity analyses; old frozen predictions retained",
+  "imputation": "per-feature source-training median; all-missing source columns use zero; post-transform medians; no target fit",
+  "elasticnet": {
+    "C": 1.0,
+    "l1_ratio": 0.5,
+    "solver": "saga",
+    "max_iter": 20000,
+    "tol": 0.001
+  }
+}

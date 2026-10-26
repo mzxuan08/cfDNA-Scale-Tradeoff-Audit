@@ -1,0 +1,2341 @@
+family,term,patient_id,group,distance
+raw_ratio,study,C309,"Jiang et al, 2015",1.1871713094026568
+raw_ratio,study,C310,"Jiang et al, 2015",1.4672306681575926
+raw_ratio,study,C311,"Jiang et al, 2015",1.2114295166831142
+raw_ratio,study,C312,"Jiang et al, 2015",3.0813921932621784
+raw_ratio,study,C313,"Jiang et al, 2015",1.998585042427021
+raw_ratio,study,C314,"Jiang et al, 2015",4.682156141597566
+raw_ratio,study,C315,"Jiang et al, 2015",5.814505469656257
+raw_ratio,study,C316,"Jiang et al, 2015",2.5186687563863175
+raw_ratio,study,C325,"Jiang et al, 2015",1.880497321384233
+raw_ratio,study,C326,"Jiang et al, 2015",4.156236719461925
+raw_ratio,study,C327,"Jiang et al, 2015",1.0874266005801743
+raw_ratio,study,C329,"Jiang et al, 2015",4.030571112373139
+raw_ratio,study,C330,"Jiang et al, 2015",2.84009363745684
+raw_ratio,study,C331,"Jiang et al, 2015",2.530036174392073
+raw_ratio,study,C332,"Jiang et al, 2015",2.138481873465652
+raw_ratio,study,C333,"Jiang et al, 2015",0.7374852772600017
+raw_ratio,study,C343,"Jiang et al, 2015",4.135388488344241
+raw_ratio,study,C345,"Jiang et al, 2015",4.126302036625526
+raw_ratio,study,C346,"Jiang et al, 2015",3.372268143544111
+raw_ratio,study,C347,"Jiang et al, 2015",0.8183168844654974
+raw_ratio,study,C348,"Jiang et al, 2015",4.205314765563132
+raw_ratio,study,C350,"Jiang et al, 2015",0.9903249627443729
+raw_ratio,study,C351,"Jiang et al, 2015",6.007156391937627
+raw_ratio,study,C352,"Jiang et al, 2015",1.4407941159997595
+raw_ratio,study,C353,"Jiang et al, 2015",1.0162113633817271
+raw_ratio,study,C354,"Jiang et al, 2015",4.543802534525323
+raw_ratio,study,C355,"Jiang et al, 2015",2.8121376960341995
+raw_ratio,study,C356,"Jiang et al, 2015",3.8388947165283414
+raw_ratio,study,C357,"Jiang et al, 2015",4.119530217818198
+raw_ratio,study,C358,"Jiang et al, 2015",1.4860975386801831
+raw_ratio,study,C359,"Jiang et al, 2015",5.23171096518041
+raw_ratio,study,C360,"Jiang et al, 2015",3.6250595367564054
+raw_ratio,study,CGCRC291,"Cristiano et al, 2019",26.137257336386146
+raw_ratio,study,CGCRC292,"Cristiano et al, 2019",3.7978338553139754
+raw_ratio,study,CGCRC293,"Cristiano et al, 2019",5.993626944289078
+raw_ratio,study,CGCRC294,"Cristiano et al, 2019",1.6989928854708054
+raw_ratio,study,CGCRC296,"Cristiano et al, 2019",3.0044307434108917
+raw_ratio,study,CGCRC299,"Cristiano et al, 2019",22.691636874473524
+raw_ratio,study,CGCRC300,"Cristiano et al, 2019",1.020223396774332
+raw_ratio,study,CGCRC301,"Cristiano et al, 2019",11.840672620249835
+raw_ratio,study,CGCRC304,"Cristiano et al, 2019",12.639501467438915
+raw_ratio,study,CGCRC305,"Cristiano et al, 2019",4.632557381924817
+raw_ratio,study,CGCRC306,"Cristiano et al, 2019",12.68084742503925
+raw_ratio,study,CGCRC307,"Cristiano et al, 2019",3.475718237018063
+raw_ratio,study,CGCRC308,"Cristiano et al, 2019",1.1519477797167097
+raw_ratio,study,CGCRC311,"Cristiano et al, 2019",2.6194960751630263
+raw_ratio,study,CGCRC315,"Cristiano et al, 2019",0.9470834906075122
+raw_ratio,study,CGCRC316,"Cristiano et al, 2019",24.694683285874653
+raw_ratio,study,CGCRC317,"Cristiano et al, 2019",17.26478353616558
+raw_ratio,study,CGCRC318,"Cristiano et al, 2019",0.8016499772309614
+raw_ratio,study,CGCRC319,"Cristiano et al, 2019",30.43397174073099
+raw_ratio,study,CGCRC320,"Cristiano et al, 2019",3.8019510710731477
+raw_ratio,study,CGCRC321,"Cristiano et al, 2019",14.491724818160863
+raw_ratio,study,CGCRC333,"Cristiano et al, 2019",18.826909580111767
+raw_ratio,study,CGCRC336,"Cristiano et al, 2019",26.51346852362659
+raw_ratio,study,CGCRC341,"Cristiano et al, 2019",5.646732833296686
+raw_ratio,study,CGPLBR100,"Cristiano et al, 2019",2.21064925470922
+raw_ratio,study,CGPLBR101,"Cristiano et al, 2019",10.992839541646587
+raw_ratio,study,CGPLBR102,"Cristiano et al, 2019",8.906491481402298
+raw_ratio,study,CGPLBR103,"Cristiano et al, 2019",9.261097770613041
+raw_ratio,study,CGPLBR104,"Cristiano et al, 2019",1.5464115214480283
+raw_ratio,study,CGPLBR12,"Cristiano et al, 2019",18.112244341121855
+raw_ratio,study,CGPLBR18,"Cristiano et al, 2019",12.354684939570324
+raw_ratio,study,CGPLBR23,"Cristiano et al, 2019",1.9768890377829273
+raw_ratio,study,CGPLBR24,"Cristiano et al, 2019",49.80294438348799
+raw_ratio,study,CGPLBR28,"Cristiano et al, 2019",3.525447360267318
+raw_ratio,study,CGPLBR30,"Cristiano et al, 2019",29.122529337698957
+raw_ratio,study,CGPLBR32,"Cristiano et al, 2019",3.790610632672313
+raw_ratio,study,CGPLBR33,"Cristiano et al, 2019",3.7853970657151943
+raw_ratio,study,CGPLBR34,"Cristiano et al, 2019",16.097017281913537
+raw_ratio,study,CGPLBR35,"Cristiano et al, 2019",6.366292427009218
+raw_ratio,study,CGPLBR36,"Cristiano et al, 2019",4.2551281724328085
+raw_ratio,study,CGPLBR37,"Cristiano et al, 2019",2.7689946408748627
+raw_ratio,study,CGPLBR38,"Cristiano et al, 2019",4.375108721924583
+raw_ratio,study,CGPLBR40,"Cristiano et al, 2019",6.453605997947612
+raw_ratio,study,CGPLBR41,"Cristiano et al, 2019",3.5182514042872706
+raw_ratio,study,CGPLBR45,"Cristiano et al, 2019",10.903925486507246
+raw_ratio,study,CGPLBR46,"Cristiano et al, 2019",3.7685931735600717
+raw_ratio,study,CGPLBR47,"Cristiano et al, 2019",3.0914435728329424
+raw_ratio,study,CGPLBR48,"Cristiano et al, 2019",9.034609369794504
+raw_ratio,study,CGPLBR49,"Cristiano et al, 2019",13.901226604828594
+raw_ratio,study,CGPLBR50,"Cristiano et al, 2019",28.687926975433793
+raw_ratio,study,CGPLBR51,"Cristiano et al, 2019",8.86737904719915
+raw_ratio,study,CGPLBR52,"Cristiano et al, 2019",6.732485573800707
+raw_ratio,study,CGPLBR55,"Cristiano et al, 2019",6.787851220287986
+raw_ratio,study,CGPLBR57,"Cristiano et al, 2019",0.34674452848357357
+raw_ratio,study,CGPLBR59,"Cristiano et al, 2019",3.226429124857915
+raw_ratio,study,CGPLBR60,"Cristiano et al, 2019",4.011895061775912
+raw_ratio,study,CGPLBR61,"Cristiano et al, 2019",6.68246942333587
+raw_ratio,study,CGPLBR63,"Cristiano et al, 2019",6.710831239040748
+raw_ratio,study,CGPLBR65,"Cristiano et al, 2019",4.8028092200035
+raw_ratio,study,CGPLBR68,"Cristiano et al, 2019",12.560567218062289
+raw_ratio,study,CGPLBR69,"Cristiano et al, 2019",4.853617051513476
+raw_ratio,study,CGPLBR70,"Cristiano et al, 2019",4.709534100407412
+raw_ratio,study,CGPLBR71,"Cristiano et al, 2019",9.303784077663263
+raw_ratio,study,CGPLBR73,"Cristiano et al, 2019",2.3012866466009965
+raw_ratio,study,CGPLBR76,"Cristiano et al, 2019",11.073186544692295
+raw_ratio,study,CGPLBR81,"Cristiano et al, 2019",13.65402959416016
+raw_ratio,study,CGPLBR82,"Cristiano et al, 2019",1.9611464214861816
+raw_ratio,study,CGPLBR83,"Cristiano et al, 2019",8.740341916515707
+raw_ratio,study,CGPLBR84,"Cristiano et al, 2019",12.347037631404222
+raw_ratio,study,CGPLBR87,"Cristiano et al, 2019",4.024917633528681
+raw_ratio,study,CGPLBR88,"Cristiano et al, 2019",15.828347679050719
+raw_ratio,study,CGPLBR90,"Cristiano et al, 2019",10.352887308515509
+raw_ratio,study,CGPLBR91,"Cristiano et al, 2019",4.978062451597135
+raw_ratio,study,CGPLBR92,"Cristiano et al, 2019",13.969044669643996
+raw_ratio,study,CGPLBR93,"Cristiano et al, 2019",9.278763275246002
+raw_ratio,study,CGPLH189,"Cristiano et al, 2019",2.308420583143909
+raw_ratio,study,CGPLH190,"Cristiano et al, 2019",0.8329116105933914
+raw_ratio,study,CGPLH193,"Cristiano et al, 2019",2.5078248377340295
+raw_ratio,study,CGPLH194,"Cristiano et al, 2019",1.3439794075505158
+raw_ratio,study,CGPLH201,"Cristiano et al, 2019",2.8664166993671647
+raw_ratio,study,CGPLH202,"Cristiano et al, 2019",2.545976156663463
+raw_ratio,study,CGPLH205,"Cristiano et al, 2019",1.2865520988791617
+raw_ratio,study,CGPLH210,"Cristiano et al, 2019",8.207753995145042
+raw_ratio,study,CGPLH300,"Cristiano et al, 2019",3.081994339300527
+raw_ratio,study,CGPLH307,"Cristiano et al, 2019",1.4423687239176692
+raw_ratio,study,CGPLH308,"Cristiano et al, 2019",3.1664733929851843
+raw_ratio,study,CGPLH309,"Cristiano et al, 2019",3.364453404533899
+raw_ratio,study,CGPLH310,"Cristiano et al, 2019",6.056473104034191
+raw_ratio,study,CGPLH311,"Cristiano et al, 2019",1.755885933406907
+raw_ratio,study,CGPLH314,"Cristiano et al, 2019",1.2748195829694
+raw_ratio,study,CGPLH315,"Cristiano et al, 2019",4.4894912188135345
+raw_ratio,study,CGPLH316,"Cristiano et al, 2019",4.781748210363214
+raw_ratio,study,CGPLH317,"Cristiano et al, 2019",4.198134072946381
+raw_ratio,study,CGPLH319,"Cristiano et al, 2019",1.1182474764563486
+raw_ratio,study,CGPLH320,"Cristiano et al, 2019",14.900746736138279
+raw_ratio,study,CGPLH322,"Cristiano et al, 2019",2.8687570477344737
+raw_ratio,study,CGPLH324,"Cristiano et al, 2019",3.0265905991716417
+raw_ratio,study,CGPLH325,"Cristiano et al, 2019",2.2870847533618117
+raw_ratio,study,CGPLH326,"Cristiano et al, 2019",4.099693460041404
+raw_ratio,study,CGPLH327,"Cristiano et al, 2019",0.6886501399727549
+raw_ratio,study,CGPLH328,"Cristiano et al, 2019",3.8647254638497475
+raw_ratio,study,CGPLH328_Rep,"Cristiano et al, 2019",5.19287290325875
+raw_ratio,study,CGPLH329,"Cristiano et al, 2019",0.45397287420787386
+raw_ratio,study,CGPLH330,"Cristiano et al, 2019",1.1645494353514494
+raw_ratio,study,CGPLH331,"Cristiano et al, 2019",2.347667067401486
+raw_ratio,study,CGPLH331_Rep,"Cristiano et al, 2019",3.1933458456584995
+raw_ratio,study,CGPLH333,"Cristiano et al, 2019",4.662499601857076
+raw_ratio,study,CGPLH335,"Cristiano et al, 2019",1.097950543115668
+raw_ratio,study,CGPLH336,"Cristiano et al, 2019",8.379376199927298
+raw_ratio,study,CGPLH337,"Cristiano et al, 2019",1.7763307989259238
+raw_ratio,study,CGPLH338,"Cristiano et al, 2019",0.8763215005607665
+raw_ratio,study,CGPLH339,"Cristiano et al, 2019",2.0583614366244913
+raw_ratio,study,CGPLH340,"Cristiano et al, 2019",2.304398421447073
+raw_ratio,study,CGPLH341,"Cristiano et al, 2019",1.7512418509893448
+raw_ratio,study,CGPLH342,"Cristiano et al, 2019",4.883535861901341
+raw_ratio,study,CGPLH343,"Cristiano et al, 2019",1.463145870414006
+raw_ratio,study,CGPLH344,"Cristiano et al, 2019",7.06578634614591
+raw_ratio,study,CGPLH345,"Cristiano et al, 2019",9.108262986510216
+raw_ratio,study,CGPLH346,"Cristiano et al, 2019",4.451864737375835
+raw_ratio,study,CGPLH350,"Cristiano et al, 2019",8.255893614060232
+raw_ratio,study,CGPLH352,"Cristiano et al, 2019",4.125924894376342
+raw_ratio,study,CGPLH353,"Cristiano et al, 2019",0.5145054500617199
+raw_ratio,study,CGPLH354,"Cristiano et al, 2019",4.323873799265937
+raw_ratio,study,CGPLH355,"Cristiano et al, 2019",0.5368962585517882
+raw_ratio,study,CGPLH356,"Cristiano et al, 2019",2.6708144714143898
+raw_ratio,study,CGPLH357,"Cristiano et al, 2019",1.1562066458981397
+raw_ratio,study,CGPLH360,"Cristiano et al, 2019",2.9838156990546594
+raw_ratio,study,CGPLH361,"Cristiano et al, 2019",1.308264908820531
+raw_ratio,study,CGPLH362,"Cristiano et al, 2019",3.7123610167473133
+raw_ratio,study,CGPLH363,"Cristiano et al, 2019",1.786627953765388
+raw_ratio,study,CGPLH364,"Cristiano et al, 2019",3.275285413520827
+raw_ratio,study,CGPLH365,"Cristiano et al, 2019",8.803735929128989
+raw_ratio,study,CGPLH366,"Cristiano et al, 2019",0.5237752591408017
+raw_ratio,study,CGPLH367,"Cristiano et al, 2019",0.9958896009397329
+raw_ratio,study,CGPLH368,"Cristiano et al, 2019",1.1352696834125666
+raw_ratio,study,CGPLH369,"Cristiano et al, 2019",1.9543213931368117
+raw_ratio,study,CGPLH369_Rep,"Cristiano et al, 2019",0.8477777376048135
+raw_ratio,study,CGPLH370,"Cristiano et al, 2019",0.658293765234173
+raw_ratio,study,CGPLH371,"Cristiano et al, 2019",1.4359867599668754
+raw_ratio,study,CGPLH384,"Cristiano et al, 2019",6.279402433899269
+raw_ratio,study,CGPLH385,"Cristiano et al, 2019",6.395937987758916
+raw_ratio,study,CGPLH386,"Cristiano et al, 2019",1.6365872425299939
+raw_ratio,study,CGPLH386_Rep,"Cristiano et al, 2019",4.038691538036384
+raw_ratio,study,CGPLH387,"Cristiano et al, 2019",5.0724282930662685
+raw_ratio,study,CGPLH388,"Cristiano et al, 2019",0.4440753971464227
+raw_ratio,study,CGPLH389,"Cristiano et al, 2019",4.352390228667668
+raw_ratio,study,CGPLH390,"Cristiano et al, 2019",3.78186598043815
+raw_ratio,study,CGPLH391,"Cristiano et al, 2019",2.5421181891393996
+raw_ratio,study,CGPLH391_Rep,"Cristiano et al, 2019",4.804974203466136
+raw_ratio,study,CGPLH392,"Cristiano et al, 2019",0.9855743393416071
+raw_ratio,study,CGPLH393,"Cristiano et al, 2019",3.219661558355751
+raw_ratio,study,CGPLH394,"Cristiano et al, 2019",3.359912402865143
+raw_ratio,study,CGPLH395,"Cristiano et al, 2019",4.384943506888111
+raw_ratio,study,CGPLH395_Rep,"Cristiano et al, 2019",7.076650012050671
+raw_ratio,study,CGPLH396,"Cristiano et al, 2019",0.8477872962306333
+raw_ratio,study,CGPLH399,"Cristiano et al, 2019",4.9336496715157185
+raw_ratio,study,CGPLH400,"Cristiano et al, 2019",2.3160695465391568
+raw_ratio,study,CGPLH400_Rep,"Cristiano et al, 2019",0.6762478190096306
+raw_ratio,study,CGPLH401,"Cristiano et al, 2019",1.7045765772815524
+raw_ratio,study,CGPLH401_Rep,"Cristiano et al, 2019",0.39490564149376867
+raw_ratio,study,CGPLH402,"Cristiano et al, 2019",2.2334955663245113
+raw_ratio,study,CGPLH403,"Cristiano et al, 2019",1.2412215110155083
+raw_ratio,study,CGPLH404,"Cristiano et al, 2019",4.818996504658531
+raw_ratio,study,CGPLH405,"Cristiano et al, 2019",1.4728452093381907
+raw_ratio,study,CGPLH406,"Cristiano et al, 2019",3.2764852508389235
+raw_ratio,study,CGPLH407,"Cristiano et al, 2019",6.135660211009602
+raw_ratio,study,CGPLH408,"Cristiano et al, 2019",1.8449643666048747
+raw_ratio,study,CGPLH409,"Cristiano et al, 2019",3.278823033312141
+raw_ratio,study,CGPLH410,"Cristiano et al, 2019",2.84585833427813
+raw_ratio,study,CGPLH411,"Cristiano et al, 2019",0.5688161634505177
+raw_ratio,study,CGPLH412,"Cristiano et al, 2019",2.0714462327420073
+raw_ratio,study,CGPLH413,"Cristiano et al, 2019",2.8370998524394495
+raw_ratio,study,CGPLH414,"Cristiano et al, 2019",3.2651562266170617
+raw_ratio,study,CGPLH415,"Cristiano et al, 2019",5.738762884808508
+raw_ratio,study,CGPLH416,"Cristiano et al, 2019",2.1865348692209055
+raw_ratio,study,CGPLH417,"Cristiano et al, 2019",4.761448389235946
+raw_ratio,study,CGPLH418,"Cristiano et al, 2019",5.822662659318069
+raw_ratio,study,CGPLH419,"Cristiano et al, 2019",4.294564711889359
+raw_ratio,study,CGPLH420,"Cristiano et al, 2019",8.977062165219323
+raw_ratio,study,CGPLH422,"Cristiano et al, 2019",4.3715157452413935
+raw_ratio,study,CGPLH423,"Cristiano et al, 2019",7.128124485232489
+raw_ratio,study,CGPLH424,"Cristiano et al, 2019",1.8749201610015482
+raw_ratio,study,CGPLH426,"Cristiano et al, 2019",4.139348697431268
+raw_ratio,study,CGPLH427,"Cristiano et al, 2019",3.044936618452901
+raw_ratio,study,CGPLH428,"Cristiano et al, 2019",0.8297339671875129
+raw_ratio,study,CGPLH429,"Cristiano et al, 2019",1.2334755794989625
+raw_ratio,study,CGPLH430,"Cristiano et al, 2019",2.33187590163656
+raw_ratio,study,CGPLH431,"Cristiano et al, 2019",4.444436152470012
+raw_ratio,study,CGPLH432,"Cristiano et al, 2019",2.2180400314921953
+raw_ratio,study,CGPLH434,"Cristiano et al, 2019",7.07927927816534
+raw_ratio,study,CGPLH435,"Cristiano et al, 2019",10.363512127593935
+raw_ratio,study,CGPLH436,"Cristiano et al, 2019",5.765636442821584
+raw_ratio,study,CGPLH437,"Cristiano et al, 2019",11.787611617561762
+raw_ratio,study,CGPLH438,"Cristiano et al, 2019",11.018634892035704
+raw_ratio,study,CGPLH439,"Cristiano et al, 2019",10.147821695730558
+raw_ratio,study,CGPLH440,"Cristiano et al, 2019",5.919631958675899
+raw_ratio,study,CGPLH441,"Cristiano et al, 2019",4.919508666501028
+raw_ratio,study,CGPLH442,"Cristiano et al, 2019",3.3294132774516143
+raw_ratio,study,CGPLH443,"Cristiano et al, 2019",12.84359540565435
+raw_ratio,study,CGPLH444,"Cristiano et al, 2019",15.81651852783259
+raw_ratio,study,CGPLH445,"Cristiano et al, 2019",11.026981381501042
+raw_ratio,study,CGPLH446,"Cristiano et al, 2019",2.8574699142044935
+raw_ratio,study,CGPLH447,"Cristiano et al, 2019",6.924896413419337
+raw_ratio,study,CGPLH448,"Cristiano et al, 2019",4.328001722735024
+raw_ratio,study,CGPLH449,"Cristiano et al, 2019",1.8850915837955544
+raw_ratio,study,CGPLH450,"Cristiano et al, 2019",1.1506029032401504
+raw_ratio,study,CGPLH451,"Cristiano et al, 2019",6.023939065528484
+raw_ratio,study,CGPLH452,"Cristiano et al, 2019",1.9960951207745432
+raw_ratio,study,CGPLH453,"Cristiano et al, 2019",1.7942225421126043
+raw_ratio,study,CGPLH455,"Cristiano et al, 2019",2.212490418244029
+raw_ratio,study,CGPLH455_Rep,"Cristiano et al, 2019",3.3204547158829434
+raw_ratio,study,CGPLH456,"Cristiano et al, 2019",7.709990449909976
+raw_ratio,study,CGPLH457,"Cristiano et al, 2019",3.3324889106893116
+raw_ratio,study,CGPLH458,"Cristiano et al, 2019",1.6922241349497178
+raw_ratio,study,CGPLH459,"Cristiano et al, 2019",4.933655067668605
+raw_ratio,study,CGPLH460,"Cristiano et al, 2019",6.662056062641487
+raw_ratio,study,CGPLH463,"Cristiano et al, 2019",3.4172054520886737
+raw_ratio,study,CGPLH464,"Cristiano et al, 2019",8.336287916001663
+raw_ratio,study,CGPLH465,"Cristiano et al, 2019",2.580548903999484
+raw_ratio,study,CGPLH466,"Cristiano et al, 2019",5.207879951562656
+raw_ratio,study,CGPLH466_Rep,"Cristiano et al, 2019",4.3814549154165965
+raw_ratio,study,CGPLH467,"Cristiano et al, 2019",2.42055674378399
+raw_ratio,study,CGPLH468,"Cristiano et al, 2019",2.218495342346424
+raw_ratio,study,CGPLH469,"Cristiano et al, 2019",5.6158606930877015
+raw_ratio,study,CGPLH470,"Cristiano et al, 2019",6.0882706232830275
+raw_ratio,study,CGPLH471,"Cristiano et al, 2019",1.3328366442888828
+raw_ratio,study,CGPLH472,"Cristiano et al, 2019",3.587685886092406
+raw_ratio,study,CGPLH473,"Cristiano et al, 2019",2.5024606708090453
+raw_ratio,study,CGPLH474,"Cristiano et al, 2019",7.82769080371663
+raw_ratio,study,CGPLH475,"Cristiano et al, 2019",4.7301784050035725
+raw_ratio,study,CGPLH476,"Cristiano et al, 2019",6.442691980384555
+raw_ratio,study,CGPLH477,"Cristiano et al, 2019",7.921860921841211
+raw_ratio,study,CGPLH478,"Cristiano et al, 2019",4.140773936470544
+raw_ratio,study,CGPLH479,"Cristiano et al, 2019",4.825359941391906
+raw_ratio,study,CGPLH480,"Cristiano et al, 2019",3.6013626060632054
+raw_ratio,study,CGPLH481,"Cristiano et al, 2019",4.548464016438593
+raw_ratio,study,CGPLH482,"Cristiano et al, 2019",6.775296119008765
+raw_ratio,study,CGPLH483,"Cristiano et al, 2019",3.3958961530539997
+raw_ratio,study,CGPLH484,"Cristiano et al, 2019",1.5481780294586187
+raw_ratio,study,CGPLH485,"Cristiano et al, 2019",6.331199507143392
+raw_ratio,study,CGPLH486,"Cristiano et al, 2019",8.982770225174756
+raw_ratio,study,CGPLH487,"Cristiano et al, 2019",3.5926744321019948
+raw_ratio,study,CGPLH488,"Cristiano et al, 2019",2.561979058279941
+raw_ratio,study,CGPLH490,"Cristiano et al, 2019",2.050069368867395
+raw_ratio,study,CGPLH491,"Cristiano et al, 2019",7.225597944138183
+raw_ratio,study,CGPLH492,"Cristiano et al, 2019",10.568573999170804
+raw_ratio,study,CGPLH493,"Cristiano et al, 2019",7.497113041245284
+raw_ratio,study,CGPLH494,"Cristiano et al, 2019",4.560536975687261
+raw_ratio,study,CGPLH495,"Cristiano et al, 2019",6.663112795091581
+raw_ratio,study,CGPLH496,"Cristiano et al, 2019",0.5315586741497662
+raw_ratio,study,CGPLH497,"Cristiano et al, 2019",0.6363020517540293
+raw_ratio,study,CGPLH497_Rep,"Cristiano et al, 2019",3.3265969677084444
+raw_ratio,study,CGPLH498,"Cristiano et al, 2019",1.848673409836444
+raw_ratio,study,CGPLH499,"Cristiano et al, 2019",1.4058535482968224
+raw_ratio,study,CGPLH500,"Cristiano et al, 2019",1.2836412035507994
+raw_ratio,study,CGPLH501,"Cristiano et al, 2019",7.479877099630996
+raw_ratio,study,CGPLH502,"Cristiano et al, 2019",3.4087709651099805
+raw_ratio,study,CGPLH503,"Cristiano et al, 2019",4.825708400275657
+raw_ratio,study,CGPLH504,"Cristiano et al, 2019",2.9685288729392734
+raw_ratio,study,CGPLH504_Rep,"Cristiano et al, 2019",0.3944500537564092
+raw_ratio,study,CGPLH505,"Cristiano et al, 2019",0.7862423272507478
+raw_ratio,study,CGPLH506,"Cristiano et al, 2019",0.8302155804030718
+raw_ratio,study,CGPLH507,"Cristiano et al, 2019",0.46387402433743075
+raw_ratio,study,CGPLH508,"Cristiano et al, 2019",1.4325156856327848
+raw_ratio,study,CGPLH508_Rep,"Cristiano et al, 2019",3.793291283888632
+raw_ratio,study,CGPLH509,"Cristiano et al, 2019",3.9961126646908864
+raw_ratio,study,CGPLH510,"Cristiano et al, 2019",3.8221540301459305
+raw_ratio,study,CGPLH512,"Cristiano et al, 2019",3.187698849846005
+raw_ratio,study,CGPLH513,"Cristiano et al, 2019",1.6659531850432574
+raw_ratio,study,CGPLH514,"Cristiano et al, 2019",2.200315844060889
+raw_ratio,study,CGPLH515,"Cristiano et al, 2019",1.5632529587484512
+raw_ratio,study,CGPLH516,"Cristiano et al, 2019",5.069417229748303
+raw_ratio,study,CGPLH517_Rep,"Cristiano et al, 2019",1.625534880687319
+raw_ratio,study,CGPLH519,"Cristiano et al, 2019",4.647519304065393
+raw_ratio,study,CGPLH520,"Cristiano et al, 2019",2.029583711335087
+raw_ratio,study,CGPLH625,"Cristiano et al, 2019",4.983280033774685
+raw_ratio,study,CGPLH625_Rep,"Cristiano et al, 2019",5.978657884535309
+raw_ratio,study,CGPLH626,"Cristiano et al, 2019",10.595872182676182
+raw_ratio,study,CGPLH639,"Cristiano et al, 2019",8.191508428094647
+raw_ratio,study,CGPLH640,"Cristiano et al, 2019",1.1655441225030183
+raw_ratio,study,CGPLH642,"Cristiano et al, 2019",0.9990876429478979
+raw_ratio,study,CGPLH643,"Cristiano et al, 2019",8.574496031736883
+raw_ratio,study,CGPLH644,"Cristiano et al, 2019",7.074457035758595
+raw_ratio,study,CGPLH646,"Cristiano et al, 2019",19.07397946045233
+raw_ratio,study,CGPLLU13,"Cristiano et al, 2019",12.045303740001456
+raw_ratio,study,CGPLLU14,"Cristiano et al, 2019",6.9751372077311
+raw_ratio,study,CGPLLU144,"Cristiano et al, 2019",5.9343537117824345
+raw_ratio,study,CGPLLU147,"Cristiano et al, 2019",10.898179128306264
+raw_ratio,study,CGPLLU161,"Cristiano et al, 2019",2.996804052720197
+raw_ratio,study,CGPLLU162,"Cristiano et al, 2019",6.01430089335417
+raw_ratio,study,CGPLLU163,"Cristiano et al, 2019",3.0537162348286246
+raw_ratio,study,CGPLLU165,"Cristiano et al, 2019",10.728077652824417
+raw_ratio,study,CGPLLU168,"Cristiano et al, 2019",17.406320407461163
+raw_ratio,study,CGPLLU169,"Cristiano et al, 2019",17.34298409035658
+raw_ratio,study,CGPLLU175,"Cristiano et al, 2019",9.319331787538172
+raw_ratio,study,CGPLLU176,"Cristiano et al, 2019",9.308517330092318
+raw_ratio,study,CGPLLU177,"Cristiano et al, 2019",4.149726984227877
+raw_ratio,study,CGPLLU180,"Cristiano et al, 2019",1.0946989317058944
+raw_ratio,study,CGPLLU198,"Cristiano et al, 2019",1.96378723882119
+raw_ratio,study,CGPLLU202,"Cristiano et al, 2019",22.117173434580206
+raw_ratio,study,CGPLLU203,"Cristiano et al, 2019",15.632021387270095
+raw_ratio,study,CGPLLU205,"Cristiano et al, 2019",8.175060128622853
+raw_ratio,study,CGPLLU206,"Cristiano et al, 2019",50.39686822435349
+raw_ratio,study,CGPLLU207,"Cristiano et al, 2019",2.2343197954359453
+raw_ratio,study,CGPLLU208,"Cristiano et al, 2019",9.826794969439016
+raw_ratio,study,CGPLLU209,"Cristiano et al, 2019",21.327808908698554
+raw_ratio,study,CGPLLU244,"Cristiano et al, 2019",0.9094708582862178
+raw_ratio,study,CGPLLU245,"Cristiano et al, 2019",6.030724080045931
+raw_ratio,study,CGPLLU246,"Cristiano et al, 2019",1.4145673236292113
+raw_ratio,study,CGPLLU264,"Cristiano et al, 2019",3.096834589481786
+raw_ratio,study,CGPLLU265,"Cristiano et al, 2019",2.113899116128
+raw_ratio,study,CGPLLU266,"Cristiano et al, 2019",3.034141701298817
+raw_ratio,study,CGPLLU267,"Cristiano et al, 2019",1.1223482654023218
+raw_ratio,study,CGPLLU269,"Cristiano et al, 2019",6.723837301216484
+raw_ratio,study,CGPLLU271,"Cristiano et al, 2019",0.42968636566286583
+raw_ratio,study,CGPLLU43,"Cristiano et al, 2019",4.275191721133129
+raw_ratio,study,CGPLLU86,"Cristiano et al, 2019",6.568717592287362
+raw_ratio,study,CGPLLU88,"Cristiano et al, 2019",13.788642449712196
+raw_ratio,study,CGPLLU89,"Cristiano et al, 2019",0.9570403226285094
+raw_ratio,study,CGPLOV11,"Cristiano et al, 2019",0.5506084950604004
+raw_ratio,study,CGPLOV12,"Cristiano et al, 2019",0.5751930258884289
+raw_ratio,study,CGPLOV13,"Cristiano et al, 2019",0.8016059000726461
+raw_ratio,study,CGPLOV15,"Cristiano et al, 2019",4.466148582294502
+raw_ratio,study,CGPLOV16,"Cristiano et al, 2019",3.004744093481315
+raw_ratio,study,CGPLOV19,"Cristiano et al, 2019",10.191785086532672
+raw_ratio,study,CGPLOV20,"Cristiano et al, 2019",5.7747420206832825
+raw_ratio,study,CGPLOV21,"Cristiano et al, 2019",9.235774852572542
+raw_ratio,study,CGPLOV22,"Cristiano et al, 2019",12.522324494879259
+raw_ratio,study,CGPLOV23,"Cristiano et al, 2019",8.899049152096776
+raw_ratio,study,CGPLOV24,"Cristiano et al, 2019",4.261756114137781
+raw_ratio,study,CGPLOV25,"Cristiano et al, 2019",0.6756407265101024
+raw_ratio,study,CGPLOV28,"Cristiano et al, 2019",3.2182070719648377
+raw_ratio,study,CGPLOV31,"Cristiano et al, 2019",1.2587728571419934
+raw_ratio,study,CGPLOV32,"Cristiano et al, 2019",2.0598019351704306
+raw_ratio,study,CGPLOV37,"Cristiano et al, 2019",11.420809610250238
+raw_ratio,study,CGPLOV38,"Cristiano et al, 2019",2.350581932153872
+raw_ratio,study,CGPLOV40,"Cristiano et al, 2019",11.380956222999131
+raw_ratio,study,CGPLOV41,"Cristiano et al, 2019",3.7423588919293262
+raw_ratio,study,CGPLOV42,"Cristiano et al, 2019",2.4634807771142753
+raw_ratio,study,CGPLOV43,"Cristiano et al, 2019",3.861974160019001
+raw_ratio,study,CGPLOV44,"Cristiano et al, 2019",9.12827829384627
+raw_ratio,study,CGPLOV46,"Cristiano et al, 2019",4.112415072309183
+raw_ratio,study,CGPLOV47,"Cristiano et al, 2019",4.7766160911800135
+raw_ratio,study,CGPLOV48,"Cristiano et al, 2019",1.008181690663331
+raw_ratio,study,CGPLOV49,"Cristiano et al, 2019",8.595217127071995
+raw_ratio,study,CGPLOV50,"Cristiano et al, 2019",9.502210706867903
+raw_ratio,study,CGPLPA113,"Cristiano et al, 2019",1.4943364039376008
+raw_ratio,study,CGPLPA114,"Cristiano et al, 2019",5.707103182969588
+raw_ratio,study,CGPLPA115,"Cristiano et al, 2019",3.4543215475082296
+raw_ratio,study,CGPLPA117,"Cristiano et al, 2019",7.091918049480841
+raw_ratio,study,CGPLPA118,"Cristiano et al, 2019",0.5569776946567864
+raw_ratio,study,CGPLPA122,"Cristiano et al, 2019",9.194126009472226
+raw_ratio,study,CGPLPA124,"Cristiano et al, 2019",2.6867687420072186
+raw_ratio,study,CGPLPA125,"Cristiano et al, 2019",1.9938084875971962
+raw_ratio,study,CGPLPA126,"Cristiano et al, 2019",4.24215680085145
+raw_ratio,study,CGPLPA127,"Cristiano et al, 2019",4.732012330127938
+raw_ratio,study,CGPLPA128,"Cristiano et al, 2019",3.0163793731232595
+raw_ratio,study,CGPLPA129,"Cristiano et al, 2019",2.2240552058758953
+raw_ratio,study,CGPLPA130,"Cristiano et al, 2019",3.6247935580692965
+raw_ratio,study,CGPLPA131,"Cristiano et al, 2019",1.5390498757615654
+raw_ratio,study,CGPLPA134,"Cristiano et al, 2019",24.899631588658742
+raw_ratio,study,CGPLPA135,"Cristiano et al, 2019",0.9446249734426476
+raw_ratio,study,CGPLPA136,"Cristiano et al, 2019",9.067270733966126
+raw_ratio,study,CGPLPA137,"Cristiano et al, 2019",1.0867885259417616
+raw_ratio,study,CGPLPA139,"Cristiano et al, 2019",0.45217605926787174
+raw_ratio,study,CGPLPA14,"Cristiano et al, 2019",7.68656246910994
+raw_ratio,study,CGPLPA15,"Cristiano et al, 2019",8.432731831993639
+raw_ratio,study,CGPLPA155,"Cristiano et al, 2019",1.6941573073344973
+raw_ratio,study,CGPLPA156,"Cristiano et al, 2019",4.038900130232575
+raw_ratio,study,CGPLPA165,"Cristiano et al, 2019",8.610194837034204
+raw_ratio,study,CGPLPA168,"Cristiano et al, 2019",18.82092451442473
+raw_ratio,study,CGPLPA17,"Cristiano et al, 2019",6.066767502106324
+raw_ratio,study,CGPLPA184,"Cristiano et al, 2019",4.590834937756976
+raw_ratio,study,CGPLPA187,"Cristiano et al, 2019",0.5860421251054554
+raw_ratio,study,CGPLPA23,"Cristiano et al, 2019",4.23748376380241
+raw_ratio,study,CGPLPA25,"Cristiano et al, 2019",3.860613342475298
+raw_ratio,study,CGPLPA26,"Cristiano et al, 2019",4.089890750394287
+raw_ratio,study,CGPLPA28,"Cristiano et al, 2019",2.0985054366613767
+raw_ratio,study,CGPLPA33,"Cristiano et al, 2019",2.04403217890704
+raw_ratio,study,CGPLPA34,"Cristiano et al, 2019",7.175490571350093
+raw_ratio,study,CGPLPA38,"Cristiano et al, 2019",6.9501585957950605
+raw_ratio,study,CGPLPA39,"Cristiano et al, 2019",4.974186198500619
+raw_ratio,study,CGPLPA40,"Cristiano et al, 2019",1.8467986071625817
+raw_ratio,study,CGPLPA42,"Cristiano et al, 2019",3.561138658533208
+raw_ratio,study,CGPLPA46,"Cristiano et al, 2019",11.168322428518545
+raw_ratio,study,CGPLPA47,"Cristiano et al, 2019",2.113925241383799
+raw_ratio,study,CGPLPA48,"Cristiano et al, 2019",4.145524013362932
+raw_ratio,study,CGPLPA52,"Cristiano et al, 2019",0.8770806266522555
+raw_ratio,study,CGPLPA53,"Cristiano et al, 2019",12.101021289862135
+raw_ratio,study,CGPLPA58,"Cristiano et al, 2019",5.536892775654017
+raw_ratio,study,CGPLPA67,"Cristiano et al, 2019",3.038200213024271
+raw_ratio,study,CGPLPA69,"Cristiano et al, 2019",5.736757817856145
+raw_ratio,study,CGPLPA71,"Cristiano et al, 2019",3.124785186157678
+raw_ratio,study,CGPLPA74,"Cristiano et al, 2019",0.8223837244700186
+raw_ratio,study,CGPLPA76,"Cristiano et al, 2019",14.458101675837224
+raw_ratio,study,CGPLPA85,"Cristiano et al, 2019",2.4324351042238628
+raw_ratio,study,CGPLPA86,"Cristiano et al, 2019",9.094529609906184
+raw_ratio,study,CGPLPA92,"Cristiano et al, 2019",3.0058355514147124
+raw_ratio,study,CGPLPA93,"Cristiano et al, 2019",6.925746352129744
+raw_ratio,study,CGPLPA94,"Cristiano et al, 2019",12.729888032632752
+raw_ratio,study,CGPLPA95,"Cristiano et al, 2019",4.650443064772404
+raw_ratio,study,CGST102,"Cristiano et al, 2019",0.804652674407593
+raw_ratio,study,CGST11,"Cristiano et al, 2019",4.057849949676577
+raw_ratio,study,CGST110,"Cristiano et al, 2019",2.30269592932163
+raw_ratio,study,CGST114,"Cristiano et al, 2019",8.090260721517259
+raw_ratio,study,CGST13,"Cristiano et al, 2019",0.4579977001775047
+raw_ratio,study,CGST131,"Cristiano et al, 2019",12.442297169697731
+raw_ratio,study,CGST141,"Cristiano et al, 2019",7.41266141986935
+raw_ratio,study,CGST18,"Cristiano et al, 2019",11.000728243005332
+raw_ratio,study,CGST21,"Cristiano et al, 2019",29.011937435454637
+raw_ratio,study,CGST26,"Cristiano et al, 2019",0.6595656994571217
+raw_ratio,study,CGST28,"Cristiano et al, 2019",7.553236313429475
+raw_ratio,study,CGST30,"Cristiano et al, 2019",10.307814028408174
+raw_ratio,study,CGST32,"Cristiano et al, 2019",9.794274906875208
+raw_ratio,study,CGST33,"Cristiano et al, 2019",4.625168844807016
+raw_ratio,study,CGST38,"Cristiano et al, 2019",4.60936125187671
+raw_ratio,study,CGST39,"Cristiano et al, 2019",6.130940539208275
+raw_ratio,study,CGST41,"Cristiano et al, 2019",3.2920489459831357
+raw_ratio,study,CGST45,"Cristiano et al, 2019",9.118348430595123
+raw_ratio,study,CGST47,"Cristiano et al, 2019",6.40639072763659
+raw_ratio,study,CGST48,"Cristiano et al, 2019",2.811241081573251
+raw_ratio,study,CGST53,"Cristiano et al, 2019",9.367429642167071
+raw_ratio,study,CGST58,"Cristiano et al, 2019",10.074955091817936
+raw_ratio,study,CGST67,"Cristiano et al, 2019",12.880906127913516
+raw_ratio,study,CGST77,"Cristiano et al, 2019",2.459542692572139
+raw_ratio,study,CGST80,"Cristiano et al, 2019",7.280609715229348
+raw_ratio,study,CGST81,"Cristiano et al, 2019",11.662489973908825
+raw_ratio,study,GM1100,"Jiang et al, 2015",16.77474298366485
+raw_ratio,study,H195,"Jiang et al, 2015",1.7753971721240878
+raw_ratio,study,H196,"Jiang et al, 2015",3.809708488533676
+raw_ratio,study,H199,"Jiang et al, 2015",3.1680926570421892
+raw_ratio,study,H200,"Jiang et al, 2015",4.733071729339081
+raw_ratio,study,H203,"Jiang et al, 2015",1.965989150032376
+raw_ratio,study,H206,"Jiang et al, 2015",1.816307288294929
+raw_ratio,study,H209,"Jiang et al, 2015",3.261096411721109
+raw_ratio,study,H210,"Jiang et al, 2015",27.20344651487838
+raw_ratio,study,H214,"Jiang et al, 2015",1.7059721074227063
+raw_ratio,study,H216,"Jiang et al, 2015",14.857746357981151
+raw_ratio,study,H217,"Jiang et al, 2015",1.936519685350512
+raw_ratio,study,H218,"Jiang et al, 2015",9.341173483962917
+raw_ratio,study,H220,"Jiang et al, 2015",5.7656736559104935
+raw_ratio,study,H221,"Jiang et al, 2015",5.535589951813313
+raw_ratio,study,H223,"Jiang et al, 2015",5.844756832280499
+raw_ratio,study,H225,"Jiang et al, 2015",5.401745676994897
+raw_ratio,study,H226,"Jiang et al, 2015",1.7130137085048924
+raw_ratio,study,H228,"Jiang et al, 2015",0.3844952041236765
+raw_ratio,study,H230,"Jiang et al, 2015",3.0532253169692996
+raw_ratio,study,H232,"Jiang et al, 2015",5.41487767763916
+raw_ratio,study,H234,"Jiang et al, 2015",4.666183667283255
+raw_ratio,study,H235,"Jiang et al, 2015",46.52960274421717
+raw_ratio,study,H239,"Jiang et al, 2015",12.504909095644946
+raw_ratio,study,H247,"Jiang et al, 2015",6.582739649416441
+raw_ratio,study,H249,"Jiang et al, 2015",8.982517162931218
+raw_ratio,study,H250,"Jiang et al, 2015",6.353495699578388
+raw_ratio,study,H252,"Jiang et al, 2015",5.663254512297191
+raw_ratio,study,H253,"Jiang et al, 2015",9.69569807090529
+raw_ratio,study,H254,"Jiang et al, 2015",9.319761384109023
+raw_ratio,study,H256,"Jiang et al, 2015",6.498730606810369
+raw_ratio,study,H258,"Jiang et al, 2015",1.346851497320911
+raw_ratio,study,H261,"Jiang et al, 2015",0.6419948808982503
+raw_ratio,study,H262,"Jiang et al, 2015",13.212473737863414
+raw_ratio,study,H263,"Jiang et al, 2015",6.342946831530167
+raw_ratio,study,H264,"Jiang et al, 2015",1.0694444637973413
+raw_ratio,study,H266,"Jiang et al, 2015",8.321052840289484
+raw_ratio,study,H267,"Jiang et al, 2015",1.838556017933226
+raw_ratio,study,H269,"Jiang et al, 2015",6.15325238419668
+raw_ratio,study,H270,"Jiang et al, 2015",7.729427942646274
+raw_ratio,study,H272,"Jiang et al, 2015",10.749728724952616
+raw_ratio,study,H275,"Jiang et al, 2015",5.368002542802931
+raw_ratio,study,H278,"Jiang et al, 2015",0.9385162343703127
+raw_ratio,study,H283,"Jiang et al, 2015",7.888718049675494
+raw_ratio,study,H285,"Jiang et al, 2015",1.2691084375329273
+raw_ratio,study,H288,"Jiang et al, 2015",5.043941158868138
+raw_ratio,study,H291,"Jiang et al, 2015",14.458965188497874
+raw_ratio,study,H292,"Jiang et al, 2015",2.949315340764064
+raw_ratio,study,H296,"Jiang et al, 2015",6.944089856113057
+raw_ratio,study,H300,"Jiang et al, 2015",2.3055018437931762
+raw_ratio,study,H301,"Jiang et al, 2015",0.4869763713219771
+raw_ratio,study,H311,"Jiang et al, 2015",5.5602278439085415
+raw_ratio,study,H315,"Jiang et al, 2015",6.240116703674328
+raw_ratio,study,H321,"Jiang et al, 2015",4.7013201209455735
+raw_ratio,study,H323,"Jiang et al, 2015",6.6727236305878925
+raw_ratio,study,H324,"Jiang et al, 2015",3.0932089068038495
+raw_ratio,study,H341,"Jiang et al, 2015",1.3629551888072788
+raw_ratio,study,H342,"Jiang et al, 2015",5.490834476064798
+raw_ratio,study,H344,"Jiang et al, 2015",5.172572643857016
+raw_ratio,study,H352,"Jiang et al, 2015",5.3092022751528845
+raw_ratio,study,H374,"Jiang et al, 2015",5.776656315816121
+raw_ratio,study,H377,"Jiang et al, 2015",7.6500329277214005
+raw_ratio,study,H381,"Jiang et al, 2015",5.90076958795964
+raw_ratio,study,H390,"Jiang et al, 2015",1.8944026795949414
+raw_ratio,study,H402,"Jiang et al, 2015",6.489250200760039
+raw_ratio,study,H419,"Jiang et al, 2015",7.832096950746675
+raw_ratio,study,H420,"Jiang et al, 2015",2.530009969766421
+raw_ratio,study,H421,"Jiang et al, 2015",6.199384082609847
+raw_ratio,study,H423,"Jiang et al, 2015",84.89591770446495
+raw_ratio,study,H424,"Jiang et al, 2015",2.548878210109076
+raw_ratio,study,H433,"Jiang et al, 2015",0.4460653753059747
+raw_ratio,study,H435,"Jiang et al, 2015",2.490508402289223
+raw_ratio,study,H436,"Jiang et al, 2015",5.941655141430872
+raw_ratio,study,HOT386,"Jiang et al, 2015",7.3416850875539215
+raw_ratio,study,HOT393,"Jiang et al, 2015",8.026583995053905
+raw_ratio,study,HOT394,"Jiang et al, 2015",0.5742769076038897
+raw_ratio,study,HOT397,"Jiang et al, 2015",5.599148290139224
+raw_ratio,study,HOT403,"Jiang et al, 2015",1.3898131772656386
+raw_ratio,study,HOT410,"Jiang et al, 2015",6.83497874360032
+raw_ratio,study,HOT412,"Jiang et al, 2015",32.516032674190875
+raw_ratio,study,HOT413,"Jiang et al, 2015",4.991157659843186
+raw_ratio,study,HOT414,"Jiang et al, 2015",8.574470626366129
+raw_ratio,study,HOT417,"Jiang et al, 2015",4.359124939792595
+raw_ratio,study,HOT422,"Jiang et al, 2015",0.6508652826382478
+raw_ratio,study,HOT425,"Jiang et al, 2015",3.7986458307390856
+raw_ratio,study,HOT426,"Jiang et al, 2015",1.67035729257513
+raw_ratio,study,HOT427,"Jiang et al, 2015",0.9473929140792624
+raw_ratio,study,HOT428,"Jiang et al, 2015",6.152273410163984
+raw_ratio,study,HOT432,"Jiang et al, 2015",1.7239187653094523
+raw_ratio,study,IC02,"Snyder et al, 2016",27.094702921062627
+raw_ratio,study,IC03,"Snyder et al, 2016",14.264956402615317
+raw_ratio,study,IC04,"Snyder et al, 2016",42.12800008375491
+raw_ratio,study,IC05,"Snyder et al, 2016",28.709182729515348
+raw_ratio,study,IC06,"Snyder et al, 2016",24.65473131494551
+raw_ratio,study,IC08,"Snyder et al, 2016",28.23531921030684
+raw_ratio,study,IC09,"Snyder et al, 2016",2.1210320492406955
+raw_ratio,study,IC10,"Snyder et al, 2016",21.582682457742536
+raw_ratio,study,IC11,"Snyder et al, 2016",17.57860105294741
+raw_ratio,study,IC12,"Snyder et al, 2016",21.210198930301765
+raw_ratio,study,IC14,"Snyder et al, 2016",18.757414093473187
+raw_ratio,study,IC16,"Snyder et al, 2016",11.341527209634288
+raw_ratio,study,IC18,"Snyder et al, 2016",19.30778397689261
+raw_ratio,study,IC19,"Snyder et al, 2016",24.647649969043382
+raw_ratio,study,IC21,"Snyder et al, 2016",12.59072218308404
+raw_ratio,study,IC22,"Snyder et al, 2016",40.66213834938234
+raw_ratio,study,IC23,"Snyder et al, 2016",9.756989431603554
+raw_ratio,study,IC24,"Snyder et al, 2016",10.387978056244624
+raw_ratio,study,IC27,"Snyder et al, 2016",114.43624130203678
+raw_ratio,study,IC28,"Snyder et al, 2016",23.58247530570188
+raw_ratio,study,IC29,"Snyder et al, 2016",18.702807508647954
+raw_ratio,study,IC30,"Snyder et al, 2016",39.78519314834559
+raw_ratio,study,IC32,"Snyder et al, 2016",41.77536455097725
+raw_ratio,study,IC33,"Snyder et al, 2016",30.35019534047062
+raw_ratio,study,IC34,"Snyder et al, 2016",1.3609591722053158
+raw_ratio,study,IC36,"Snyder et al, 2016",7.985953253868064
+raw_ratio,study,IC38,"Snyder et al, 2016",14.809762961201384
+raw_ratio,study,IC39,"Snyder et al, 2016",22.63655950946244
+raw_ratio,study,IC40,"Snyder et al, 2016",2.687495089006481
+raw_ratio,study,IC41,"Snyder et al, 2016",29.11074065728764
+raw_ratio,study,IC42,"Snyder et al, 2016",22.96188591679034
+raw_ratio,study,IC43,"Snyder et al, 2016",14.207421361809372
+raw_ratio,study,IC44,"Snyder et al, 2016",19.5855034026092
+raw_ratio,study,IC46,"Snyder et al, 2016",10.106400425849602
+raw_ratio,study,IC47,"Snyder et al, 2016",30.84397982988857
+raw_ratio,study,IC48,"Snyder et al, 2016",2.3205900833635438
+raw_ratio,study,IH03,"Snyder et al, 2016",35.08556580926865
+raw_ratio,disease,C309,0,7.281031988880168
+raw_ratio,disease,C310,0,6.997627792980572
+raw_ratio,disease,C311,0,9.569712158576863
+raw_ratio,disease,C312,0,11.46429350656061
+raw_ratio,disease,C313,0,10.37584498520465
+raw_ratio,disease,C314,0,13.068406645898312
+raw_ratio,disease,C315,0,2.7150950113819077
+raw_ratio,disease,C316,0,10.893000237381978
+raw_ratio,disease,C325,0,10.252475099552665
+raw_ratio,disease,C326,0,12.540146987770754
+raw_ratio,disease,C327,0,9.441251607171344
+raw_ratio,disease,C329,0,12.418147710311942
+raw_ratio,disease,C330,0,11.219727062043383
+raw_ratio,disease,C331,0,10.910332935117504
+raw_ratio,disease,C332,0,6.318692144672922
+raw_ratio,disease,C333,0,9.044834256382629
+raw_ratio,disease,C343,0,12.51949645703702
+raw_ratio,disease,C345,0,12.510720359621036
+raw_ratio,disease,C346,0,5.08588178262525
+raw_ratio,disease,C347,0,9.127537882974867
+raw_ratio,disease,C348,0,12.588328260634292
+raw_ratio,disease,C350,0,9.332645569234547
+raw_ratio,disease,C351,0,14.394552490685863
+raw_ratio,disease,C352,0,9.803927788472905
+raw_ratio,disease,C353,0,9.355473660196559
+raw_ratio,disease,C354,0,12.928677043582582
+raw_ratio,disease,C355,0,11.195065606994591
+raw_ratio,disease,C356,0,12.218531217199633
+raw_ratio,disease,C357,0,12.50663534408598
+raw_ratio,disease,C358,0,6.996319510680357
+raw_ratio,disease,C359,0,13.618150820392971
+raw_ratio,disease,C360,0,12.010264390248278
+raw_ratio,disease,CGCRC291,1,20.169495034992707
+raw_ratio,disease,CGCRC292,1,2.363409010785608
+raw_ratio,disease,CGCRC293,1,0.4623672253527301
+raw_ratio,disease,CGCRC294,1,4.598672178981353
+raw_ratio,disease,CGCRC296,1,3.1295584230345064
+raw_ratio,disease,CGCRC299,1,16.6967631787076
+raw_ratio,disease,CGCRC300,1,6.954011410517932
+raw_ratio,disease,CGCRC301,1,5.857001407803733
+raw_ratio,disease,CGCRC304,1,6.858811239125018
+raw_ratio,disease,CGCRC305,1,1.4872579694121026
+raw_ratio,disease,CGCRC306,1,6.726967962872717
+raw_ratio,disease,CGCRC307,1,2.613199061686307
+raw_ratio,disease,CGCRC308,1,7.0303681703377086
+raw_ratio,disease,CGCRC311,1,3.480602220493196
+raw_ratio,disease,CGCRC315,1,6.230492669309792
+raw_ratio,disease,CGCRC316,1,18.724494593394596
+raw_ratio,disease,CGCRC317,1,11.274904942840774
+raw_ratio,disease,CGCRC318,1,5.421309509255677
+raw_ratio,disease,CGCRC319,1,24.440937606114243
+raw_ratio,disease,CGCRC320,1,9.760775290203052
+raw_ratio,disease,CGCRC321,1,8.499272245296394
+raw_ratio,disease,CGCRC333,1,12.891038451050326
+raw_ratio,disease,CGCRC336,1,20.528875949641957
+raw_ratio,disease,CGCRC341,1,0.5882613797986381
+raw_ratio,disease,CGPLBR100,1,3.9288577768131443
+raw_ratio,disease,CGPLBR101,1,16.991603191491322
+raw_ratio,disease,CGPLBR102,1,14.91015917894723
+raw_ratio,disease,CGPLBR103,1,15.263709666255682
+raw_ratio,disease,CGPLBR104,1,4.622953732445432
+raw_ratio,disease,CGPLBR12,1,12.142345696226883
+raw_ratio,disease,CGPLBR18,1,6.371271808979664
+raw_ratio,disease,CGPLBR23,1,4.131022101281434
+raw_ratio,disease,CGPLBR24,1,43.81528484731585
+raw_ratio,disease,CGPLBR28,1,2.601881988792429
+raw_ratio,disease,CGPLBR30,1,23.138447173025018
+raw_ratio,disease,CGPLBR32,1,2.281628350137776
+raw_ratio,disease,CGPLBR33,1,2.307226834117125
+raw_ratio,disease,CGPLBR34,1,10.104554506998982
+raw_ratio,disease,CGPLBR35,1,12.369024375992515
+raw_ratio,disease,CGPLBR36,1,10.249194434794209
+raw_ratio,disease,CGPLBR37,1,8.757725786871491
+raw_ratio,disease,CGPLBR38,1,1.7046790227582318
+raw_ratio,disease,CGPLBR40,1,12.44943848185311
+raw_ratio,disease,CGPLBR41,1,9.513279312764155
+raw_ratio,disease,CGPLBR45,1,4.938378479555684
+raw_ratio,disease,CGPLBR46,1,9.745396277617296
+raw_ratio,disease,CGPLBR47,1,2.9787710879101534
+raw_ratio,disease,CGPLBR48,1,15.025637123192036
+raw_ratio,disease,CGPLBR49,1,19.90658439846442
+raw_ratio,disease,CGPLBR50,1,22.69470530724319
+raw_ratio,disease,CGPLBR51,1,2.919781763118589
+raw_ratio,disease,CGPLBR52,1,0.9236433266883491
+raw_ratio,disease,CGPLBR55,1,0.9297274217571022
+raw_ratio,disease,CGPLBR57,1,6.170525833377244
+raw_ratio,disease,CGPLBR59,1,9.213798060445907
+raw_ratio,disease,CGPLBR60,1,10.007302547505692
+raw_ratio,disease,CGPLBR61,1,0.8007059777041372
+raw_ratio,disease,CGPLBR63,1,12.712933185177915
+raw_ratio,disease,CGPLBR65,1,10.801733200493072
+raw_ratio,disease,CGPLBR68,1,6.575659086329512
+raw_ratio,disease,CGPLBR69,1,1.245660191473671
+raw_ratio,disease,CGPLBR70,1,10.709653186894519
+raw_ratio,disease,CGPLBR71,1,3.3301592703495055
+raw_ratio,disease,CGPLBR73,1,8.286946107864079
+raw_ratio,disease,CGPLBR76,1,17.074365620435476
+raw_ratio,disease,CGPLBR81,1,19.660020598338992
+raw_ratio,disease,CGPLBR82,1,7.929954324526828
+raw_ratio,disease,CGPLBR83,1,14.745252991706458
+raw_ratio,disease,CGPLBR84,1,18.353248880349835
+raw_ratio,disease,CGPLBR87,1,10.006738513473845
+raw_ratio,disease,CGPLBR88,1,21.833081872635184
+raw_ratio,disease,CGPLBR90,1,16.356846186949014
+raw_ratio,disease,CGPLBR91,1,1.2537079476895923
+raw_ratio,disease,CGPLBR92,1,7.977588818692937
+raw_ratio,disease,CGPLBR93,1,3.3026880612253318
+raw_ratio,disease,CGPLH189,0,1.4128451052073467
+raw_ratio,disease,CGPLH190,0,3.0730739432022243
+raw_ratio,disease,CGPLH193,0,1.3585903546097573
+raw_ratio,disease,CGPLH194,0,2.413161135839216
+raw_ratio,disease,CGPLH201,0,0.8933649123459388
+raw_ratio,disease,CGPLH202,0,1.2101457951915477
+raw_ratio,disease,CGPLH205,0,3.523099628009843
+raw_ratio,disease,CGPLH210,0,4.637580161112279
+raw_ratio,disease,CGPLH300,0,0.6761782884621459
+raw_ratio,disease,CGPLH307,0,4.992926592216976
+raw_ratio,disease,CGPLH308,0,0.5443050664908785
+raw_ratio,disease,CGPLH309,0,0.3468730370546242
+raw_ratio,disease,CGPLH310,0,9.643389780236417
+raw_ratio,disease,CGPLH311,0,5.299330735718943
+raw_ratio,disease,CGPLH314,0,2.3844753009687314
+raw_ratio,disease,CGPLH315,0,0.9882345812708582
+raw_ratio,disease,CGPLH316,0,8.361121446115074
+raw_ratio,disease,CGPLH317,0,0.6816078590734509
+raw_ratio,disease,CGPLH319,0,4.649154031300489
+raw_ratio,disease,CGPLH320,0,18.496705294192573
+raw_ratio,disease,CGPLH322,0,6.415843983361849
+raw_ratio,disease,CGPLH324,0,0.671788783438907
+raw_ratio,disease,CGPLH325,0,5.841073394498485
+raw_ratio,disease,CGPLH326,0,7.680894336741037
+raw_ratio,disease,CGPLH327,0,4.031865988291538
+raw_ratio,disease,CGPLH328,0,7.437275669733067
+raw_ratio,disease,CGPLH328_Rep,0,8.77206034893317
+raw_ratio,disease,CGPLH329,0,3.8408201163976483
+raw_ratio,disease,CGPLH330,0,2.5150396732798086
+raw_ratio,disease,CGPLH331,0,5.916656942797734
+raw_ratio,disease,CGPLH331_Rep,0,6.768381625209322
+raw_ratio,disease,CGPLH333,0,1.1172967866893826
+raw_ratio,disease,CGPLH335,0,2.621593284514409
+raw_ratio,disease,CGPLH336,0,4.805388322229391
+raw_ratio,disease,CGPLH337,0,1.8788781642511594
+raw_ratio,disease,CGPLH338,0,4.395498855686042
+raw_ratio,disease,CGPLH339,0,1.6121541335022562
+raw_ratio,disease,CGPLH340,0,1.3590690388526465
+raw_ratio,disease,CGPLH341,0,5.300381596181161
+raw_ratio,disease,CGPLH342,0,8.439463372802
+raw_ratio,disease,CGPLH343,0,2.2115312331811454
+raw_ratio,disease,CGPLH344,0,3.4942989414041863
+raw_ratio,disease,CGPLH345,0,5.533460486068843
+raw_ratio,disease,CGPLH346,0,0.9216694944907527
+raw_ratio,disease,CGPLH350,0,4.680944112736553
+raw_ratio,disease,CGPLH352,0,0.6405094437238337
+raw_ratio,disease,CGPLH353,0,3.8732880406923824
+raw_ratio,disease,CGPLH354,0,0.8021702193735679
+raw_ratio,disease,CGPLH355,0,3.291814909229532
+raw_ratio,disease,CGPLH356,0,1.00516783562075
+raw_ratio,disease,CGPLH357,0,2.526424209166683
+raw_ratio,disease,CGPLH360,0,0.8454344699322419
+raw_ratio,disease,CGPLH361,0,2.380269055752561
+raw_ratio,disease,CGPLH362,0,0.3791226856169295
+raw_ratio,disease,CGPLH363,0,5.34105242523588
+raw_ratio,disease,CGPLH364,0,0.4734658424153318
+raw_ratio,disease,CGPLH365,0,12.374912871654262
+raw_ratio,disease,CGPLH366,0,3.9618947515520593
+raw_ratio,disease,CGPLH367,0,4.456209675876107
+raw_ratio,disease,CGPLH368,0,2.535735365353785
+raw_ratio,disease,CGPLH369,0,1.6981346308109586
+raw_ratio,disease,CGPLH369_Rep,0,2.8295205757691
+raw_ratio,disease,CGPLH370,0,3.056413397698792
+raw_ratio,disease,CGPLH371,0,2.2166969182534504
+raw_ratio,disease,CGPLH384,0,2.725871690617961
+raw_ratio,disease,CGPLH385,0,2.8335748606042777
+raw_ratio,disease,CGPLH386,0,5.058053794835031
+raw_ratio,disease,CGPLH386_Rep,0,7.593265008976932
+raw_ratio,disease,CGPLH387,0,1.5145015668452064
+raw_ratio,disease,CGPLH388,0,3.415367698650726
+raw_ratio,disease,CGPLH389,0,0.8207335643666391
+raw_ratio,disease,CGPLH390,0,0.44336178733993753
+raw_ratio,disease,CGPLH391,0,6.105039752326113
+raw_ratio,disease,CGPLH391_Rep,0,8.386819262377914
+raw_ratio,disease,CGPLH392,0,4.465702945678684
+raw_ratio,disease,CGPLH393,0,0.5311379615198415
+raw_ratio,disease,CGPLH394,0,6.9293181103347
+raw_ratio,disease,CGPLH395,0,7.951874852195017
+raw_ratio,disease,CGPLH395_Rep,0,10.656967194913218
+raw_ratio,disease,CGPLH396,0,3.1350666684024517
+raw_ratio,disease,CGPLH399,0,1.3987506064239672
+raw_ratio,disease,CGPLH400,0,1.6015790820762774
+raw_ratio,disease,CGPLH400_Rep,0,3.937355264355972
+raw_ratio,disease,CGPLH401,0,1.9587987544478294
+raw_ratio,disease,CGPLH401_Rep,0,3.7534668869021433
+raw_ratio,disease,CGPLH402,0,5.77721671084507
+raw_ratio,disease,CGPLH403,0,2.4715283390770164
+raw_ratio,disease,CGPLH404,0,1.2789243062837923
+raw_ratio,disease,CGPLH405,0,2.2563895420977387
+raw_ratio,disease,CGPLH406,0,6.826060442314832
+raw_ratio,disease,CGPLH407,0,2.571048050846777
+raw_ratio,disease,CGPLH408,0,5.3974993854565305
+raw_ratio,disease,CGPLH409,0,0.5012383457408421
+raw_ratio,disease,CGPLH410,0,0.844983190635475
+raw_ratio,disease,CGPLH411,0,3.8941624654330473
+raw_ratio,disease,CGPLH412,0,1.5958193313793714
+raw_ratio,disease,CGPLH413,0,0.8395431916687146
+raw_ratio,disease,CGPLH414,0,0.5064918173092104
+raw_ratio,disease,CGPLH415,0,2.173420313057614
+raw_ratio,disease,CGPLH416,0,1.5074033558087119
+raw_ratio,disease,CGPLH417,0,1.2617637379497462
+raw_ratio,disease,CGPLH418,0,2.254679895089358
+raw_ratio,disease,CGPLH419,0,0.7843695269094259
+raw_ratio,disease,CGPLH420,0,5.402709269743932
+raw_ratio,disease,CGPLH422,0,7.94256908927571
+raw_ratio,disease,CGPLH423,0,3.557351322479787
+raw_ratio,disease,CGPLH424,0,5.410463582001256
+raw_ratio,disease,CGPLH426,0,0.659245868906998
+raw_ratio,disease,CGPLH427,0,0.653597637341761
+raw_ratio,disease,CGPLH428,0,2.879543009362991
+raw_ratio,disease,CGPLH429,0,2.5903749170838863
+raw_ratio,disease,CGPLH430,0,1.3964538817336845
+raw_ratio,disease,CGPLH431,0,0.9492418306021879
+raw_ratio,disease,CGPLH432,0,1.5086880096910957
+raw_ratio,disease,CGPLH434,0,3.512543556020637
+raw_ratio,disease,CGPLH435,0,6.788961070451022
+raw_ratio,disease,CGPLH436,0,2.268556461737418
+raw_ratio,disease,CGPLH437,0,8.213495385171377
+raw_ratio,disease,CGPLH438,0,7.446360934884319
+raw_ratio,disease,CGPLH439,0,6.574186896290205
+raw_ratio,disease,CGPLH440,0,2.3612777975662973
+raw_ratio,disease,CGPLH441,0,1.3589798797236181
+raw_ratio,disease,CGPLH442,0,0.413629255165618
+raw_ratio,disease,CGPLH443,0,9.274863623556568
+raw_ratio,disease,CGPLH444,0,12.245626084924698
+raw_ratio,disease,CGPLH445,0,7.45413725976058
+raw_ratio,disease,CGPLH446,0,1.0414043066774932
+raw_ratio,disease,CGPLH447,0,3.3566797439178084
+raw_ratio,disease,CGPLH448,0,0.8479753245598114
+raw_ratio,disease,CGPLH449,0,1.818024516270215
+raw_ratio,disease,CGPLH450,0,2.532272582280774
+raw_ratio,disease,CGPLH451,0,2.4611489344484263
+raw_ratio,disease,CGPLH452,0,1.6704015778052477
+raw_ratio,disease,CGPLH453,0,5.327040817118994
+raw_ratio,disease,CGPLH455,0,5.763047247495585
+raw_ratio,disease,CGPLH455_Rep,0,6.898896056272475
+raw_ratio,disease,CGPLH456,0,4.141871492555437
+raw_ratio,disease,CGPLH457,0,6.9050899102113235
+raw_ratio,disease,CGPLH458,0,2.132425977593802
+raw_ratio,disease,CGPLH459,0,1.3929249469473524
+raw_ratio,disease,CGPLH460,0,3.0913535959814498
+raw_ratio,disease,CGPLH463,0,0.41779393528465414
+raw_ratio,disease,CGPLH464,0,4.762999137201346
+raw_ratio,disease,CGPLH465,0,1.1080746039337366
+raw_ratio,disease,CGPLH466,0,1.6611677922120107
+raw_ratio,disease,CGPLH466_Rep,0,0.8585352391917145
+raw_ratio,disease,CGPLH467,0,1.2610975395316002
+raw_ratio,disease,CGPLH468,0,1.5354678040047083
+raw_ratio,disease,CGPLH469,0,2.0775236650309035
+raw_ratio,disease,CGPLH470,0,2.5245136661452747
+raw_ratio,disease,CGPLH471,0,2.341340187790095
+raw_ratio,disease,CGPLH472,0,7.151073622406853
+raw_ratio,disease,CGPLH473,0,6.06408386152023
+raw_ratio,disease,CGPLH474,0,4.261152851043218
+raw_ratio,disease,CGPLH475,0,1.1933392354296104
+raw_ratio,disease,CGPLH476,0,2.881184894387209
+raw_ratio,disease,CGPLH477,0,4.349723351820299
+raw_ratio,disease,CGPLH478,0,0.6373215386547486
+raw_ratio,disease,CGPLH479,0,1.2760603256785814
+raw_ratio,disease,CGPLH480,0,0.3646576587301429
+raw_ratio,disease,CGPLH481,0,1.065403375873355
+raw_ratio,disease,CGPLH482,0,3.202877512885239
+raw_ratio,disease,CGPLH483,0,0.37538530205620463
+raw_ratio,disease,CGPLH484,0,5.097814218400764
+raw_ratio,disease,CGPLH485,0,2.7608012714164727
+raw_ratio,disease,CGPLH486,0,5.407990399317807
+raw_ratio,disease,CGPLH487,0,0.3222764621864904
+raw_ratio,disease,CGPLH488,0,1.1016604493735647
+raw_ratio,disease,CGPLH490,0,5.582120140681266
+raw_ratio,disease,CGPLH491,0,3.653929405385319
+raw_ratio,disease,CGPLH492,0,6.993912124821685
+raw_ratio,disease,CGPLH493,0,3.927777013409781
+raw_ratio,disease,CGPLH494,0,1.0226387594451085
+raw_ratio,disease,CGPLH495,0,10.23931852166529
+raw_ratio,disease,CGPLH496,0,3.7574444492704275
+raw_ratio,disease,CGPLH497,0,4.110848529863304
+raw_ratio,disease,CGPLH497_Rep,0,6.900955902148836
+raw_ratio,disease,CGPLH498,0,1.7947472649154277
+raw_ratio,disease,CGPLH499,0,2.2674015677520343
+raw_ratio,disease,CGPLH500,0,2.448568897571985
+raw_ratio,disease,CGPLH501,0,3.904389867317664
+raw_ratio,disease,CGPLH502,0,0.4510863273925045
+raw_ratio,disease,CGPLH503,0,1.2932791059700137
+raw_ratio,disease,CGPLH504,0,0.7081670311430244
+raw_ratio,disease,CGPLH504_Rep,0,3.760580213357181
+raw_ratio,disease,CGPLH505,0,4.216691905861438
+raw_ratio,disease,CGPLH506,0,2.8648834601624373
+raw_ratio,disease,CGPLH507,0,3.639819233468487
+raw_ratio,disease,CGPLH508,0,2.261682584939897
+raw_ratio,disease,CGPLH508_Rep,0,7.365164078497092
+raw_ratio,disease,CGPLH509,0,0.5064530104131023
+raw_ratio,disease,CGPLH510,0,0.374232656922017
+raw_ratio,disease,CGPLH512,0,0.5460238739314363
+raw_ratio,disease,CGPLH513,0,5.1798469512200285
+raw_ratio,disease,CGPLH514,0,1.5170951280734
+raw_ratio,disease,CGPLH515,0,5.111278833589993
+raw_ratio,disease,CGPLH516,0,1.5078362771703977
+raw_ratio,disease,CGPLH517_Rep,0,2.0311130493835834
+raw_ratio,disease,CGPLH519,0,8.223824847479223
+raw_ratio,disease,CGPLH520,0,5.58888680236887
+raw_ratio,disease,CGPLH625,0,8.553530254088791
+raw_ratio,disease,CGPLH625_Rep,0,9.560528806462484
+raw_ratio,disease,CGPLH626,0,7.0225505575888825
+raw_ratio,disease,CGPLH639,0,11.777722414984845
+raw_ratio,disease,CGPLH640,0,4.635780551401148
+raw_ratio,disease,CGPLH642,0,2.6896890526823
+raw_ratio,disease,CGPLH643,0,5.000834262254379
+raw_ratio,disease,CGPLH644,0,3.502360837241181
+raw_ratio,disease,CGPLH646,0,15.506235905646298
+raw_ratio,disease,CGPLLU13,1,6.360612443446877
+raw_ratio,disease,CGPLLU14,1,12.976574018694382
+raw_ratio,disease,CGPLLU144,1,0.5370948255716285
+raw_ratio,disease,CGPLLU147,1,4.980438463505375
+raw_ratio,disease,CGPLLU161,1,3.081463659779721
+raw_ratio,disease,CGPLLU162,1,0.6023952834814844
+raw_ratio,disease,CGPLLU163,1,6.378119076571843
+raw_ratio,disease,CGPLLU165,1,4.751380375755637
+raw_ratio,disease,CGPLLU168,1,11.446228930034868
+raw_ratio,disease,CGPLLU169,1,11.362947303280986
+raw_ratio,disease,CGPLLU175,1,4.751514400742549
+raw_ratio,disease,CGPLLU176,1,15.312603135398637
+raw_ratio,disease,CGPLLU177,1,10.08451351044161
+raw_ratio,disease,CGPLLU180,1,6.912212992859509
+raw_ratio,disease,CGPLLU198,1,4.185256372177354
+raw_ratio,disease,CGPLLU202,1,16.184431835073084
+raw_ratio,disease,CGPLLU203,1,9.668914618645857
+raw_ratio,disease,CGPLLU205,1,2.3605668200423486
+raw_ratio,disease,CGPLLU206,1,44.43777705699292
+raw_ratio,disease,CGPLLU207,1,8.212017118191547
+raw_ratio,disease,CGPLLU208,1,3.847938819300198
+raw_ratio,disease,CGPLLU209,1,15.3566722884993
+raw_ratio,disease,CGPLLU244,1,5.246607472481128
+raw_ratio,disease,CGPLLU245,1,12.025805589673645
+raw_ratio,disease,CGPLLU246,1,4.671762929726185
+raw_ratio,disease,CGPLLU264,1,9.09295262730756
+raw_ratio,disease,CGPLLU265,1,8.078245686204378
+raw_ratio,disease,CGPLLU266,1,3.086996209183705
+raw_ratio,disease,CGPLLU267,1,7.003339979643666
+raw_ratio,disease,CGPLLU269,1,12.727240566894677
+raw_ratio,disease,CGPLLU271,1,6.16635465770382
+raw_ratio,disease,CGPLLU43,1,1.9345688888176866
+raw_ratio,disease,CGPLLU86,1,0.7610312700256652
+raw_ratio,disease,CGPLLU88,1,7.820504871290049
+raw_ratio,disease,CGPLLU89,1,5.176699894794857
+raw_ratio,disease,CGPLOV11,1,5.907170447033088
+raw_ratio,disease,CGPLOV12,1,5.73136678550642
+raw_ratio,disease,CGPLOV13,1,5.709678181446824
+raw_ratio,disease,CGPLOV15,1,1.6840454806210383
+raw_ratio,disease,CGPLOV16,1,3.1466246852474598
+raw_ratio,disease,CGPLOV19,1,4.261088129096008
+raw_ratio,disease,CGPLOV20,1,0.5036358960922445
+raw_ratio,disease,CGPLOV21,1,15.234803090829896
+raw_ratio,disease,CGPLOV22,1,6.533429283566167
+raw_ratio,disease,CGPLOV23,1,14.89435726058733
+raw_ratio,disease,CGPLOV24,1,1.9989084472151837
+raw_ratio,disease,CGPLOV25,1,5.605138311329182
+raw_ratio,disease,CGPLOV28,1,9.215237634634681
+raw_ratio,disease,CGPLOV31,1,7.215592587812832
+raw_ratio,disease,CGPLOV32,1,8.044860184098706
+raw_ratio,disease,CGPLOV37,1,17.42441097327976
+raw_ratio,disease,CGPLOV38,1,4.022537768406154
+raw_ratio,disease,CGPLOV40,1,17.37298326540474
+raw_ratio,disease,CGPLOV41,1,9.730986263209246
+raw_ratio,disease,CGPLOV42,1,8.427129737386702
+raw_ratio,disease,CGPLOV43,1,9.860411116448239
+raw_ratio,disease,CGPLOV44,1,3.2141116697924024
+raw_ratio,disease,CGPLOV46,1,1.9787832401906686
+raw_ratio,disease,CGPLOV47,1,1.4456587967654846
+raw_ratio,disease,CGPLOV48,1,6.93708237019202
+raw_ratio,disease,CGPLOV49,1,2.7141251739465386
+raw_ratio,disease,CGPLOV50,1,3.5816750935711132
+raw_ratio,disease,CGPLPA113,1,6.494333314987164
+raw_ratio,disease,CGPLPA114,1,11.70127335476069
+raw_ratio,disease,CGPLPA115,1,2.7001060994083983
+raw_ratio,disease,CGPLPA117,1,1.2527967182168058
+raw_ratio,disease,CGPLPA118,1,6.400207786804752
+raw_ratio,disease,CGPLPA122,1,3.314414344245997
+raw_ratio,disease,CGPLPA124,1,8.664192235805626
+raw_ratio,disease,CGPLPA125,1,4.133068812127728
+raw_ratio,disease,CGPLPA126,1,10.233207428160773
+raw_ratio,disease,CGPLPA127,1,10.706487224273094
+raw_ratio,disease,CGPLPA128,1,9.002139111310203
+raw_ratio,disease,CGPLPA129,1,8.201313503195818
+raw_ratio,disease,CGPLPA130,1,9.596269104101955
+raw_ratio,disease,CGPLPA131,1,7.4207390244040905
+raw_ratio,disease,CGPLPA134,1,18.90526662800572
+raw_ratio,disease,CGPLPA135,1,5.330597219346124
+raw_ratio,disease,CGPLPA136,1,3.1049301365326176
+raw_ratio,disease,CGPLPA137,1,7.048286003995219
+raw_ratio,disease,CGPLPA139,1,5.729081904943273
+raw_ratio,disease,CGPLPA14,1,13.669399329142788
+raw_ratio,disease,CGPLPA15,1,14.43469105155439
+raw_ratio,disease,CGPLPA155,1,4.361364684241469
+raw_ratio,disease,CGPLPA156,1,10.033752068311228
+raw_ratio,disease,CGPLPA165,1,14.61390654642143
+raw_ratio,disease,CGPLPA168,1,12.850674792440607
+raw_ratio,disease,CGPLPA17,1,12.018352819031287
+raw_ratio,disease,CGPLPA184,1,10.581597685147273
+raw_ratio,disease,CGPLPA187,1,5.872927499319328
+raw_ratio,disease,CGPLPA23,1,3.8452929543753185
+raw_ratio,disease,CGPLPA25,1,9.859209085448688
+raw_ratio,disease,CGPLPA26,1,10.088435015409615
+raw_ratio,disease,CGPLPA28,1,3.975313752335368
+raw_ratio,disease,CGPLPA33,1,5.47734486624991
+raw_ratio,disease,CGPLPA34,1,13.165941152046242
+raw_ratio,disease,CGPLPA38,1,12.93394297696579
+raw_ratio,disease,CGPLPA39,1,10.897003522842347
+raw_ratio,disease,CGPLPA40,1,5.068159448494466
+raw_ratio,disease,CGPLPA42,1,9.533095676230385
+raw_ratio,disease,CGPLPA46,1,17.15018837152589
+raw_ratio,disease,CGPLPA47,1,7.532666787702205
+raw_ratio,disease,CGPLPA48,1,10.125521102273037
+raw_ratio,disease,CGPLPA52,1,6.7825923013176
+raw_ratio,disease,CGPLPA53,1,6.1555299661311595
+raw_ratio,disease,CGPLPA58,1,0.7250780077108613
+raw_ratio,disease,CGPLPA67,1,9.029094040510369
+raw_ratio,disease,CGPLPA69,1,11.733575553419037
+raw_ratio,disease,CGPLPA71,1,9.115987364460583
+raw_ratio,disease,CGPLPA74,1,5.599650016942581
+raw_ratio,disease,CGPLPA76,1,8.485770983680643
+raw_ratio,disease,CGPLPA85,1,8.407594721794325
+raw_ratio,disease,CGPLPA86,1,3.161414382320115
+raw_ratio,disease,CGPLPA92,1,8.98566947492672
+raw_ratio,disease,CGPLPA93,1,12.90180844728938
+raw_ratio,disease,CGPLPA94,1,6.739376754714282
+raw_ratio,disease,CGPLPA95,1,1.597239718967544
+raw_ratio,disease,CGST102,1,6.6778534924921775
+raw_ratio,disease,CGST11,1,10.053662001657738
+raw_ratio,disease,CGST110,1,8.289297206237029
+raw_ratio,disease,CGST114,1,2.210988967436373
+raw_ratio,disease,CGST13,1,6.271201908768173
+raw_ratio,disease,CGST131,1,18.448637680513354
+raw_ratio,disease,CGST141,1,13.417388490414073
+raw_ratio,disease,CGST18,1,17.004506977997586
+raw_ratio,disease,CGST21,1,23.20416496890933
+raw_ratio,disease,CGST26,1,5.580139921018937
+raw_ratio,disease,CGST28,1,13.546613979686605
+raw_ratio,disease,CGST30,1,16.311830516463925
+raw_ratio,disease,CGST32,1,15.79749195158691
+raw_ratio,disease,CGST33,1,10.597763628565472
+raw_ratio,disease,CGST38,1,10.602759864342683
+raw_ratio,disease,CGST39,1,0.49635724071642523
+raw_ratio,disease,CGST41,1,9.246249279023782
+raw_ratio,disease,CGST45,1,15.12266690053483
+raw_ratio,disease,CGST47,1,12.407735847417488
+raw_ratio,disease,CGST48,1,8.645773426305805
+raw_ratio,disease,CGST53,1,15.30873902602444
+raw_ratio,disease,CGST58,1,16.07907362143904
+raw_ratio,disease,CGST67,1,18.886965783539154
+raw_ratio,disease,CGST77,1,8.032587593423393
+raw_ratio,disease,CGST80,1,13.27930087091859
+raw_ratio,disease,CGST81,1,17.663868550255216
+raw_ratio,disease,GM1100,1,1.387173922014317
+raw_ratio,disease,H195,1,16.278804956412728
+raw_ratio,disease,H196,1,21.772489849055514
+raw_ratio,disease,H199,1,21.12388216817392
+raw_ratio,disease,H200,1,22.692393073133093
+raw_ratio,disease,H203,1,16.058948566680264
+raw_ratio,disease,H206,1,19.733852766281647
+raw_ratio,disease,H209,1,21.215506650477515
+raw_ratio,disease,H210,1,9.561848097832655
+raw_ratio,disease,H214,1,18.831989954896347
+raw_ratio,disease,H216,1,3.633463363654497
+raw_ratio,disease,H217,1,19.867700368766872
+raw_ratio,disease,H218,1,27.294403764037988
+raw_ratio,disease,H220,1,23.723593075941714
+raw_ratio,disease,H221,1,23.49654482508389
+raw_ratio,disease,H223,1,23.804496471854474
+raw_ratio,disease,H225,1,23.355088063548813
+raw_ratio,disease,H226,1,19.66091172517094
+raw_ratio,disease,H228,1,17.79386561975023
+raw_ratio,disease,H230,1,21.000130776397324
+raw_ratio,disease,H232,1,12.66296382295901
+raw_ratio,disease,H234,1,13.368200028311714
+raw_ratio,disease,H235,1,28.43810883585229
+raw_ratio,disease,H239,1,5.858819815069586
+raw_ratio,disease,H247,1,24.541121204643805
+raw_ratio,disease,H249,1,9.048644661563243
+raw_ratio,disease,H250,1,24.313866721875417
+raw_ratio,disease,H252,1,23.618243114873962
+raw_ratio,disease,H253,1,27.64894547626111
+raw_ratio,disease,H254,1,27.2738287701755
+raw_ratio,disease,H256,1,11.554434979011196
+raw_ratio,disease,H258,1,19.244106034794015
+raw_ratio,disease,H261,1,18.530449167627566
+raw_ratio,disease,H262,1,5.7815356620865685
+raw_ratio,disease,H263,1,24.29960822716502
+raw_ratio,disease,H264,1,18.959999252736054
+raw_ratio,disease,H266,1,9.807503639292124
+raw_ratio,disease,H267,1,19.577127959483697
+raw_ratio,disease,H269,1,24.111720497960086
+raw_ratio,disease,H270,1,10.623352649197509
+raw_ratio,disease,H272,1,7.592044622969393
+raw_ratio,disease,H275,1,23.328655533758866
+raw_ratio,disease,H278,1,18.859271314686286
+raw_ratio,disease,H283,1,25.847678468123032
+raw_ratio,disease,H285,1,19.19577263898142
+raw_ratio,disease,H288,1,23.005224538875442
+raw_ratio,disease,H291,1,6.50324584483523
+raw_ratio,disease,H292,1,20.908405723874676
+raw_ratio,disease,H296,1,24.901094558623388
+raw_ratio,disease,H300,1,20.25779032637108
+raw_ratio,disease,H301,1,17.69480290305482
+raw_ratio,disease,H311,1,23.51874248487838
+raw_ratio,disease,H315,1,24.1992637124066
+raw_ratio,disease,H321,1,13.333076138984339
+raw_ratio,disease,H323,1,24.62955958499138
+raw_ratio,disease,H324,1,21.053345404853154
+raw_ratio,disease,H341,1,19.29519235607978
+raw_ratio,disease,H342,1,23.445485232515605
+raw_ratio,disease,H344,1,23.132279440181968
+raw_ratio,disease,H352,1,23.268418903754355
+raw_ratio,disease,H374,1,23.734314865961082
+raw_ratio,disease,H377,1,25.60583152240335
+raw_ratio,disease,H381,1,23.859305692484458
+raw_ratio,disease,H390,1,19.648251915902847
+raw_ratio,disease,H402,1,24.44809940741292
+raw_ratio,disease,H419,1,25.782252823362217
+raw_ratio,disease,H420,1,15.597497903000065
+raw_ratio,disease,H421,1,11.817512484650356
+raw_ratio,disease,H423,1,66.72755727734771
+raw_ratio,disease,H424,1,20.49459140962305
+raw_ratio,disease,H433,1,17.6542035980604
+raw_ratio,disease,H435,1,20.436890412607305
+raw_ratio,disease,H436,1,23.89757547037772
+raw_ratio,disease,HOT386,1,25.29932483290086
+raw_ratio,disease,HOT393,1,25.982206612344203
+raw_ratio,disease,HOT394,1,17.79066820266379
+raw_ratio,disease,HOT397,1,23.559275677703702
+raw_ratio,disease,HOT403,1,19.08882423244949
+raw_ratio,disease,HOT410,1,24.79246639216018
+raw_ratio,disease,HOT412,1,15.208598492291848
+raw_ratio,disease,HOT413,1,22.949699088715438
+raw_ratio,disease,HOT414,1,10.281226675974176
+raw_ratio,disease,HOT417,1,22.317752016212616
+raw_ratio,disease,HOT422,1,18.352041460725317
+raw_ratio,disease,HOT425,1,21.758274049548785
+raw_ratio,disease,HOT426,1,16.389454120993904
+raw_ratio,disease,HOT427,1,18.857963770345847
+raw_ratio,disease,HOT428,1,24.107889588759356
+raw_ratio,disease,HOT432,1,19.607767534575466
+raw_ratio,disease,IC02,1,38.97447760784613
+raw_ratio,disease,IC03,1,51.57178176196619
+raw_ratio,disease,IC04,1,23.807138187851585
+raw_ratio,disease,IC05,1,37.07924836741954
+raw_ratio,disease,IC06,1,89.64309089025227
+raw_ratio,disease,IC08,1,37.52218263374695
+raw_ratio,disease,IC09,1,63.60380100159375
+raw_ratio,disease,IC10,1,86.598042658179
+raw_ratio,disease,IC11,1,82.7170311958175
+raw_ratio,disease,IC12,1,44.468160732166844
+raw_ratio,disease,IC14,1,83.84491751475421
+raw_ratio,disease,IC16,1,54.2749493620721
+raw_ratio,disease,IC18,1,46.360943483788766
+raw_ratio,disease,IC19,1,41.09814690964238
+raw_ratio,disease,IC21,1,77.32499131812848
+raw_ratio,disease,IC22,1,25.24952636213897
+raw_ratio,disease,IC23,1,57.10006977940497
+raw_ratio,disease,IC24,1,75.29021395415438
+raw_ratio,disease,IC27,1,178.4078048661509
+raw_ratio,disease,IC28,1,42.12719388134021
+raw_ratio,disease,IC29,1,83.79553564436348
+raw_ratio,disease,IC30,1,104.30814864443595
+raw_ratio,disease,IC32,1,106.4747334887451
+raw_ratio,disease,IC33,1,95.29609796346631
+raw_ratio,disease,IC34,1,65.94851109514215
+raw_ratio,disease,IC36,1,57.603767645688414
+raw_ratio,disease,IC38,1,50.806606674525696
+raw_ratio,disease,IC39,1,43.117736412548794
+raw_ratio,disease,IC40,1,65.45438161093296
+raw_ratio,disease,IC41,1,94.00211426427207
+raw_ratio,disease,IC42,1,42.7367005473827
+raw_ratio,disease,IC43,1,79.14248229089536
+raw_ratio,disease,IC44,1,46.06551236062021
+raw_ratio,disease,IC46,1,55.654287653496354
+raw_ratio,disease,IC47,1,95.80172491788733
+raw_ratio,disease,IC48,1,66.83444361148452
+raw_ratio,disease,IH03,0,40.40595446331153
+length_frequency,study,C309,"Jiang et al, 2015",14.077330515140412
+length_frequency,study,C310,"Jiang et al, 2015",16.522587810295526
+length_frequency,study,C311,"Jiang et al, 2015",11.690208039735193
+length_frequency,study,C312,"Jiang et al, 2015",14.016248024758097
+length_frequency,study,C313,"Jiang et al, 2015",7.996816567966425
+length_frequency,study,C314,"Jiang et al, 2015",7.152863391193261
+length_frequency,study,C315,"Jiang et al, 2015",10.060504654980516
+length_frequency,study,C316,"Jiang et al, 2015",9.889391851296459
+length_frequency,study,C325,"Jiang et al, 2015",6.283443749412504
+length_frequency,study,C326,"Jiang et al, 2015",6.890430628926042
+length_frequency,study,C327,"Jiang et al, 2015",8.364601168063276
+length_frequency,study,C329,"Jiang et al, 2015",8.277157916329108
+length_frequency,study,C330,"Jiang et al, 2015",9.134909987322594
+length_frequency,study,C331,"Jiang et al, 2015",6.721029064813262
+length_frequency,study,C332,"Jiang et al, 2015",13.363307872952436
+length_frequency,study,C333,"Jiang et al, 2015",8.585507331650602
+length_frequency,study,C343,"Jiang et al, 2015",7.99955282658851
+length_frequency,study,C345,"Jiang et al, 2015",6.921851330750235
+length_frequency,study,C346,"Jiang et al, 2015",14.874664308559792
+length_frequency,study,C347,"Jiang et al, 2015",14.44499861522984
+length_frequency,study,C348,"Jiang et al, 2015",7.771414131742168
+length_frequency,study,C350,"Jiang et al, 2015",12.132799998409917
+length_frequency,study,C351,"Jiang et al, 2015",7.711995771403154
+length_frequency,study,C352,"Jiang et al, 2015",12.571053613054211
+length_frequency,study,C353,"Jiang et al, 2015",12.809671615437878
+length_frequency,study,C354,"Jiang et al, 2015",7.550879664030946
+length_frequency,study,C355,"Jiang et al, 2015",7.087551615651001
+length_frequency,study,C356,"Jiang et al, 2015",7.5443645586138155
+length_frequency,study,C357,"Jiang et al, 2015",8.832950868575272
+length_frequency,study,C358,"Jiang et al, 2015",7.33043669890065
+length_frequency,study,C359,"Jiang et al, 2015",7.115794867048947
+length_frequency,study,C360,"Jiang et al, 2015",6.623902480812607
+length_frequency,study,CGCRC291,"Cristiano et al, 2019",13.732734774103228
+length_frequency,study,CGCRC292,"Cristiano et al, 2019",3.0913085769441606
+length_frequency,study,CGCRC293,"Cristiano et al, 2019",4.0844393854594605
+length_frequency,study,CGCRC294,"Cristiano et al, 2019",5.386503433998372
+length_frequency,study,CGCRC296,"Cristiano et al, 2019",4.906628305441246
+length_frequency,study,CGCRC299,"Cristiano et al, 2019",16.914971499707672
+length_frequency,study,CGCRC300,"Cristiano et al, 2019",3.3984024642457333
+length_frequency,study,CGCRC301,"Cristiano et al, 2019",6.754920873020116
+length_frequency,study,CGCRC304,"Cristiano et al, 2019",16.3955517578136
+length_frequency,study,CGCRC305,"Cristiano et al, 2019",4.809915661332903
+length_frequency,study,CGCRC306,"Cristiano et al, 2019",7.444172592670487
+length_frequency,study,CGCRC307,"Cristiano et al, 2019",5.167161357662318
+length_frequency,study,CGCRC308,"Cristiano et al, 2019",9.111590811281115
+length_frequency,study,CGCRC311,"Cristiano et al, 2019",2.1228070357900335
+length_frequency,study,CGCRC315,"Cristiano et al, 2019",1.9009633793206424
+length_frequency,study,CGCRC316,"Cristiano et al, 2019",18.42004806529832
+length_frequency,study,CGCRC317,"Cristiano et al, 2019",12.1755560143938
+length_frequency,study,CGCRC318,"Cristiano et al, 2019",2.605890565740066
+length_frequency,study,CGCRC319,"Cristiano et al, 2019",21.635419388480496
+length_frequency,study,CGCRC320,"Cristiano et al, 2019",3.0334553088804994
+length_frequency,study,CGCRC321,"Cristiano et al, 2019",8.713299094519597
+length_frequency,study,CGCRC333,"Cristiano et al, 2019",15.493416448329933
+length_frequency,study,CGCRC336,"Cristiano et al, 2019",15.793309566750132
+length_frequency,study,CGCRC341,"Cristiano et al, 2019",11.676279196477335
+length_frequency,study,CGPLBR100,"Cristiano et al, 2019",3.0279292350248506
+length_frequency,study,CGPLBR101,"Cristiano et al, 2019",8.099624505791915
+length_frequency,study,CGPLBR102,"Cristiano et al, 2019",7.536086770781108
+length_frequency,study,CGPLBR103,"Cristiano et al, 2019",6.156170768614272
+length_frequency,study,CGPLBR104,"Cristiano et al, 2019",3.105572875191023
+length_frequency,study,CGPLBR12,"Cristiano et al, 2019",9.75296245277971
+length_frequency,study,CGPLBR18,"Cristiano et al, 2019",16.695349305148326
+length_frequency,study,CGPLBR23,"Cristiano et al, 2019",4.947267113576825
+length_frequency,study,CGPLBR24,"Cristiano et al, 2019",28.570657086423207
+length_frequency,study,CGPLBR28,"Cristiano et al, 2019",3.3478239299804144
+length_frequency,study,CGPLBR30,"Cristiano et al, 2019",16.987305077192755
+length_frequency,study,CGPLBR32,"Cristiano et al, 2019",6.707515157508187
+length_frequency,study,CGPLBR33,"Cristiano et al, 2019",3.350355517400845
+length_frequency,study,CGPLBR34,"Cristiano et al, 2019",15.776941570692932
+length_frequency,study,CGPLBR35,"Cristiano et al, 2019",5.194997046032978
+length_frequency,study,CGPLBR36,"Cristiano et al, 2019",6.833763841779531
+length_frequency,study,CGPLBR37,"Cristiano et al, 2019",4.4440618306119175
+length_frequency,study,CGPLBR38,"Cristiano et al, 2019",5.327642226821609
+length_frequency,study,CGPLBR40,"Cristiano et al, 2019",5.9923301988741695
+length_frequency,study,CGPLBR41,"Cristiano et al, 2019",4.671117130791975
+length_frequency,study,CGPLBR45,"Cristiano et al, 2019",10.094983815930034
+length_frequency,study,CGPLBR46,"Cristiano et al, 2019",5.696770612786309
+length_frequency,study,CGPLBR47,"Cristiano et al, 2019",2.503607150497758
+length_frequency,study,CGPLBR48,"Cristiano et al, 2019",19.744662408045514
+length_frequency,study,CGPLBR49,"Cristiano et al, 2019",23.43157734845585
+length_frequency,study,CGPLBR50,"Cristiano et al, 2019",20.856878841347704
+length_frequency,study,CGPLBR51,"Cristiano et al, 2019",5.821603413274965
+length_frequency,study,CGPLBR52,"Cristiano et al, 2019",9.43761742422118
+length_frequency,study,CGPLBR55,"Cristiano et al, 2019",7.5936144401374746
+length_frequency,study,CGPLBR57,"Cristiano et al, 2019",2.476277369235716
+length_frequency,study,CGPLBR59,"Cristiano et al, 2019",3.8384792716370266
+length_frequency,study,CGPLBR60,"Cristiano et al, 2019",3.98236565269558
+length_frequency,study,CGPLBR61,"Cristiano et al, 2019",7.79778956333126
+length_frequency,study,CGPLBR63,"Cristiano et al, 2019",4.509198818760661
+length_frequency,study,CGPLBR65,"Cristiano et al, 2019",3.8104201600723315
+length_frequency,study,CGPLBR68,"Cristiano et al, 2019",15.075462972697549
+length_frequency,study,CGPLBR69,"Cristiano et al, 2019",8.661453844305065
+length_frequency,study,CGPLBR70,"Cristiano et al, 2019",3.782940617962134
+length_frequency,study,CGPLBR71,"Cristiano et al, 2019",7.386154891598817
+length_frequency,study,CGPLBR73,"Cristiano et al, 2019",3.086561941291324
+length_frequency,study,CGPLBR76,"Cristiano et al, 2019",12.639808619716895
+length_frequency,study,CGPLBR81,"Cristiano et al, 2019",14.74257182041393
+length_frequency,study,CGPLBR82,"Cristiano et al, 2019",5.858345601165065
+length_frequency,study,CGPLBR83,"Cristiano et al, 2019",8.834594103399507
+length_frequency,study,CGPLBR84,"Cristiano et al, 2019",10.883582338045404
+length_frequency,study,CGPLBR87,"Cristiano et al, 2019",11.190120778323525
+length_frequency,study,CGPLBR88,"Cristiano et al, 2019",12.680321785227026
+length_frequency,study,CGPLBR90,"Cristiano et al, 2019",9.08558214483145
+length_frequency,study,CGPLBR91,"Cristiano et al, 2019",11.029968234477604
+length_frequency,study,CGPLBR92,"Cristiano et al, 2019",18.936399826897862
+length_frequency,study,CGPLBR93,"Cristiano et al, 2019",10.953345069280484
+length_frequency,study,CGPLH189,"Cristiano et al, 2019",6.977360365836937
+length_frequency,study,CGPLH190,"Cristiano et al, 2019",2.395557494150819
+length_frequency,study,CGPLH193,"Cristiano et al, 2019",2.5114106434841346
+length_frequency,study,CGPLH194,"Cristiano et al, 2019",9.367677295949687
+length_frequency,study,CGPLH201,"Cristiano et al, 2019",5.290980307279003
+length_frequency,study,CGPLH202,"Cristiano et al, 2019",7.359976146800351
+length_frequency,study,CGPLH205,"Cristiano et al, 2019",7.514738966104713
+length_frequency,study,CGPLH210,"Cristiano et al, 2019",5.8694666585037885
+length_frequency,study,CGPLH300,"Cristiano et al, 2019",3.7930293186441486
+length_frequency,study,CGPLH307,"Cristiano et al, 2019",6.926045908647102
+length_frequency,study,CGPLH308,"Cristiano et al, 2019",4.604840101821828
+length_frequency,study,CGPLH309,"Cristiano et al, 2019",5.812745603549878
+length_frequency,study,CGPLH310,"Cristiano et al, 2019",6.2500100567400265
+length_frequency,study,CGPLH311,"Cristiano et al, 2019",2.768780540849976
+length_frequency,study,CGPLH314,"Cristiano et al, 2019",3.2313991456307893
+length_frequency,study,CGPLH315,"Cristiano et al, 2019",3.5136109555156736
+length_frequency,study,CGPLH316,"Cristiano et al, 2019",6.965291743710576
+length_frequency,study,CGPLH317,"Cristiano et al, 2019",13.020341873370453
+length_frequency,study,CGPLH319,"Cristiano et al, 2019",4.624258841173688
+length_frequency,study,CGPLH320,"Cristiano et al, 2019",8.54111453896429
+length_frequency,study,CGPLH322,"Cristiano et al, 2019",2.6413105208039234
+length_frequency,study,CGPLH324,"Cristiano et al, 2019",8.021847654811104
+length_frequency,study,CGPLH325,"Cristiano et al, 2019",2.826139766266794
+length_frequency,study,CGPLH326,"Cristiano et al, 2019",3.403746781122147
+length_frequency,study,CGPLH327,"Cristiano et al, 2019",5.809400582634801
+length_frequency,study,CGPLH328,"Cristiano et al, 2019",4.136669976363282
+length_frequency,study,CGPLH328_Rep,"Cristiano et al, 2019",5.373586547659127
+length_frequency,study,CGPLH329,"Cristiano et al, 2019",1.5588922993230754
+length_frequency,study,CGPLH330,"Cristiano et al, 2019",2.1284459364823425
+length_frequency,study,CGPLH331,"Cristiano et al, 2019",2.450545987680663
+length_frequency,study,CGPLH331_Rep,"Cristiano et al, 2019",2.9035226194389434
+length_frequency,study,CGPLH333,"Cristiano et al, 2019",7.758963133310827
+length_frequency,study,CGPLH335,"Cristiano et al, 2019",3.8557621809719977
+length_frequency,study,CGPLH336,"Cristiano et al, 2019",5.979076562288775
+length_frequency,study,CGPLH337,"Cristiano et al, 2019",2.257299009835485
+length_frequency,study,CGPLH338,"Cristiano et al, 2019",7.846179462323436
+length_frequency,study,CGPLH339,"Cristiano et al, 2019",2.3864191611280616
+length_frequency,study,CGPLH340,"Cristiano et al, 2019",2.2183003921891244
+length_frequency,study,CGPLH341,"Cristiano et al, 2019",3.3123457597148938
+length_frequency,study,CGPLH342,"Cristiano et al, 2019",4.175560027700252
+length_frequency,study,CGPLH343,"Cristiano et al, 2019",2.741088045114308
+length_frequency,study,CGPLH344,"Cristiano et al, 2019",8.729039999842453
+length_frequency,study,CGPLH345,"Cristiano et al, 2019",7.4209458911351325
+length_frequency,study,CGPLH346,"Cristiano et al, 2019",7.592475427127302
+length_frequency,study,CGPLH350,"Cristiano et al, 2019",17.8896728371888
+length_frequency,study,CGPLH352,"Cristiano et al, 2019",5.634116402736278
+length_frequency,study,CGPLH353,"Cristiano et al, 2019",1.7067726756878727
+length_frequency,study,CGPLH354,"Cristiano et al, 2019",4.318908318194699
+length_frequency,study,CGPLH355,"Cristiano et al, 2019",1.5207912514560387
+length_frequency,study,CGPLH356,"Cristiano et al, 2019",3.0730001963154168
+length_frequency,study,CGPLH357,"Cristiano et al, 2019",1.7209879086654047
+length_frequency,study,CGPLH360,"Cristiano et al, 2019",5.256730774637536
+length_frequency,study,CGPLH361,"Cristiano et al, 2019",2.4994120612043855
+length_frequency,study,CGPLH362,"Cristiano et al, 2019",3.0212066836280957
+length_frequency,study,CGPLH363,"Cristiano et al, 2019",3.564697176649155
+length_frequency,study,CGPLH364,"Cristiano et al, 2019",4.6904986049302595
+length_frequency,study,CGPLH365,"Cristiano et al, 2019",5.8411332825143205
+length_frequency,study,CGPLH366,"Cristiano et al, 2019",2.3799257294633813
+length_frequency,study,CGPLH367,"Cristiano et al, 2019",2.868915743097238
+length_frequency,study,CGPLH368,"Cristiano et al, 2019",13.323456607525564
+length_frequency,study,CGPLH369,"Cristiano et al, 2019",2.03260027084191
+length_frequency,study,CGPLH369_Rep,"Cristiano et al, 2019",1.6474782178113105
+length_frequency,study,CGPLH370,"Cristiano et al, 2019",2.5550655317047704
+length_frequency,study,CGPLH371,"Cristiano et al, 2019",6.298762414244092
+length_frequency,study,CGPLH384,"Cristiano et al, 2019",9.000380290526794
+length_frequency,study,CGPLH385,"Cristiano et al, 2019",4.466828718369178
+length_frequency,study,CGPLH386,"Cristiano et al, 2019",4.533760374502335
+length_frequency,study,CGPLH386_Rep,"Cristiano et al, 2019",4.929088603503946
+length_frequency,study,CGPLH387,"Cristiano et al, 2019",8.459671971150525
+length_frequency,study,CGPLH388,"Cristiano et al, 2019",1.7993594504434596
+length_frequency,study,CGPLH389,"Cristiano et al, 2019",3.7047389116037275
+length_frequency,study,CGPLH390,"Cristiano et al, 2019",2.4324228702045123
+length_frequency,study,CGPLH391,"Cristiano et al, 2019",3.6749885756596368
+length_frequency,study,CGPLH391_Rep,"Cristiano et al, 2019",3.8587161555869667
+length_frequency,study,CGPLH392,"Cristiano et al, 2019",3.6955270104999234
+length_frequency,study,CGPLH393,"Cristiano et al, 2019",8.361396157347258
+length_frequency,study,CGPLH394,"Cristiano et al, 2019",4.114236377176905
+length_frequency,study,CGPLH395,"Cristiano et al, 2019",3.6911568479658428
+length_frequency,study,CGPLH395_Rep,"Cristiano et al, 2019",4.468174405453538
+length_frequency,study,CGPLH396,"Cristiano et al, 2019",3.7308003783094588
+length_frequency,study,CGPLH399,"Cristiano et al, 2019",12.116394801232174
+length_frequency,study,CGPLH400,"Cristiano et al, 2019",4.70761664228185
+length_frequency,study,CGPLH400_Rep,"Cristiano et al, 2019",3.6950135023274275
+length_frequency,study,CGPLH401,"Cristiano et al, 2019",1.7841420658043914
+length_frequency,study,CGPLH401_Rep,"Cristiano et al, 2019",2.1249525913086416
+length_frequency,study,CGPLH402,"Cristiano et al, 2019",6.969289294646149
+length_frequency,study,CGPLH403,"Cristiano et al, 2019",6.755337416238802
+length_frequency,study,CGPLH404,"Cristiano et al, 2019",8.090776026228228
+length_frequency,study,CGPLH405,"Cristiano et al, 2019",4.903582353659359
+length_frequency,study,CGPLH406,"Cristiano et al, 2019",3.4795957542297256
+length_frequency,study,CGPLH407,"Cristiano et al, 2019",9.232905487766512
+length_frequency,study,CGPLH408,"Cristiano et al, 2019",3.104652988411928
+length_frequency,study,CGPLH409,"Cristiano et al, 2019",5.957151359466217
+length_frequency,study,CGPLH410,"Cristiano et al, 2019",3.755856120556525
+length_frequency,study,CGPLH411,"Cristiano et al, 2019",3.466395384391872
+length_frequency,study,CGPLH412,"Cristiano et al, 2019",2.137628993189857
+length_frequency,study,CGPLH413,"Cristiano et al, 2019",4.017428739933213
+length_frequency,study,CGPLH414,"Cristiano et al, 2019",3.2892668649472245
+length_frequency,study,CGPLH415,"Cristiano et al, 2019",8.735341426157474
+length_frequency,study,CGPLH416,"Cristiano et al, 2019",3.666541929752633
+length_frequency,study,CGPLH417,"Cristiano et al, 2019",4.957114918096465
+length_frequency,study,CGPLH418,"Cristiano et al, 2019",8.933774311892078
+length_frequency,study,CGPLH419,"Cristiano et al, 2019",3.118974650647815
+length_frequency,study,CGPLH420,"Cristiano et al, 2019",7.484638430156327
+length_frequency,study,CGPLH422,"Cristiano et al, 2019",4.540246101543746
+length_frequency,study,CGPLH423,"Cristiano et al, 2019",6.5863149065423565
+length_frequency,study,CGPLH424,"Cristiano et al, 2019",5.1579664278686215
+length_frequency,study,CGPLH426,"Cristiano et al, 2019",5.569977015103736
+length_frequency,study,CGPLH427,"Cristiano et al, 2019",3.2973727929238317
+length_frequency,study,CGPLH428,"Cristiano et al, 2019",1.6851539570898784
+length_frequency,study,CGPLH429,"Cristiano et al, 2019",6.221298975967244
+length_frequency,study,CGPLH430,"Cristiano et al, 2019",2.6014356204183744
+length_frequency,study,CGPLH431,"Cristiano et al, 2019",2.998034059390485
+length_frequency,study,CGPLH432,"Cristiano et al, 2019",9.51628203731769
+length_frequency,study,CGPLH434,"Cristiano et al, 2019",6.099493169049173
+length_frequency,study,CGPLH435,"Cristiano et al, 2019",8.636900864598632
+length_frequency,study,CGPLH436,"Cristiano et al, 2019",7.831150933562464
+length_frequency,study,CGPLH437,"Cristiano et al, 2019",9.335279275099325
+length_frequency,study,CGPLH438,"Cristiano et al, 2019",9.968743222801411
+length_frequency,study,CGPLH439,"Cristiano et al, 2019",13.710096637092708
+length_frequency,study,CGPLH440,"Cristiano et al, 2019",6.17099610167193
+length_frequency,study,CGPLH441,"Cristiano et al, 2019",4.5059724967042785
+length_frequency,study,CGPLH442,"Cristiano et al, 2019",2.696922295984933
+length_frequency,study,CGPLH443,"Cristiano et al, 2019",12.151469421823174
+length_frequency,study,CGPLH444,"Cristiano et al, 2019",16.86742626647208
+length_frequency,study,CGPLH445,"Cristiano et al, 2019",13.733167184498873
+length_frequency,study,CGPLH446,"Cristiano et al, 2019",2.4394989543734398
+length_frequency,study,CGPLH447,"Cristiano et al, 2019",6.712347165442834
+length_frequency,study,CGPLH448,"Cristiano et al, 2019",4.981357060497972
+length_frequency,study,CGPLH449,"Cristiano et al, 2019",2.458168889963175
+length_frequency,study,CGPLH450,"Cristiano et al, 2019",3.033664410668947
+length_frequency,study,CGPLH451,"Cristiano et al, 2019",8.651228369006517
+length_frequency,study,CGPLH452,"Cristiano et al, 2019",3.9783754973695307
+length_frequency,study,CGPLH453,"Cristiano et al, 2019",6.200092954643081
+length_frequency,study,CGPLH455,"Cristiano et al, 2019",3.7518539249431373
+length_frequency,study,CGPLH455_Rep,"Cristiano et al, 2019",3.479963965427556
+length_frequency,study,CGPLH456,"Cristiano et al, 2019",5.826885703289425
+length_frequency,study,CGPLH457,"Cristiano et al, 2019",3.931317877548823
+length_frequency,study,CGPLH458,"Cristiano et al, 2019",2.336352793420852
+length_frequency,study,CGPLH459,"Cristiano et al, 2019",3.3026640541020034
+length_frequency,study,CGPLH460,"Cristiano et al, 2019",5.748717423899343
+length_frequency,study,CGPLH463,"Cristiano et al, 2019",5.6356582716344255
+length_frequency,study,CGPLH464,"Cristiano et al, 2019",9.90147640060365
+length_frequency,study,CGPLH465,"Cristiano et al, 2019",2.7845994396695013
+length_frequency,study,CGPLH466,"Cristiano et al, 2019",4.84718187705008
+length_frequency,study,CGPLH466_Rep,"Cristiano et al, 2019",4.056289228966665
+length_frequency,study,CGPLH467,"Cristiano et al, 2019",3.383814832341658
+length_frequency,study,CGPLH468,"Cristiano et al, 2019",3.3102450485254837
+length_frequency,study,CGPLH469,"Cristiano et al, 2019",8.554268317768571
+length_frequency,study,CGPLH470,"Cristiano et al, 2019",4.272493123654352
+length_frequency,study,CGPLH471,"Cristiano et al, 2019",1.888312875369363
+length_frequency,study,CGPLH472,"Cristiano et al, 2019",3.40515119985092
+length_frequency,study,CGPLH473,"Cristiano et al, 2019",4.403512755277068
+length_frequency,study,CGPLH474,"Cristiano et al, 2019",5.142714438111541
+length_frequency,study,CGPLH475,"Cristiano et al, 2019",3.4104814750953487
+length_frequency,study,CGPLH476,"Cristiano et al, 2019",8.715774423488945
+length_frequency,study,CGPLH477,"Cristiano et al, 2019",6.797991219347426
+length_frequency,study,CGPLH478,"Cristiano et al, 2019",2.761602422637025
+length_frequency,study,CGPLH479,"Cristiano et al, 2019",3.1901625545525585
+length_frequency,study,CGPLH480,"Cristiano et al, 2019",9.611578149161737
+length_frequency,study,CGPLH481,"Cristiano et al, 2019",3.8907402430753995
+length_frequency,study,CGPLH482,"Cristiano et al, 2019",4.3342778140383915
+length_frequency,study,CGPLH483,"Cristiano et al, 2019",5.684901610823103
+length_frequency,study,CGPLH484,"Cristiano et al, 2019",2.3201908452320397
+length_frequency,study,CGPLH485,"Cristiano et al, 2019",5.815939773226658
+length_frequency,study,CGPLH486,"Cristiano et al, 2019",7.834569990489946
+length_frequency,study,CGPLH487,"Cristiano et al, 2019",7.748997692406216
+length_frequency,study,CGPLH488,"Cristiano et al, 2019",2.3403745873032777
+length_frequency,study,CGPLH490,"Cristiano et al, 2019",2.578680070702861
+length_frequency,study,CGPLH491,"Cristiano et al, 2019",5.289972017092785
+length_frequency,study,CGPLH492,"Cristiano et al, 2019",11.927744267424124
+length_frequency,study,CGPLH493,"Cristiano et al, 2019",5.226903270994505
+length_frequency,study,CGPLH494,"Cristiano et al, 2019",6.44288563754262
+length_frequency,study,CGPLH495,"Cristiano et al, 2019",4.242767776244809
+length_frequency,study,CGPLH496,"Cristiano et al, 2019",2.359913193520577
+length_frequency,study,CGPLH497,"Cristiano et al, 2019",2.1195443727761463
+length_frequency,study,CGPLH497_Rep,"Cristiano et al, 2019",2.8905878076753275
+length_frequency,study,CGPLH498,"Cristiano et al, 2019",3.189222046881447
+length_frequency,study,CGPLH499,"Cristiano et al, 2019",1.5191430546823332
+length_frequency,study,CGPLH500,"Cristiano et al, 2019",6.697855236915628
+length_frequency,study,CGPLH501,"Cristiano et al, 2019",6.336745049970578
+length_frequency,study,CGPLH502,"Cristiano et al, 2019",3.0710723152587307
+length_frequency,study,CGPLH503,"Cristiano et al, 2019",10.089551102413633
+length_frequency,study,CGPLH504,"Cristiano et al, 2019",3.1686358616257735
+length_frequency,study,CGPLH504_Rep,"Cristiano et al, 2019",2.6752214692149185
+length_frequency,study,CGPLH505,"Cristiano et al, 2019",2.924656205643338
+length_frequency,study,CGPLH506,"Cristiano et al, 2019",2.6086283411412907
+length_frequency,study,CGPLH507,"Cristiano et al, 2019",5.711874635930223
+length_frequency,study,CGPLH508,"Cristiano et al, 2019",3.302481207303396
+length_frequency,study,CGPLH508_Rep,"Cristiano et al, 2019",4.499325943056565
+length_frequency,study,CGPLH509,"Cristiano et al, 2019",2.8053413440840322
+length_frequency,study,CGPLH510,"Cristiano et al, 2019",2.4848456711964175
+length_frequency,study,CGPLH512,"Cristiano et al, 2019",5.253864658061933
+length_frequency,study,CGPLH513,"Cristiano et al, 2019",4.58008675782876
+length_frequency,study,CGPLH514,"Cristiano et al, 2019",2.0897619115988415
+length_frequency,study,CGPLH515,"Cristiano et al, 2019",4.5842384585832505
+length_frequency,study,CGPLH516,"Cristiano et al, 2019",3.967650695277669
+length_frequency,study,CGPLH517_Rep,"Cristiano et al, 2019",5.9829194281814955
+length_frequency,study,CGPLH519,"Cristiano et al, 2019",4.143143681303281
+length_frequency,study,CGPLH520,"Cristiano et al, 2019",4.301357012514873
+length_frequency,study,CGPLH625,"Cristiano et al, 2019",3.2552211187373565
+length_frequency,study,CGPLH625_Rep,"Cristiano et al, 2019",3.906980283204321
+length_frequency,study,CGPLH626,"Cristiano et al, 2019",9.863776458560528
+length_frequency,study,CGPLH639,"Cristiano et al, 2019",7.124879999003514
+length_frequency,study,CGPLH640,"Cristiano et al, 2019",5.122880285855815
+length_frequency,study,CGPLH642,"Cristiano et al, 2019",1.9924920804753468
+length_frequency,study,CGPLH643,"Cristiano et al, 2019",7.302991528897608
+length_frequency,study,CGPLH644,"Cristiano et al, 2019",9.12834991821054
+length_frequency,study,CGPLH646,"Cristiano et al, 2019",15.672342258829596
+length_frequency,study,CGPLLU13,"Cristiano et al, 2019",7.447628737643324
+length_frequency,study,CGPLLU14,"Cristiano et al, 2019",4.4755948170163755
+length_frequency,study,CGPLLU144,"Cristiano et al, 2019",10.921237094496593
+length_frequency,study,CGPLLU147,"Cristiano et al, 2019",7.394236709131716
+length_frequency,study,CGPLLU161,"Cristiano et al, 2019",7.411467270028186
+length_frequency,study,CGPLLU162,"Cristiano et al, 2019",6.206214704802736
+length_frequency,study,CGPLLU163,"Cristiano et al, 2019",5.207504107649458
+length_frequency,study,CGPLLU165,"Cristiano et al, 2019",12.291137887027672
+length_frequency,study,CGPLLU168,"Cristiano et al, 2019",11.675501208095854
+length_frequency,study,CGPLLU169,"Cristiano et al, 2019",12.426373689565995
+length_frequency,study,CGPLLU175,"Cristiano et al, 2019",7.236616288672867
+length_frequency,study,CGPLLU176,"Cristiano et al, 2019",6.421235575963666
+length_frequency,study,CGPLLU177,"Cristiano et al, 2019",5.754420378385839
+length_frequency,study,CGPLLU180,"Cristiano et al, 2019",2.736959662956795
+length_frequency,study,CGPLLU198,"Cristiano et al, 2019",6.022229407503815
+length_frequency,study,CGPLLU202,"Cristiano et al, 2019",14.52897087782469
+length_frequency,study,CGPLLU203,"Cristiano et al, 2019",9.542593530116514
+length_frequency,study,CGPLLU205,"Cristiano et al, 2019",13.59917380646425
+length_frequency,study,CGPLLU206,"Cristiano et al, 2019",22.028346626870825
+length_frequency,study,CGPLLU207,"Cristiano et al, 2019",6.0866440742839325
+length_frequency,study,CGPLLU208,"Cristiano et al, 2019",8.064226508911334
+length_frequency,study,CGPLLU209,"Cristiano et al, 2019",12.223827182523696
+length_frequency,study,CGPLLU244,"Cristiano et al, 2019",5.95568041102121
+length_frequency,study,CGPLLU245,"Cristiano et al, 2019",3.778076121102783
+length_frequency,study,CGPLLU246,"Cristiano et al, 2019",7.254098127922825
+length_frequency,study,CGPLLU264,"Cristiano et al, 2019",7.264568301756301
+length_frequency,study,CGPLLU265,"Cristiano et al, 2019",3.4377745892582614
+length_frequency,study,CGPLLU266,"Cristiano et al, 2019",3.0184745525547063
+length_frequency,study,CGPLLU267,"Cristiano et al, 2019",4.059034559378379
+length_frequency,study,CGPLLU269,"Cristiano et al, 2019",4.908333887281996
+length_frequency,study,CGPLLU271,"Cristiano et al, 2019",3.1890517332983532
+length_frequency,study,CGPLLU43,"Cristiano et al, 2019",3.4425872612572896
+length_frequency,study,CGPLLU86,"Cristiano et al, 2019",9.411438386630746
+length_frequency,study,CGPLLU88,"Cristiano et al, 2019",9.962745354619452
+length_frequency,study,CGPLLU89,"Cristiano et al, 2019",4.883494303105404
+length_frequency,study,CGPLOV11,"Cristiano et al, 2019",4.109592880778868
+length_frequency,study,CGPLOV12,"Cristiano et al, 2019",2.8989419640797274
+length_frequency,study,CGPLOV13,"Cristiano et al, 2019",6.632072365809212
+length_frequency,study,CGPLOV15,"Cristiano et al, 2019",6.304611037285225
+length_frequency,study,CGPLOV16,"Cristiano et al, 2019",11.182009920446848
+length_frequency,study,CGPLOV19,"Cristiano et al, 2019",7.563802783775026
+length_frequency,study,CGPLOV20,"Cristiano et al, 2019",4.69111656285103
+length_frequency,study,CGPLOV21,"Cristiano et al, 2019",10.474660516494955
+length_frequency,study,CGPLOV22,"Cristiano et al, 2019",10.507338273532595
+length_frequency,study,CGPLOV23,"Cristiano et al, 2019",6.418390626923372
+length_frequency,study,CGPLOV24,"Cristiano et al, 2019",4.200719752449034
+length_frequency,study,CGPLOV25,"Cristiano et al, 2019",3.7513075462934227
+length_frequency,study,CGPLOV28,"Cristiano et al, 2019",2.3195996541582646
+length_frequency,study,CGPLOV31,"Cristiano et al, 2019",1.841102083008294
+length_frequency,study,CGPLOV32,"Cristiano et al, 2019",9.028590086142176
+length_frequency,study,CGPLOV37,"Cristiano et al, 2019",10.745703156384783
+length_frequency,study,CGPLOV38,"Cristiano et al, 2019",4.99332623669538
+length_frequency,study,CGPLOV40,"Cristiano et al, 2019",9.405223375169484
+length_frequency,study,CGPLOV41,"Cristiano et al, 2019",3.3351391602251668
+length_frequency,study,CGPLOV42,"Cristiano et al, 2019",7.403635891498633
+length_frequency,study,CGPLOV43,"Cristiano et al, 2019",3.0206765357092187
+length_frequency,study,CGPLOV44,"Cristiano et al, 2019",8.785543229544212
+length_frequency,study,CGPLOV46,"Cristiano et al, 2019",3.5424408098520828
+length_frequency,study,CGPLOV47,"Cristiano et al, 2019",9.458804990802276
+length_frequency,study,CGPLOV48,"Cristiano et al, 2019",1.5562412393878209
+length_frequency,study,CGPLOV49,"Cristiano et al, 2019",9.439623916579341
+length_frequency,study,CGPLOV50,"Cristiano et al, 2019",7.747568131978192
+length_frequency,study,CGPLPA113,"Cristiano et al, 2019",16.540912921355915
+length_frequency,study,CGPLPA114,"Cristiano et al, 2019",8.874508329364295
+length_frequency,study,CGPLPA115,"Cristiano et al, 2019",9.25655292268758
+length_frequency,study,CGPLPA117,"Cristiano et al, 2019",4.7448568251261785
+length_frequency,study,CGPLPA118,"Cristiano et al, 2019",2.496706387175696
+length_frequency,study,CGPLPA122,"Cristiano et al, 2019",12.427278497075646
+length_frequency,study,CGPLPA124,"Cristiano et al, 2019",6.417456932712141
+length_frequency,study,CGPLPA125,"Cristiano et al, 2019",2.9874843939828337
+length_frequency,study,CGPLPA126,"Cristiano et al, 2019",11.241579492566538
+length_frequency,study,CGPLPA127,"Cristiano et al, 2019",4.509983022748996
+length_frequency,study,CGPLPA128,"Cristiano et al, 2019",3.076121872794569
+length_frequency,study,CGPLPA129,"Cristiano et al, 2019",9.259718345677843
+length_frequency,study,CGPLPA130,"Cristiano et al, 2019",8.615336897952147
+length_frequency,study,CGPLPA131,"Cristiano et al, 2019",12.408999965674766
+length_frequency,study,CGPLPA134,"Cristiano et al, 2019",22.09188035255069
+length_frequency,study,CGPLPA135,"Cristiano et al, 2019",7.969494799411054
+length_frequency,study,CGPLPA136,"Cristiano et al, 2019",13.157666821816024
+length_frequency,study,CGPLPA137,"Cristiano et al, 2019",4.093149887714122
+length_frequency,study,CGPLPA139,"Cristiano et al, 2019",7.172192746102455
+length_frequency,study,CGPLPA14,"Cristiano et al, 2019",5.062326216172944
+length_frequency,study,CGPLPA15,"Cristiano et al, 2019",6.911100563959618
+length_frequency,study,CGPLPA155,"Cristiano et al, 2019",9.595078578144596
+length_frequency,study,CGPLPA156,"Cristiano et al, 2019",4.78256666746172
+length_frequency,study,CGPLPA165,"Cristiano et al, 2019",5.906365945718467
+length_frequency,study,CGPLPA168,"Cristiano et al, 2019",17.151862089133207
+length_frequency,study,CGPLPA17,"Cristiano et al, 2019",8.772524491091891
+length_frequency,study,CGPLPA184,"Cristiano et al, 2019",11.750813613655323
+length_frequency,study,CGPLPA187,"Cristiano et al, 2019",8.72290796195462
+length_frequency,study,CGPLPA23,"Cristiano et al, 2019",7.535184174037395
+length_frequency,study,CGPLPA25,"Cristiano et al, 2019",7.380775412247974
+length_frequency,study,CGPLPA26,"Cristiano et al, 2019",8.456725587631473
+length_frequency,study,CGPLPA28,"Cristiano et al, 2019",9.330728122966288
+length_frequency,study,CGPLPA33,"Cristiano et al, 2019",5.872673418208355
+length_frequency,study,CGPLPA34,"Cristiano et al, 2019",4.453831804515589
+length_frequency,study,CGPLPA38,"Cristiano et al, 2019",5.052206938709119
+length_frequency,study,CGPLPA39,"Cristiano et al, 2019",5.7562647615344655
+length_frequency,study,CGPLPA40,"Cristiano et al, 2019",10.259342879855794
+length_frequency,study,CGPLPA42,"Cristiano et al, 2019",2.3359195162006725
+length_frequency,study,CGPLPA46,"Cristiano et al, 2019",8.2420721195995
+length_frequency,study,CGPLPA47,"Cristiano et al, 2019",7.326007705211081
+length_frequency,study,CGPLPA48,"Cristiano et al, 2019",3.745936190993168
+length_frequency,study,CGPLPA52,"Cristiano et al, 2019",3.4598421027332575
+length_frequency,study,CGPLPA53,"Cristiano et al, 2019",13.462321385890167
+length_frequency,study,CGPLPA58,"Cristiano et al, 2019",5.991743398623543
+length_frequency,study,CGPLPA67,"Cristiano et al, 2019",6.575262815464571
+length_frequency,study,CGPLPA69,"Cristiano et al, 2019",7.07748760528522
+length_frequency,study,CGPLPA71,"Cristiano et al, 2019",4.957762917042297
+length_frequency,study,CGPLPA74,"Cristiano et al, 2019",6.258310035131131
+length_frequency,study,CGPLPA76,"Cristiano et al, 2019",14.330020612686358
+length_frequency,study,CGPLPA85,"Cristiano et al, 2019",7.9345757106312
+length_frequency,study,CGPLPA86,"Cristiano et al, 2019",5.64038293384977
+length_frequency,study,CGPLPA92,"Cristiano et al, 2019",3.6184733575729493
+length_frequency,study,CGPLPA93,"Cristiano et al, 2019",9.384943695802125
+length_frequency,study,CGPLPA94,"Cristiano et al, 2019",17.002138277355332
+length_frequency,study,CGPLPA95,"Cristiano et al, 2019",4.690059512149804
+length_frequency,study,CGST102,"Cristiano et al, 2019",1.5949174011788954
+length_frequency,study,CGST11,"Cristiano et al, 2019",10.213282609608555
+length_frequency,study,CGST110,"Cristiano et al, 2019",2.8779839846432855
+length_frequency,study,CGST114,"Cristiano et al, 2019",7.433667615040255
+length_frequency,study,CGST13,"Cristiano et al, 2019",4.570520226257825
+length_frequency,study,CGST131,"Cristiano et al, 2019",20.939842773722916
+length_frequency,study,CGST141,"Cristiano et al, 2019",5.378956662218871
+length_frequency,study,CGST18,"Cristiano et al, 2019",8.091705160433799
+length_frequency,study,CGST21,"Cristiano et al, 2019",102.048668416053
+length_frequency,study,CGST26,"Cristiano et al, 2019",1.8477199701305744
+length_frequency,study,CGST28,"Cristiano et al, 2019",7.480437930460496
+length_frequency,study,CGST30,"Cristiano et al, 2019",7.439822542572183
+length_frequency,study,CGST32,"Cristiano et al, 2019",8.419794229236455
+length_frequency,study,CGST33,"Cristiano et al, 2019",6.841917926065259
+length_frequency,study,CGST38,"Cristiano et al, 2019",4.36716573625175
+length_frequency,study,CGST39,"Cristiano et al, 2019",13.271042899752509
+length_frequency,study,CGST41,"Cristiano et al, 2019",3.0924041880163915
+length_frequency,study,CGST45,"Cristiano et al, 2019",7.9061776264822985
+length_frequency,study,CGST47,"Cristiano et al, 2019",5.027773038132655
+length_frequency,study,CGST48,"Cristiano et al, 2019",3.842543171936601
+length_frequency,study,CGST53,"Cristiano et al, 2019",35.937352096168226
+length_frequency,study,CGST58,"Cristiano et al, 2019",7.871205440848816
+length_frequency,study,CGST67,"Cristiano et al, 2019",15.03779130903594
+length_frequency,study,CGST77,"Cristiano et al, 2019",30.925264727658355
+length_frequency,study,CGST80,"Cristiano et al, 2019",6.048463687779561
+length_frequency,study,CGST81,"Cristiano et al, 2019",9.181379550086948
+length_frequency,study,GM1100,"Jiang et al, 2015",21.08177418244703
+length_frequency,study,H195,"Jiang et al, 2015",8.508858988923297
+length_frequency,study,H196,"Jiang et al, 2015",8.156938462396676
+length_frequency,study,H199,"Jiang et al, 2015",7.275518710323604
+length_frequency,study,H200,"Jiang et al, 2015",13.816594780963733
+length_frequency,study,H203,"Jiang et al, 2015",11.37271329444086
+length_frequency,study,H206,"Jiang et al, 2015",6.778977593982061
+length_frequency,study,H209,"Jiang et al, 2015",6.325109466747803
+length_frequency,study,H210,"Jiang et al, 2015",22.202574542248367
+length_frequency,study,H214,"Jiang et al, 2015",7.098583073458692
+length_frequency,study,H216,"Jiang et al, 2015",15.46236118126738
+length_frequency,study,H217,"Jiang et al, 2015",88.9858069031968
+length_frequency,study,H218,"Jiang et al, 2015",14.276011143329063
+length_frequency,study,H220,"Jiang et al, 2015",7.437619129300929
+length_frequency,study,H221,"Jiang et al, 2015",7.510441704769542
+length_frequency,study,H223,"Jiang et al, 2015",21.818597089412382
+length_frequency,study,H225,"Jiang et al, 2015",8.074123549304124
+length_frequency,study,H226,"Jiang et al, 2015",8.710355122073551
+length_frequency,study,H228,"Jiang et al, 2015",9.264692402947784
+length_frequency,study,H230,"Jiang et al, 2015",6.316175814764947
+length_frequency,study,H232,"Jiang et al, 2015",15.81807059400106
+length_frequency,study,H234,"Jiang et al, 2015",27.608323563665795
+length_frequency,study,H235,"Jiang et al, 2015",45.222583369318265
+length_frequency,study,H239,"Jiang et al, 2015",17.176325078777687
+length_frequency,study,H247,"Jiang et al, 2015",8.247618036057483
+length_frequency,study,H249,"Jiang et al, 2015",20.058115175968137
+length_frequency,study,H250,"Jiang et al, 2015",20.43406574321509
+length_frequency,study,H252,"Jiang et al, 2015",16.455241894891785
+length_frequency,study,H253,"Jiang et al, 2015",44.20715110049085
+length_frequency,study,H254,"Jiang et al, 2015",19.870304015815478
+length_frequency,study,H256,"Jiang et al, 2015",14.74762573294926
+length_frequency,study,H258,"Jiang et al, 2015",6.643659768632762
+length_frequency,study,H261,"Jiang et al, 2015",7.471353843213656
+length_frequency,study,H262,"Jiang et al, 2015",14.177819413791637
+length_frequency,study,H263,"Jiang et al, 2015",12.760733451456286
+length_frequency,study,H264,"Jiang et al, 2015",9.445598540965845
+length_frequency,study,H266,"Jiang et al, 2015",16.52353038024999
+length_frequency,study,H267,"Jiang et al, 2015",11.886064204060677
+length_frequency,study,H269,"Jiang et al, 2015",8.33887597277568
+length_frequency,study,H270,"Jiang et al, 2015",23.914008711971007
+length_frequency,study,H272,"Jiang et al, 2015",10.519679737278523
+length_frequency,study,H275,"Jiang et al, 2015",7.957682434071627
+length_frequency,study,H278,"Jiang et al, 2015",8.611432823697033
+length_frequency,study,H283,"Jiang et al, 2015",9.562502878705017
+length_frequency,study,H285,"Jiang et al, 2015",30.65786229914892
+length_frequency,study,H288,"Jiang et al, 2015",9.712548474811943
+length_frequency,study,H291,"Jiang et al, 2015",17.14821262704086
+length_frequency,study,H292,"Jiang et al, 2015",6.687251954171878
+length_frequency,study,H296,"Jiang et al, 2015",21.892002317343444
+length_frequency,study,H300,"Jiang et al, 2015",8.114100668411153
+length_frequency,study,H301,"Jiang et al, 2015",18.559919179655306
+length_frequency,study,H311,"Jiang et al, 2015",13.026609096394427
+length_frequency,study,H315,"Jiang et al, 2015",19.637075134958366
+length_frequency,study,H321,"Jiang et al, 2015",12.307713206523019
+length_frequency,study,H323,"Jiang et al, 2015",12.564572412160109
+length_frequency,study,H324,"Jiang et al, 2015",9.782010921032843
+length_frequency,study,H341,"Jiang et al, 2015",6.3204483740326465
+length_frequency,study,H342,"Jiang et al, 2015",20.17271172613764
+length_frequency,study,H344,"Jiang et al, 2015",16.307211049879534
+length_frequency,study,H352,"Jiang et al, 2015",8.321184208981785
+length_frequency,study,H374,"Jiang et al, 2015",135.00970719086646
+length_frequency,study,H377,"Jiang et al, 2015",147.7408971697531
+length_frequency,study,H381,"Jiang et al, 2015",61.73364826207069
+length_frequency,study,H390,"Jiang et al, 2015",56.574372277758364
+length_frequency,study,H402,"Jiang et al, 2015",8.340742982548221
+length_frequency,study,H419,"Jiang et al, 2015",32.0407480004403
+length_frequency,study,H420,"Jiang et al, 2015",6.844705167308617
+length_frequency,study,H421,"Jiang et al, 2015",13.669322488700358
+length_frequency,study,H423,"Jiang et al, 2015",42.12175187418548
+length_frequency,study,H424,"Jiang et al, 2015",7.369308148661835
+length_frequency,study,H433,"Jiang et al, 2015",8.320953624170437
+length_frequency,study,H435,"Jiang et al, 2015",6.990465791576292
+length_frequency,study,H436,"Jiang et al, 2015",9.456853556181558
+length_frequency,study,HOT386,"Jiang et al, 2015",23.826107165845173
+length_frequency,study,HOT393,"Jiang et al, 2015",16.929205169983057
+length_frequency,study,HOT394,"Jiang et al, 2015",6.215806348318366
+length_frequency,study,HOT397,"Jiang et al, 2015",8.882413271698628
+length_frequency,study,HOT403,"Jiang et al, 2015",7.949225535971368
+length_frequency,study,HOT410,"Jiang et al, 2015",26.06690224264169
+length_frequency,study,HOT412,"Jiang et al, 2015",23.847708546158575
+length_frequency,study,HOT413,"Jiang et al, 2015",8.639019482731774
+length_frequency,study,HOT414,"Jiang et al, 2015",11.309095019486332
+length_frequency,study,HOT417,"Jiang et al, 2015",6.816809509942891
+length_frequency,study,HOT422,"Jiang et al, 2015",8.300273575783873
+length_frequency,study,HOT425,"Jiang et al, 2015",7.746083451782994
+length_frequency,study,HOT426,"Jiang et al, 2015",7.510897088522593
+length_frequency,study,HOT427,"Jiang et al, 2015",6.410868726022563
+length_frequency,study,HOT428,"Jiang et al, 2015",17.49703864406423
+length_frequency,study,HOT432,"Jiang et al, 2015",6.5337625549866845
+length_frequency,study,IC02,"Snyder et al, 2016",15.53575127154083
+length_frequency,study,IC03,"Snyder et al, 2016",16.27748352991142
+length_frequency,study,IC04,"Snyder et al, 2016",16.300772696972494
+length_frequency,study,IC05,"Snyder et al, 2016",13.059779332386615
+length_frequency,study,IC06,"Snyder et al, 2016",8.116913580707294
+length_frequency,study,IC08,"Snyder et al, 2016",17.795691944097378
+length_frequency,study,IC09,"Snyder et al, 2016",4.87977664196543
+length_frequency,study,IC10,"Snyder et al, 2016",11.590989142956303
+length_frequency,study,IC11,"Snyder et al, 2016",5.036268184952199
+length_frequency,study,IC12,"Snyder et al, 2016",9.291966580034986
+length_frequency,study,IC14,"Snyder et al, 2016",6.997377208843966
+length_frequency,study,IC16,"Snyder et al, 2016",4.5353696535115
+length_frequency,study,IC18,"Snyder et al, 2016",7.34338170601233
+length_frequency,study,IC19,"Snyder et al, 2016",11.488954793832995
+length_frequency,study,IC21,"Snyder et al, 2016",7.593357884683343
+length_frequency,study,IC22,"Snyder et al, 2016",17.946466979508656
+length_frequency,study,IC23,"Snyder et al, 2016",13.472363485637619
+length_frequency,study,IC24,"Snyder et al, 2016",6.981231322779285
+length_frequency,study,IC27,"Snyder et al, 2016",23.077685644214366
+length_frequency,study,IC28,"Snyder et al, 2016",14.459718326348975
+length_frequency,study,IC29,"Snyder et al, 2016",11.261410634269042
+length_frequency,study,IC30,"Snyder et al, 2016",15.860932517300148
+length_frequency,study,IC32,"Snyder et al, 2016",15.49250295497771
+length_frequency,study,IC33,"Snyder et al, 2016",12.118517798399548
+length_frequency,study,IC34,"Snyder et al, 2016",3.661860349464878
+length_frequency,study,IC36,"Snyder et al, 2016",8.118780785651834
+length_frequency,study,IC38,"Snyder et al, 2016",9.25844109928467
+length_frequency,study,IC39,"Snyder et al, 2016",11.159158059084177
+length_frequency,study,IC40,"Snyder et al, 2016",14.824151675259998
+length_frequency,study,IC41,"Snyder et al, 2016",15.676448901195435
+length_frequency,study,IC42,"Snyder et al, 2016",12.052642277107136
+length_frequency,study,IC43,"Snyder et al, 2016",10.469970620916932
+length_frequency,study,IC44,"Snyder et al, 2016",6.191478126181412
+length_frequency,study,IC46,"Snyder et al, 2016",13.442107488811464
+length_frequency,study,IC47,"Snyder et al, 2016",8.526303702306347
+length_frequency,study,IC48,"Snyder et al, 2016",17.822190679695105
+length_frequency,study,IH03,"Snyder et al, 2016",14.661427586715048
+length_frequency,disease,C309,0,6.940191463811679
+length_frequency,disease,C310,0,8.87253473197315
+length_frequency,disease,C311,0,6.683292641668737
+length_frequency,disease,C312,0,9.078095261306263
+length_frequency,disease,C313,0,7.567539442258463
+length_frequency,disease,C314,0,10.685590533001402
+length_frequency,disease,C315,0,2.434777200946266
+length_frequency,disease,C316,0,7.158365741882745
+length_frequency,disease,C325,0,9.465596158155515
+length_frequency,disease,C326,0,11.482719072266176
+length_frequency,disease,C327,0,6.95822300530669
+length_frequency,disease,C329,0,10.14558754519355
+length_frequency,disease,C330,0,8.06688152718802
+length_frequency,disease,C331,0,9.321242109418495
+length_frequency,disease,C332,0,5.89674276523323
+length_frequency,disease,C333,0,6.4090600781930185
+length_frequency,disease,C343,0,9.784940044050186
+length_frequency,disease,C345,0,11.69867398884436
+length_frequency,disease,C346,0,6.408773634637315
+length_frequency,disease,C347,0,8.114775241370387
+length_frequency,disease,C348,0,10.083063729490686
+length_frequency,disease,C350,0,6.8382844510634255
+length_frequency,disease,C351,0,11.806076619582429
+length_frequency,disease,C352,0,7.164200852049725
+length_frequency,disease,C353,0,6.901549784056764
+length_frequency,disease,C354,0,15.12818545022634
+length_frequency,disease,C355,0,9.699292069997751
+length_frequency,disease,C356,0,9.67653411167855
+length_frequency,disease,C357,0,9.759077856637118
+length_frequency,disease,C358,0,6.934957280039268
+length_frequency,disease,C359,0,13.282733941182965
+length_frequency,disease,C360,0,11.159054856995855
+length_frequency,disease,CGCRC291,1,13.442040268677749
+length_frequency,disease,CGCRC292,1,6.976925840577455
+length_frequency,disease,CGCRC293,1,7.040087395432482
+length_frequency,disease,CGCRC294,1,9.232076826525573
+length_frequency,disease,CGCRC296,1,8.576062055733638
+length_frequency,disease,CGCRC299,1,18.666411567781513
+length_frequency,disease,CGCRC300,1,7.056898136598088
+length_frequency,disease,CGCRC301,1,7.323721550060581
+length_frequency,disease,CGCRC304,1,18.659947747638338
+length_frequency,disease,CGCRC305,1,8.375298639639583
+length_frequency,disease,CGCRC306,1,8.830383116708397
+length_frequency,disease,CGCRC307,1,8.791171492318282
+length_frequency,disease,CGCRC308,1,12.573111070004012
+length_frequency,disease,CGCRC311,1,6.002062596729422
+length_frequency,disease,CGCRC315,1,5.896319334594995
+length_frequency,disease,CGCRC316,1,20.080141636192412
+length_frequency,disease,CGCRC317,1,14.043404223363535
+length_frequency,disease,CGCRC318,1,7.139143737292717
+length_frequency,disease,CGCRC319,1,23.23628210761794
+length_frequency,disease,CGCRC320,1,7.487270272855933
+length_frequency,disease,CGCRC321,1,10.713647450645011
+length_frequency,disease,CGCRC333,1,15.78018462524528
+length_frequency,disease,CGCRC336,1,15.688323727845699
+length_frequency,disease,CGCRC341,1,14.491464386716357
+length_frequency,disease,CGPLBR100,1,6.503850018059765
+length_frequency,disease,CGPLBR101,1,9.819794283342015
+length_frequency,disease,CGPLBR102,1,8.889463757109887
+length_frequency,disease,CGPLBR103,1,8.745290032644903
+length_frequency,disease,CGPLBR104,1,6.699893621520293
+length_frequency,disease,CGPLBR12,1,10.731653574230133
+length_frequency,disease,CGPLBR18,1,18.860647515210356
+length_frequency,disease,CGPLBR23,1,8.477790375886062
+length_frequency,disease,CGPLBR24,1,29.43387894054007
+length_frequency,disease,CGPLBR28,1,6.500390691827979
+length_frequency,disease,CGPLBR30,1,18.00506415824992
+length_frequency,disease,CGPLBR32,1,6.278602928360074
+length_frequency,disease,CGPLBR33,1,6.4417068000503726
+length_frequency,disease,CGPLBR34,1,17.71333163277115
+length_frequency,disease,CGPLBR35,1,7.838378380949656
+length_frequency,disease,CGPLBR36,1,7.899169388359851
+length_frequency,disease,CGPLBR37,1,8.118886669029505
+length_frequency,disease,CGPLBR38,1,8.978902154413815
+length_frequency,disease,CGPLBR40,1,9.584632037914883
+length_frequency,disease,CGPLBR41,1,6.753034033170144
+length_frequency,disease,CGPLBR45,1,12.457302196997052
+length_frequency,disease,CGPLBR46,1,6.578935504366083
+length_frequency,disease,CGPLBR47,1,6.3833656518257245
+length_frequency,disease,CGPLBR48,1,17.93691079830154
+length_frequency,disease,CGPLBR49,1,21.568321174553986
+length_frequency,disease,CGPLBR50,1,22.165282061098484
+length_frequency,disease,CGPLBR51,1,6.936232745627522
+length_frequency,disease,CGPLBR52,1,12.326398292049788
+length_frequency,disease,CGPLBR55,1,10.63635376970463
+length_frequency,disease,CGPLBR57,1,7.018415779183728
+length_frequency,disease,CGPLBR59,1,6.580801576685127
+length_frequency,disease,CGPLBR60,1,8.349529436967371
+length_frequency,disease,CGPLBR61,1,10.766110190099637
+length_frequency,disease,CGPLBR63,1,7.535948384765244
+length_frequency,disease,CGPLBR65,1,7.7658948841936395
+length_frequency,disease,CGPLBR68,1,17.467350484199713
+length_frequency,disease,CGPLBR69,1,11.666963831025958
+length_frequency,disease,CGPLBR70,1,6.861801193661629
+length_frequency,disease,CGPLBR71,1,10.049960437888103
+length_frequency,disease,CGPLBR73,1,7.51990804660302
+length_frequency,disease,CGPLBR76,1,12.392326355996747
+length_frequency,disease,CGPLBR81,1,14.368383840493847
+length_frequency,disease,CGPLBR82,1,9.628277268104112
+length_frequency,disease,CGPLBR83,1,9.393566152206573
+length_frequency,disease,CGPLBR84,1,11.2478856370775
+length_frequency,disease,CGPLBR87,1,11.17135567271711
+length_frequency,disease,CGPLBR88,1,13.0373074446869
+length_frequency,disease,CGPLBR90,1,9.990718336297567
+length_frequency,disease,CGPLBR91,1,13.856185119465103
+length_frequency,disease,CGPLBR92,1,20.95468780233736
+length_frequency,disease,CGPLBR93,1,13.506720756992829
+length_frequency,disease,CGPLH189,0,4.434388626945239
+length_frequency,disease,CGPLH190,0,3.4975553523324705
+length_frequency,disease,CGPLH193,0,2.1134608898139633
+length_frequency,disease,CGPLH194,0,7.125029971817573
+length_frequency,disease,CGPLH201,0,2.5667931990647523
+length_frequency,disease,CGPLH202,0,4.83825871804554
+length_frequency,disease,CGPLH205,0,5.458018644384712
+length_frequency,disease,CGPLH210,0,3.0942392615346117
+length_frequency,disease,CGPLH300,0,1.4275772940274738
+length_frequency,disease,CGPLH307,0,5.310003559420635
+length_frequency,disease,CGPLH308,0,1.725033867316342
+length_frequency,disease,CGPLH309,0,3.1492275763004103
+length_frequency,disease,CGPLH310,0,9.610046731303877
+length_frequency,disease,CGPLH311,0,3.4401737825704464
+length_frequency,disease,CGPLH314,0,2.1020123004152405
+length_frequency,disease,CGPLH315,0,4.056878534803245
+length_frequency,disease,CGPLH316,0,10.388668163928998
+length_frequency,disease,CGPLH317,0,10.267946143316024
+length_frequency,disease,CGPLH319,0,3.3345134523781597
+length_frequency,disease,CGPLH320,0,11.497201549478243
+length_frequency,disease,CGPLH322,0,4.547236113197773
+length_frequency,disease,CGPLH324,0,5.335581535820508
+length_frequency,disease,CGPLH325,0,3.9137619508527366
+length_frequency,disease,CGPLH326,0,6.019528750143445
+length_frequency,disease,CGPLH327,0,4.026936466739548
+length_frequency,disease,CGPLH328,0,7.495026976620117
+length_frequency,disease,CGPLH328_Rep,0,8.746702315676897
+length_frequency,disease,CGPLH329,0,3.8327192305861804
+length_frequency,disease,CGPLH330,0,3.621787528774523
+length_frequency,disease,CGPLH331,0,5.380122922569307
+length_frequency,disease,CGPLH331_Rep,0,6.041187932910136
+length_frequency,disease,CGPLH333,0,4.519977045321111
+length_frequency,disease,CGPLH335,0,2.3533742593228335
+length_frequency,disease,CGPLH336,0,3.794611921698265
+length_frequency,disease,CGPLH337,0,2.682725584233656
+length_frequency,disease,CGPLH338,0,10.961876102238378
+length_frequency,disease,CGPLH339,0,4.0592625211865085
+length_frequency,disease,CGPLH340,0,2.8367334038648355
+length_frequency,disease,CGPLH341,0,6.446318696430118
+length_frequency,disease,CGPLH342,0,7.3827801039843575
+length_frequency,disease,CGPLH343,0,4.52334734444513
+length_frequency,disease,CGPLH344,0,5.326053374631966
+length_frequency,disease,CGPLH345,0,4.273046927428294
+length_frequency,disease,CGPLH346,0,4.409656950606765
+length_frequency,disease,CGPLH350,0,15.003945639714653
+length_frequency,disease,CGPLH352,0,3.106882585485038
+length_frequency,disease,CGPLH353,0,3.766766660586426
+length_frequency,disease,CGPLH354,0,1.5356174546572614
+length_frequency,disease,CGPLH355,0,3.889541307625815
+length_frequency,disease,CGPLH356,0,1.6880149006437277
+length_frequency,disease,CGPLH357,0,4.279235378554021
+length_frequency,disease,CGPLH360,0,2.453963644374735
+length_frequency,disease,CGPLH361,0,2.4332914497174825
+length_frequency,disease,CGPLH362,0,1.6309197225684886
+length_frequency,disease,CGPLH363,0,3.72270025245142
+length_frequency,disease,CGPLH364,0,2.2102085978261927
+length_frequency,disease,CGPLH365,0,9.138272201611164
+length_frequency,disease,CGPLH366,0,2.8870466061720457
+length_frequency,disease,CGPLH367,0,5.931970609985595
+length_frequency,disease,CGPLH368,0,11.015556991458654
+length_frequency,disease,CGPLH369,0,2.961752067905161
+length_frequency,disease,CGPLH369_Rep,0,3.672890155178031
+length_frequency,disease,CGPLH370,0,4.795565954719232
+length_frequency,disease,CGPLH371,0,3.8984033449542514
+length_frequency,disease,CGPLH384,0,5.963593253988357
+length_frequency,disease,CGPLH385,0,5.016678693523417
+length_frequency,disease,CGPLH386,0,4.324739877328719
+length_frequency,disease,CGPLH386_Rep,0,5.396200675897962
+length_frequency,disease,CGPLH387,0,5.400746726909924
+length_frequency,disease,CGPLH388,0,3.031920955538312
+length_frequency,disease,CGPLH389,0,2.062933586020874
+length_frequency,disease,CGPLH390,0,2.846310100935282
+length_frequency,disease,CGPLH391,0,4.620026196380796
+length_frequency,disease,CGPLH391_Rep,0,5.5598844999629025
+length_frequency,disease,CGPLH392,0,3.5755145337889336
+length_frequency,disease,CGPLH393,0,5.591966813723686
+length_frequency,disease,CGPLH394,0,4.310105489414723
+length_frequency,disease,CGPLH395,0,5.2652364375601115
+length_frequency,disease,CGPLH395_Rep,0,6.523064783479011
+length_frequency,disease,CGPLH396,0,2.937175815193475
+length_frequency,disease,CGPLH399,0,9.542900358912666
+length_frequency,disease,CGPLH400,0,2.590945675723635
+length_frequency,disease,CGPLH400_Rep,0,2.9930649216006944
+length_frequency,disease,CGPLH401,0,4.27858657272874
+length_frequency,disease,CGPLH401_Rep,0,5.090784637738578
+length_frequency,disease,CGPLH402,0,6.128800951734078
+length_frequency,disease,CGPLH403,0,4.878768117200674
+length_frequency,disease,CGPLH404,0,4.995824400788971
+length_frequency,disease,CGPLH405,0,7.638933191695977
+length_frequency,disease,CGPLH406,0,4.496711568897545
+length_frequency,disease,CGPLH407,0,6.227093652758527
+length_frequency,disease,CGPLH408,0,4.100214430858996
+length_frequency,disease,CGPLH409,0,3.2657095325219725
+length_frequency,disease,CGPLH410,0,1.8184853548959132
+length_frequency,disease,CGPLH411,0,2.7065231619822727
+length_frequency,disease,CGPLH412,0,3.453161072307056
+length_frequency,disease,CGPLH413,0,5.685239678671702
+length_frequency,disease,CGPLH414,0,1.4741928681207725
+length_frequency,disease,CGPLH415,0,5.695027100911149
+length_frequency,disease,CGPLH416,0,5.827848858051995
+length_frequency,disease,CGPLH417,0,2.2536883092932944
+length_frequency,disease,CGPLH418,0,5.799242064861706
+length_frequency,disease,CGPLH419,0,3.968097672184257
+length_frequency,disease,CGPLH420,0,4.176124699226007
+length_frequency,disease,CGPLH422,0,7.929816315862026
+length_frequency,disease,CGPLH423,0,3.2366843567628583
+length_frequency,disease,CGPLH424,0,4.4595931546004515
+length_frequency,disease,CGPLH426,0,2.5635696532580554
+length_frequency,disease,CGPLH427,0,5.424064335219876
+length_frequency,disease,CGPLH428,0,3.1496606744025755
+length_frequency,disease,CGPLH429,0,4.109202749541422
+length_frequency,disease,CGPLH430,0,3.1016824003041434
+length_frequency,disease,CGPLH431,0,2.4605986087568787
+length_frequency,disease,CGPLH432,0,7.1996594763503765
+length_frequency,disease,CGPLH434,0,3.0003375313600165
+length_frequency,disease,CGPLH435,0,5.236283204937999
+length_frequency,disease,CGPLH436,0,4.986558760215507
+length_frequency,disease,CGPLH437,0,6.062656845561709
+length_frequency,disease,CGPLH438,0,6.605374357819011
+length_frequency,disease,CGPLH439,0,10.423721217470556
+length_frequency,disease,CGPLH440,0,2.810711409368721
+length_frequency,disease,CGPLH441,0,6.254750840481115
+length_frequency,disease,CGPLH442,0,3.117689921186433
+length_frequency,disease,CGPLH443,0,8.774377569245777
+length_frequency,disease,CGPLH444,0,13.760002927911192
+length_frequency,disease,CGPLH445,0,10.41898228656117
+length_frequency,disease,CGPLH446,0,2.175691555595659
+length_frequency,disease,CGPLH447,0,3.564143911568748
+length_frequency,disease,CGPLH448,0,5.827343724865055
+length_frequency,disease,CGPLH449,0,3.342565555254463
+length_frequency,disease,CGPLH450,0,5.358567511715926
+length_frequency,disease,CGPLH451,0,5.535923109791029
+length_frequency,disease,CGPLH452,0,2.634095887246941
+length_frequency,disease,CGPLH453,0,9.377285009183975
+length_frequency,disease,CGPLH455,0,6.646688626844927
+length_frequency,disease,CGPLH455_Rep,0,6.4953415285961515
+length_frequency,disease,CGPLH456,0,3.486163042093843
+length_frequency,disease,CGPLH457,0,4.663127995264376
+length_frequency,disease,CGPLH458,0,2.84136877334459
+length_frequency,disease,CGPLH459,0,3.1400294089692036
+length_frequency,disease,CGPLH460,0,4.470928744601649
+length_frequency,disease,CGPLH463,0,7.739307000000191
+length_frequency,disease,CGPLH464,0,6.513063351296567
+length_frequency,disease,CGPLH465,0,2.1985872789645646
+length_frequency,disease,CGPLH466,0,5.895623815454894
+length_frequency,disease,CGPLH466_Rep,0,5.286861942173259
+length_frequency,disease,CGPLH467,0,1.9713780590059433
+length_frequency,disease,CGPLH468,0,5.2995839229790995
+length_frequency,disease,CGPLH469,0,5.388780395273745
+length_frequency,disease,CGPLH470,0,3.32941554752893
+length_frequency,disease,CGPLH471,0,3.8860749645667374
+length_frequency,disease,CGPLH472,0,6.190329672271942
+length_frequency,disease,CGPLH473,0,4.118724677905767
+length_frequency,disease,CGPLH474,0,5.065109208499093
+length_frequency,disease,CGPLH475,0,3.3178089261348425
+length_frequency,disease,CGPLH476,0,5.356060576690455
+length_frequency,disease,CGPLH477,0,3.465729184541546
+length_frequency,disease,CGPLH478,0,2.7962585991994824
+length_frequency,disease,CGPLH479,0,4.095706704153137
+length_frequency,disease,CGPLH480,0,6.963774027769542
+length_frequency,disease,CGPLH481,0,1.7881552104543226
+length_frequency,disease,CGPLH482,0,3.63465807595998
+length_frequency,disease,CGPLH483,0,3.6295478830008645
+length_frequency,disease,CGPLH484,0,5.362092598473353
+length_frequency,disease,CGPLH485,0,2.5488419927915418
+length_frequency,disease,CGPLH486,0,4.459879681064999
+length_frequency,disease,CGPLH487,0,5.014683806828624
+length_frequency,disease,CGPLH488,0,2.3256887627786567
+length_frequency,disease,CGPLH490,0,3.9827220287148295
+length_frequency,disease,CGPLH491,0,5.0272561526113915
+length_frequency,disease,CGPLH492,0,8.443924159741497
+length_frequency,disease,CGPLH493,0,5.242298171643857
+length_frequency,disease,CGPLH494,0,3.1738258693187738
+length_frequency,disease,CGPLH495,0,6.329619182237292
+length_frequency,disease,CGPLH496,0,5.2711723298181425
+length_frequency,disease,CGPLH497,0,3.8513500985577753
+length_frequency,disease,CGPLH497_Rep,0,5.176408637872242
+length_frequency,disease,CGPLH498,0,4.01673349082459
+length_frequency,disease,CGPLH499,0,3.3821720822037764
+length_frequency,disease,CGPLH500,0,4.364738037559262
+length_frequency,disease,CGPLH501,0,3.211197303694991
+length_frequency,disease,CGPLH502,0,3.9602894760558875
+length_frequency,disease,CGPLH503,0,7.143901717565801
+length_frequency,disease,CGPLH504,0,4.780193074420836
+length_frequency,disease,CGPLH504_Rep,0,5.200365982955037
+length_frequency,disease,CGPLH505,0,6.0322428527163074
+length_frequency,disease,CGPLH506,0,2.845198955947393
+length_frequency,disease,CGPLH507,0,4.057242976884542
+length_frequency,disease,CGPLH508,0,5.6786451894966135
+length_frequency,disease,CGPLH508_Rep,0,7.627586462902175
+length_frequency,disease,CGPLH509,0,3.1380507141112335
+length_frequency,disease,CGPLH510,0,3.0328469149826343
+length_frequency,disease,CGPLH512,0,2.4186336611476777
+length_frequency,disease,CGPLH513,0,7.758436572976388
+length_frequency,disease,CGPLH514,0,3.3197577268523095
+length_frequency,disease,CGPLH515,0,4.058949462968633
+length_frequency,disease,CGPLH516,0,3.8024876891361297
+length_frequency,disease,CGPLH517_Rep,0,3.4669828387099164
+length_frequency,disease,CGPLH519,0,7.361248936972756
+length_frequency,disease,CGPLH520,0,7.366320796535641
+length_frequency,disease,CGPLH625,0,6.171544868528232
+length_frequency,disease,CGPLH625_Rep,0,6.878415189557965
+length_frequency,disease,CGPLH626,0,6.382153962276855
+length_frequency,disease,CGPLH639,0,10.54086918850233
+length_frequency,disease,CGPLH640,0,8.246254571334692
+length_frequency,disease,CGPLH642,0,3.238733043456602
+length_frequency,disease,CGPLH643,0,3.9550963257715357
+length_frequency,disease,CGPLH644,0,5.717480915848991
+length_frequency,disease,CGPLH646,0,12.361806663274791
+length_frequency,disease,CGPLLU13,1,8.377451875837268
+length_frequency,disease,CGPLLU14,1,7.647131743467117
+length_frequency,disease,CGPLLU144,1,13.4982456973822
+length_frequency,disease,CGPLLU147,1,6.9000338313569305
+length_frequency,disease,CGPLLU161,1,10.400444714788472
+length_frequency,disease,CGPLLU162,1,9.236963747130964
+length_frequency,disease,CGPLLU163,1,6.529287529561484
+length_frequency,disease,CGPLLU165,1,14.549905782578383
+length_frequency,disease,CGPLLU168,1,13.098705505295106
+length_frequency,disease,CGPLLU169,1,14.123518366956828
+length_frequency,disease,CGPLLU175,1,10.069843752366044
+length_frequency,disease,CGPLLU176,1,8.824770591195545
+length_frequency,disease,CGPLLU177,1,9.66323964783474
+length_frequency,disease,CGPLLU180,1,6.931047207658511
+length_frequency,disease,CGPLLU198,1,9.63731124636555
+length_frequency,disease,CGPLLU202,1,14.577240141719257
+length_frequency,disease,CGPLLU203,1,10.538431213085083
+length_frequency,disease,CGPLLU205,1,16.202686151378657
+length_frequency,disease,CGPLLU206,1,21.854782780513407
+length_frequency,disease,CGPLLU207,1,9.764390699656694
+length_frequency,disease,CGPLLU208,1,10.383452390755318
+length_frequency,disease,CGPLLU209,1,11.581712349077547
+length_frequency,disease,CGPLLU244,1,9.785435676490117
+length_frequency,disease,CGPLLU245,1,7.490910272881089
+length_frequency,disease,CGPLLU246,1,10.916593356748846
+length_frequency,disease,CGPLLU264,1,10.955485780480267
+length_frequency,disease,CGPLLU265,1,7.955998447766197
+length_frequency,disease,CGPLLU266,1,6.966792152295292
+length_frequency,disease,CGPLLU267,1,5.869863348016588
+length_frequency,disease,CGPLLU269,1,8.407296210966985
+length_frequency,disease,CGPLLU271,1,7.682735630513924
+length_frequency,disease,CGPLLU43,1,5.910426560189045
+length_frequency,disease,CGPLLU86,1,12.296889070287758
+length_frequency,disease,CGPLLU88,1,9.406111408997571
+length_frequency,disease,CGPLLU89,1,8.907497896769035
+length_frequency,disease,CGPLOV11,1,8.211235469634671
+length_frequency,disease,CGPLOV12,1,5.984212142615663
+length_frequency,disease,CGPLOV13,1,10.348589511319865
+length_frequency,disease,CGPLOV15,1,9.43238055208614
+length_frequency,disease,CGPLOV16,1,14.231401774328624
+length_frequency,disease,CGPLOV19,1,9.372621574171063
+length_frequency,disease,CGPLOV20,1,7.948972141580913
+length_frequency,disease,CGPLOV21,1,13.688495738283928
+length_frequency,disease,CGPLOV22,1,12.992236345271058
+length_frequency,disease,CGPLOV23,1,8.698259460859072
+length_frequency,disease,CGPLOV24,1,7.889486260816563
+length_frequency,disease,CGPLOV25,1,7.9461796078604685
+length_frequency,disease,CGPLOV28,1,6.785764504261429
+length_frequency,disease,CGPLOV31,1,6.003724500072069
+length_frequency,disease,CGPLOV32,1,8.336668523956371
+length_frequency,disease,CGPLOV37,1,11.188334944493318
+length_frequency,disease,CGPLOV38,1,7.584082674842663
+length_frequency,disease,CGPLOV40,1,10.867507463482887
+length_frequency,disease,CGPLOV41,1,6.494233798007172
+length_frequency,disease,CGPLOV42,1,10.999350226528703
+length_frequency,disease,CGPLOV43,1,6.560194616894319
+length_frequency,disease,CGPLOV44,1,11.472594507064136
+length_frequency,disease,CGPLOV46,1,6.157660786770915
+length_frequency,disease,CGPLOV47,1,12.415537446821599
+length_frequency,disease,CGPLOV48,1,6.1447246223433565
+length_frequency,disease,CGPLOV49,1,12.13605941624719
+length_frequency,disease,CGPLOV50,1,10.400458202567846
+length_frequency,disease,CGPLPA113,1,14.368103610653291
+length_frequency,disease,CGPLPA114,1,12.355090287636616
+length_frequency,disease,CGPLPA115,1,12.28354781418289
+length_frequency,disease,CGPLPA117,1,7.206762359043625
+length_frequency,disease,CGPLPA118,1,7.157305069738485
+length_frequency,disease,CGPLPA122,1,15.077184626081586
+length_frequency,disease,CGPLPA124,1,10.19133139195969
+length_frequency,disease,CGPLPA125,1,7.031786528280722
+length_frequency,disease,CGPLPA126,1,14.376202280820596
+length_frequency,disease,CGPLPA127,1,8.687903489838089
+length_frequency,disease,CGPLPA128,1,7.333717486531187
+length_frequency,disease,CGPLPA129,1,12.608673127450253
+length_frequency,disease,CGPLPA130,1,8.311944615087297
+length_frequency,disease,CGPLPA131,1,15.336338217924082
+length_frequency,disease,CGPLPA134,1,23.780638913784333
+length_frequency,disease,CGPLPA135,1,11.292687880797157
+length_frequency,disease,CGPLPA136,1,15.733568524597011
+length_frequency,disease,CGPLPA137,1,8.46109911539829
+length_frequency,disease,CGPLPA139,1,10.76457317931933
+length_frequency,disease,CGPLPA14,1,8.8314802524908
+length_frequency,disease,CGPLPA15,1,10.46862270143012
+length_frequency,disease,CGPLPA155,1,12.853747718472954
+length_frequency,disease,CGPLPA156,1,9.023322203743243
+length_frequency,disease,CGPLPA165,1,8.59939844141079
+length_frequency,disease,CGPLPA168,1,18.947074384713282
+length_frequency,disease,CGPLPA17,1,12.14531070290197
+length_frequency,disease,CGPLPA184,1,14.976228869801819
+length_frequency,disease,CGPLPA187,1,12.1984240501173
+length_frequency,disease,CGPLPA23,1,10.842564008208589
+length_frequency,disease,CGPLPA25,1,11.06140556579652
+length_frequency,disease,CGPLPA26,1,11.97040356524625
+length_frequency,disease,CGPLPA28,1,12.47491745178587
+length_frequency,disease,CGPLPA33,1,9.662636957974312
+length_frequency,disease,CGPLPA34,1,8.205733847953047
+length_frequency,disease,CGPLPA38,1,9.111175996783839
+length_frequency,disease,CGPLPA39,1,9.702466520378294
+length_frequency,disease,CGPLPA40,1,13.345640941255894
+length_frequency,disease,CGPLPA42,1,6.867969565049795
+length_frequency,disease,CGPLPA46,1,9.428951673048326
+length_frequency,disease,CGPLPA47,1,10.9396438064239
+length_frequency,disease,CGPLPA48,1,8.009042629061032
+length_frequency,disease,CGPLPA52,1,7.700515483214472
+length_frequency,disease,CGPLPA53,1,15.934146971847518
+length_frequency,disease,CGPLPA58,1,9.260895066899739
+length_frequency,disease,CGPLPA67,1,10.30132244963078
+length_frequency,disease,CGPLPA69,1,7.7155302772804015
+length_frequency,disease,CGPLPA71,1,6.596463164807428
+length_frequency,disease,CGPLPA74,1,10.039695382844501
+length_frequency,disease,CGPLPA76,1,16.629120869869006
+length_frequency,disease,CGPLPA85,1,11.398608607055229
+length_frequency,disease,CGPLPA86,1,8.19739538122308
+length_frequency,disease,CGPLPA92,1,7.899070142904199
+length_frequency,disease,CGPLPA93,1,12.834627626203476
+length_frequency,disease,CGPLPA94,1,19.330348783862366
+length_frequency,disease,CGPLPA95,1,8.167099616254735
+length_frequency,disease,CGST102,1,5.9793879793136675
+length_frequency,disease,CGST11,1,9.324791128149547
+length_frequency,disease,CGST110,1,5.901810044475322
+length_frequency,disease,CGST114,1,10.31851667497137
+length_frequency,disease,CGST13,1,8.586684986415124
+length_frequency,disease,CGST131,1,19.41577198098976
+length_frequency,disease,CGST141,1,8.723147964896974
+length_frequency,disease,CGST18,1,9.872426855885951
+length_frequency,disease,CGST21,1,97.34928830523884
+length_frequency,disease,CGST26,1,6.2593257036745715
+length_frequency,disease,CGST28,1,9.704441232382205
+length_frequency,disease,CGST30,1,10.086830010261775
+length_frequency,disease,CGST32,1,9.693408045808313
+length_frequency,disease,CGST33,1,7.536267088064409
+length_frequency,disease,CGST38,1,6.6589792690422325
+length_frequency,disease,CGST39,1,15.988572937334467
+length_frequency,disease,CGST41,1,7.113985063261029
+length_frequency,disease,CGST45,1,11.389757516424703
+length_frequency,disease,CGST47,1,8.898041464566278
+length_frequency,disease,CGST48,1,8.246740064738226
+length_frequency,disease,CGST53,1,32.91836186357146
+length_frequency,disease,CGST58,1,9.378579472422071
+length_frequency,disease,CGST67,1,14.486947770279478
+length_frequency,disease,CGST77,1,27.824959284839522
+length_frequency,disease,CGST80,1,7.9442700842323335
+length_frequency,disease,CGST81,1,12.386371001539363
+length_frequency,disease,GM1100,1,10.393343309139386
+length_frequency,disease,H195,1,9.819786953857905
+length_frequency,disease,H196,1,12.891245086563055
+length_frequency,disease,H199,1,13.1623528909008
+length_frequency,disease,H200,1,23.13379086708514
+length_frequency,disease,H203,1,9.42392555914828
+length_frequency,disease,H206,1,15.263565716065091
+length_frequency,disease,H209,1,15.270359452676875
+length_frequency,disease,H210,1,10.820788518454407
+length_frequency,disease,H214,1,15.339445747430428
+length_frequency,disease,H216,1,7.035351816934207
+length_frequency,disease,H217,1,92.4903699758459
+length_frequency,disease,H218,1,25.027604910509243
+length_frequency,disease,H220,1,15.165649252066522
+length_frequency,disease,H221,1,17.508475638284853
+length_frequency,disease,H223,1,31.190613802926734
+length_frequency,disease,H225,1,14.726723848708057
+length_frequency,disease,H226,1,14.663060581542343
+length_frequency,disease,H228,1,9.757659790992777
+length_frequency,disease,H230,1,15.398116985027361
+length_frequency,disease,H232,1,9.146784215658913
+length_frequency,disease,H234,1,30.283334295161918
+length_frequency,disease,H235,1,43.82404549722729
+length_frequency,disease,H239,1,7.699240016914229
+length_frequency,disease,H247,1,18.23309279989128
+length_frequency,disease,H249,1,11.40292391839054
+length_frequency,disease,H250,1,29.099892310469492
+length_frequency,disease,H252,1,24.970601485093493
+length_frequency,disease,H253,1,52.06735914260687
+length_frequency,disease,H254,1,29.318836061921964
+length_frequency,disease,H256,1,8.000337006672124
+length_frequency,disease,H258,1,11.774649300111287
+length_frequency,disease,H261,1,12.60885064804244
+length_frequency,disease,H262,1,10.279232269330043
+length_frequency,disease,H263,1,22.949544380952897
+length_frequency,disease,H264,1,18.78924362701555
+length_frequency,disease,H266,1,8.645616053070844
+length_frequency,disease,H267,1,19.059481436820526
+length_frequency,disease,H269,1,14.505296454664355
+length_frequency,disease,H270,1,26.0704100538836
+length_frequency,disease,H272,1,6.963949803095088
+length_frequency,disease,H275,1,14.197367278870956
+length_frequency,disease,H278,1,10.89597868103274
+length_frequency,disease,H283,1,19.82403351383317
+length_frequency,disease,H285,1,36.693495647702356
+length_frequency,disease,H288,1,14.195599168248854
+length_frequency,disease,H291,1,16.99053476566479
+length_frequency,disease,H292,1,14.25638566108708
+length_frequency,disease,H296,1,31.86903366484202
+length_frequency,disease,H300,1,12.340549802757636
+length_frequency,disease,H301,1,13.081698523568086
+length_frequency,disease,H311,1,23.35156936971774
+length_frequency,disease,H315,1,28.17526706651795
+length_frequency,disease,H321,1,7.458334837632991
+length_frequency,disease,H323,1,23.1100348358053
+length_frequency,disease,H324,1,12.21063999284865
+length_frequency,disease,H341,1,13.281787725972888
+length_frequency,disease,H342,1,29.482971214737486
+length_frequency,disease,H344,1,26.3451775064421
+length_frequency,disease,H352,1,18.57838982239726
+length_frequency,disease,H374,1,137.3561159354747
+length_frequency,disease,H377,1,149.62765475329158
+length_frequency,disease,H381,1,65.54324813276659
+length_frequency,disease,H390,1,60.06810721410982
+length_frequency,disease,H402,1,17.652283876995323
+length_frequency,disease,H419,1,38.69017451969227
+length_frequency,disease,H420,1,10.669522495253052
+length_frequency,disease,H421,1,7.719701085081062
+length_frequency,disease,H423,1,34.729738750133116
+length_frequency,disease,H424,1,16.54917404864448
+length_frequency,disease,H433,1,10.716454164091628
+length_frequency,disease,H435,1,15.389405022620073
+length_frequency,disease,H436,1,19.65946643010481
+length_frequency,disease,HOT386,1,33.5979646591808
+length_frequency,disease,HOT393,1,27.517818084218845
+length_frequency,disease,HOT394,1,13.110544638640757
+length_frequency,disease,HOT397,1,17.409533660218546
+length_frequency,disease,HOT403,1,16.817996592596145
+length_frequency,disease,HOT410,1,35.50491012726339
+length_frequency,disease,HOT412,1,18.454872256819897
+length_frequency,disease,HOT413,1,15.060043530792504
+length_frequency,disease,HOT414,1,6.902253325291491
+length_frequency,disease,HOT417,1,15.683168024088875
+length_frequency,disease,HOT422,1,11.934492798805989
+length_frequency,disease,HOT425,1,15.329406772859526
+length_frequency,disease,HOT426,1,14.269285955203097
+length_frequency,disease,HOT427,1,12.836872458154303
+length_frequency,disease,HOT428,1,27.568485767721434
+length_frequency,disease,HOT432,1,14.1132643864897
+length_frequency,disease,IC02,1,26.26949490897577
+length_frequency,disease,IC03,1,24.057941803362866
+length_frequency,disease,IC04,1,18.872049609782415
+length_frequency,disease,IC05,1,27.151505047600715
+length_frequency,disease,IC06,1,37.39816101655415
+length_frequency,disease,IC08,1,34.04748459167948
+length_frequency,disease,IC09,1,31.170741594910304
+length_frequency,disease,IC10,1,37.24770477284103
+length_frequency,disease,IC11,1,35.09258693128339
+length_frequency,disease,IC12,1,30.488656922469957
+length_frequency,disease,IC14,1,34.97106075502844
+length_frequency,disease,IC16,1,30.253860066812127
+length_frequency,disease,IC18,1,29.14992144250053
+length_frequency,disease,IC19,1,30.303882702392567
+length_frequency,disease,IC21,1,35.052855044254535
+length_frequency,disease,IC22,1,16.714103122922428
+length_frequency,disease,IC23,1,26.434360263580597
+length_frequency,disease,IC24,1,32.95910289366408
+length_frequency,disease,IC27,1,50.8820688241551
+length_frequency,disease,IC28,1,33.98581592535841
+length_frequency,disease,IC29,1,40.64592505364357
+length_frequency,disease,IC30,1,45.43867995395676
+length_frequency,disease,IC32,1,42.943147510045904
+length_frequency,disease,IC33,1,39.20574686753676
+length_frequency,disease,IC34,1,33.03783025164801
+length_frequency,disease,IC36,1,27.943750459569785
+length_frequency,disease,IC38,1,31.824558145138607
+length_frequency,disease,IC39,1,24.582435560063537
+length_frequency,disease,IC40,1,40.74417725472406
+length_frequency,disease,IC41,1,39.496334024150855
+length_frequency,disease,IC42,1,30.505661036074713
+length_frequency,disease,IC43,1,36.29866864255225
+length_frequency,disease,IC44,1,28.644540330668626
+length_frequency,disease,IC46,1,28.05514725141142
+length_frequency,disease,IC47,1,36.78752709263362
+length_frequency,disease,IC48,1,42.28492245383077
+length_frequency,disease,IH03,0,30.56492721962145

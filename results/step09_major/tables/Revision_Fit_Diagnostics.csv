@@ -1,0 +1,191 @@
+method,train_n,test_n,train_studies,test_studies,iterations,converged,effective_pipeline,radius,alpha,icc_estimable,icc_bypassed
+Global_Zscore,80,41,"Jiang et al, 2015","Jiang et al, 2015",341,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,81,40,"Jiang et al, 2015","Jiang et al, 2015",306,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,81,40,"Jiang et al, 2015","Jiang et al, 2015",378,True,Global_Zscore,3,0.25,False,False
+Hybrid_MultiScale,80,41,"Jiang et al, 2015","Jiang et al, 2015",321,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,81,40,"Jiang et al, 2015","Jiang et al, 2015",342,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,81,40,"Jiang et al, 2015","Jiang et al, 2015",371,True,Hybrid_MultiScale,3,0.25,False,False
+Local_LSN,80,41,"Jiang et al, 2015","Jiang et al, 2015",257,True,LSN_only,3,0.0,False,True
+Local_LSN,81,40,"Jiang et al, 2015","Jiang et al, 2015",355,True,LSN_only,3,0.0,False,True
+Local_LSN,81,40,"Jiang et al, 2015","Jiang et al, 2015",303,True,LSN_only,3,0.0,False,True
+Raw_Ratio,80,41,"Jiang et al, 2015","Jiang et al, 2015",742,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,81,40,"Jiang et al, 2015","Jiang et al, 2015",835,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,81,40,"Jiang et al, 2015","Jiang et al, 2015",828,True,Raw_Ratio,3,0.25,False,False
+Global_Zscore,284,143,"Cristiano et al, 2019","Cristiano et al, 2019",353,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,285,142,"Cristiano et al, 2019","Cristiano et al, 2019",319,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,285,142,"Cristiano et al, 2019","Cristiano et al, 2019",361,True,Global_Zscore,3,0.25,False,False
+Hybrid_MultiScale,284,143,"Cristiano et al, 2019","Cristiano et al, 2019",372,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,285,142,"Cristiano et al, 2019","Cristiano et al, 2019",303,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,285,142,"Cristiano et al, 2019","Cristiano et al, 2019",384,True,Hybrid_MultiScale,3,0.25,False,False
+Local_LSN,284,143,"Cristiano et al, 2019","Cristiano et al, 2019",412,True,LSN_only,3,0.0,False,True
+Local_LSN,285,142,"Cristiano et al, 2019","Cristiano et al, 2019",322,True,LSN_only,3,0.0,False,True
+Local_LSN,285,142,"Cristiano et al, 2019","Cristiano et al, 2019",360,True,LSN_only,3,0.0,False,True
+Raw_Ratio,284,143,"Cristiano et al, 2019","Cristiano et al, 2019",809,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,285,142,"Cristiano et al, 2019","Cristiano et al, 2019",764,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,285,142,"Cristiano et al, 2019","Cristiano et al, 2019",775,True,Raw_Ratio,3,0.25,False,False
+Global_Zscore,105,53,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",452,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",295,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",421,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,37,121,"Snyder et al, 2016","Jiang et al, 2015",432,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,121,37,"Jiang et al, 2015","Snyder et al, 2016",245,True,Global_Zscore,3,0.25,False,False
+Hybrid_MultiScale,105,53,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",374,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",274,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",312,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,37,121,"Snyder et al, 2016","Jiang et al, 2015",475,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,121,37,"Jiang et al, 2015","Snyder et al, 2016",314,True,Hybrid_MultiScale,3,0.25,False,False
+EB-TargetMap,105,53,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",799,True,InFold_ComBat,3,0.25,True,False
+EB-TargetMap,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",763,True,InFold_ComBat,3,0.25,True,False
+EB-TargetMap,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",801,True,InFold_ComBat,3,0.25,True,False
+Local_LSN_ICC,105,53,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",390,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN_ICC,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",374,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN_ICC,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",370,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN,37,121,"Snyder et al, 2016","Jiang et al, 2015",555,True,LSN_only,3,0.0,False,True
+Local_LSN,121,37,"Jiang et al, 2015","Snyder et al, 2016",385,True,LSN_only,3,0.0,False,True
+Raw_Ratio,105,53,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",682,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",669,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,106,52,"Jiang et al, 2015;Snyder et al, 2016","Jiang et al, 2015;Snyder et al, 2016",639,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,37,121,"Snyder et al, 2016","Jiang et al, 2015",887,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,121,37,"Jiang et al, 2015","Snyder et al, 2016",824,True,Raw_Ratio,3,0.25,False,False
+Global_Zscore,309,155,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",340,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",343,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",343,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,37,427,"Snyder et al, 2016","Cristiano et al, 2019",432,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,427,37,"Cristiano et al, 2019","Snyder et al, 2016",364,True,Global_Zscore,3,0.25,False,False
+Hybrid_MultiScale,309,155,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",378,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",306,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",374,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,37,427,"Snyder et al, 2016","Cristiano et al, 2019",475,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,427,37,"Cristiano et al, 2019","Snyder et al, 2016",384,True,Hybrid_MultiScale,3,0.25,False,False
+EB-TargetMap,309,155,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",792,True,InFold_ComBat,3,0.25,True,False
+EB-TargetMap,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",793,True,InFold_ComBat,3,0.25,True,False
+EB-TargetMap,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",790,True,InFold_ComBat,3,0.25,True,False
+Local_LSN_ICC,309,155,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",394,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN_ICC,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",344,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN_ICC,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",415,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN,37,427,"Snyder et al, 2016","Cristiano et al, 2019",555,True,LSN_only,3,0.0,False,True
+Local_LSN,427,37,"Cristiano et al, 2019","Snyder et al, 2016",389,True,LSN_only,3,0.0,False,True
+Raw_Ratio,309,155,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",1016,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",1076,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,310,154,"Cristiano et al, 2019;Snyder et al, 2016","Cristiano et al, 2019;Snyder et al, 2016",1034,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,37,427,"Snyder et al, 2016","Cristiano et al, 2019",887,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,427,37,"Cristiano et al, 2019","Snyder et al, 2016",736,True,Raw_Ratio,3,0.25,False,False
+Global_Zscore,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",317,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",363,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",374,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,121,427,"Jiang et al, 2015","Cristiano et al, 2019",245,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,427,121,"Cristiano et al, 2019","Jiang et al, 2015",364,True,Global_Zscore,3,0.25,False,False
+Hybrid_MultiScale,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",355,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",384,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",331,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,121,427,"Jiang et al, 2015","Cristiano et al, 2019",314,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,427,121,"Cristiano et al, 2019","Jiang et al, 2015",384,True,Hybrid_MultiScale,3,0.25,False,False
+EB-TargetMap,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",641,True,InFold_ComBat,3,0.25,True,False
+EB-TargetMap,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",729,True,InFold_ComBat,3,0.25,True,False
+EB-TargetMap,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",757,True,InFold_ComBat,3,0.25,True,False
+Local_LSN_ICC,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",394,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN_ICC,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",361,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN_ICC,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",316,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN,121,427,"Jiang et al, 2015","Cristiano et al, 2019",385,True,LSN_only,3,0.0,False,True
+Local_LSN,427,121,"Cristiano et al, 2019","Jiang et al, 2015",389,True,LSN_only,3,0.0,False,True
+Raw_Ratio,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",681,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",784,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",788,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,121,427,"Jiang et al, 2015","Cristiano et al, 2019",824,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,427,121,"Cristiano et al, 2019","Jiang et al, 2015",736,True,Raw_Ratio,3,0.25,False,False
+Global_Zscore,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",317,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",363,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",374,True,Global_Zscore,3,0.25,True,False
+Global_Zscore,121,427,"Jiang et al, 2015","Cristiano et al, 2019",245,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,427,121,"Cristiano et al, 2019","Jiang et al, 2015",364,True,Global_Zscore,3,0.25,False,False
+Hybrid_MultiScale,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",355,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",384,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",331,True,Hybrid_MultiScale,3,0.25,True,False
+Hybrid_MultiScale,121,427,"Jiang et al, 2015","Cristiano et al, 2019",314,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,427,121,"Cristiano et al, 2019","Jiang et al, 2015",384,True,Hybrid_MultiScale,3,0.25,False,False
+EB-TargetMap,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",641,True,InFold_ComBat,3,0.25,True,False
+EB-TargetMap,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",729,True,InFold_ComBat,3,0.25,True,False
+EB-TargetMap,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",757,True,InFold_ComBat,3,0.25,True,False
+Local_LSN_ICC,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",394,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN_ICC,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",361,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN_ICC,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",316,True,Proposed_LSN_ICC,3,0.25,True,False
+Local_LSN,121,427,"Jiang et al, 2015","Cristiano et al, 2019",385,True,LSN_only,3,0.0,False,True
+Local_LSN,427,121,"Cristiano et al, 2019","Jiang et al, 2015",389,True,LSN_only,3,0.0,False,True
+Raw_Ratio,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",681,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,365,183,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",784,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,366,182,"Cristiano et al, 2019;Jiang et al, 2015","Cristiano et al, 2019;Jiang et al, 2015",788,True,Raw_Ratio,3,0.25,True,False
+Raw_Ratio,121,427,"Jiang et al, 2015","Cristiano et al, 2019",824,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,427,121,"Cristiano et al, 2019","Jiang et al, 2015",736,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,62,31,"Jiang et al, 2015","Jiang et al, 2015",813,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,62,31,"Jiang et al, 2015","Jiang et al, 2015",782,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,62,31,"Jiang et al, 2015","Jiang et al, 2015",856,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,93,306,"Jiang et al, 2015","Cristiano et al, 2019",842,True,Raw_Ratio,3,0.25,False,False
+Global_Zscore,62,31,"Jiang et al, 2015","Jiang et al, 2015",492,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,62,31,"Jiang et al, 2015","Jiang et al, 2015",311,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,62,31,"Jiang et al, 2015","Jiang et al, 2015",483,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,93,306,"Jiang et al, 2015","Cristiano et al, 2019",256,True,Global_Zscore,3,0.25,False,False
+Local_LSN,62,31,"Jiang et al, 2015","Jiang et al, 2015",344,True,LSN_only,3,0.0,False,True
+Local_LSN,62,31,"Jiang et al, 2015","Jiang et al, 2015",367,True,LSN_only,3,0.0,False,True
+Local_LSN,62,31,"Jiang et al, 2015","Jiang et al, 2015",281,True,LSN_only,3,0.0,False,True
+Local_LSN,93,306,"Jiang et al, 2015","Cristiano et al, 2019",295,True,LSN_only,3,0.0,False,True
+Hybrid_MultiScale,62,31,"Jiang et al, 2015","Jiang et al, 2015",378,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,62,31,"Jiang et al, 2015","Jiang et al, 2015",398,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,62,31,"Jiang et al, 2015","Jiang et al, 2015",452,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,93,306,"Jiang et al, 2015","Cristiano et al, 2019",400,True,Hybrid_MultiScale,3,0.25,False,False
+Raw_Ratio,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",744,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",724,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",696,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,306,93,"Cristiano et al, 2019","Jiang et al, 2015",687,True,Raw_Ratio,3,0.25,False,False
+Global_Zscore,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",295,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",329,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",301,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,306,93,"Cristiano et al, 2019","Jiang et al, 2015",353,True,Global_Zscore,3,0.25,False,False
+Local_LSN,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",390,True,LSN_only,3,0.0,False,True
+Local_LSN,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",388,True,LSN_only,3,0.0,False,True
+Local_LSN,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",313,True,LSN_only,3,0.0,False,True
+Local_LSN,306,93,"Cristiano et al, 2019","Jiang et al, 2015",398,True,LSN_only,3,0.0,False,True
+Hybrid_MultiScale,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",359,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",341,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,204,102,"Cristiano et al, 2019","Cristiano et al, 2019",367,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,306,93,"Cristiano et al, 2019","Jiang et al, 2015",357,True,Hybrid_MultiScale,3,0.25,False,False
+Raw_Ratio,80,41,"Jiang et al, 2015","Jiang et al, 2015",742,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,81,40,"Jiang et al, 2015","Jiang et al, 2015",835,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,81,40,"Jiang et al, 2015","Jiang et al, 2015",828,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,121,314,"Jiang et al, 2015","Cristiano et al, 2019",824,True,Raw_Ratio,3,0.25,False,False
+Global_Zscore,80,41,"Jiang et al, 2015","Jiang et al, 2015",341,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,81,40,"Jiang et al, 2015","Jiang et al, 2015",306,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,81,40,"Jiang et al, 2015","Jiang et al, 2015",378,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,121,314,"Jiang et al, 2015","Cristiano et al, 2019",245,True,Global_Zscore,3,0.25,False,False
+Local_LSN,80,41,"Jiang et al, 2015","Jiang et al, 2015",257,True,LSN_only,3,0.0,False,True
+Local_LSN,81,40,"Jiang et al, 2015","Jiang et al, 2015",355,True,LSN_only,3,0.0,False,True
+Local_LSN,81,40,"Jiang et al, 2015","Jiang et al, 2015",303,True,LSN_only,3,0.0,False,True
+Local_LSN,121,314,"Jiang et al, 2015","Cristiano et al, 2019",385,True,LSN_only,3,0.0,False,True
+Hybrid_MultiScale,80,41,"Jiang et al, 2015","Jiang et al, 2015",321,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,81,40,"Jiang et al, 2015","Jiang et al, 2015",342,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,81,40,"Jiang et al, 2015","Jiang et al, 2015",371,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,121,314,"Jiang et al, 2015","Cristiano et al, 2019",314,True,Hybrid_MultiScale,3,0.25,False,False
+Raw_Ratio,209,105,"Cristiano et al, 2019","Cristiano et al, 2019",709,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,209,105,"Cristiano et al, 2019","Cristiano et al, 2019",697,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,210,104,"Cristiano et al, 2019","Cristiano et al, 2019",653,True,Raw_Ratio,3,0.25,False,False
+Raw_Ratio,314,121,"Cristiano et al, 2019","Jiang et al, 2015",656,True,Raw_Ratio,3,0.25,False,False
+Global_Zscore,209,105,"Cristiano et al, 2019","Cristiano et al, 2019",405,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,209,105,"Cristiano et al, 2019","Cristiano et al, 2019",388,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,210,104,"Cristiano et al, 2019","Cristiano et al, 2019",337,True,Global_Zscore,3,0.25,False,False
+Global_Zscore,314,121,"Cristiano et al, 2019","Jiang et al, 2015",371,True,Global_Zscore,3,0.25,False,False
+Local_LSN,209,105,"Cristiano et al, 2019","Cristiano et al, 2019",373,True,LSN_only,3,0.0,False,True
+Local_LSN,209,105,"Cristiano et al, 2019","Cristiano et al, 2019",421,True,LSN_only,3,0.0,False,True
+Local_LSN,210,104,"Cristiano et al, 2019","Cristiano et al, 2019",352,True,LSN_only,3,0.0,False,True
+Local_LSN,314,121,"Cristiano et al, 2019","Jiang et al, 2015",363,True,LSN_only,3,0.0,False,True
+Hybrid_MultiScale,209,105,"Cristiano et al, 2019","Cristiano et al, 2019",415,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,209,105,"Cristiano et al, 2019","Cristiano et al, 2019",373,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,210,104,"Cristiano et al, 2019","Cristiano et al, 2019",331,True,Hybrid_MultiScale,3,0.25,False,False
+Hybrid_MultiScale,314,121,"Cristiano et al, 2019","Jiang et al, 2015",383,True,Hybrid_MultiScale,3,0.25,False,False
+Raw_Ratio,158,427,"Jiang et al, 2015;Snyder et al, 2016","Cristiano et al, 2019",637,True,Raw_Ratio,3,0.25,True,False
+Global_Zscore,158,427,"Jiang et al, 2015;Snyder et al, 2016","Cristiano et al, 2019",440,True,Global_Zscore,3,0.25,True,False
+Local_LSN_ICC,158,427,"Jiang et al, 2015;Snyder et al, 2016","Cristiano et al, 2019",379,True,Proposed_LSN_ICC,3,0.25,True,False
+Hybrid_MultiScale,158,427,"Jiang et al, 2015;Snyder et al, 2016","Cristiano et al, 2019",341,True,Hybrid_MultiScale,3,0.25,True,False
+EB-TargetMap,158,427,"Jiang et al, 2015;Snyder et al, 2016","Cristiano et al, 2019",845,True,InFold_ComBat,3,0.25,True,False
+Raw_Ratio,464,121,"Cristiano et al, 2019;Snyder et al, 2016","Jiang et al, 2015",1043,True,Raw_Ratio,3,0.25,True,False
+Global_Zscore,464,121,"Cristiano et al, 2019;Snyder et al, 2016","Jiang et al, 2015",345,True,Global_Zscore,3,0.25,True,False
+Local_LSN_ICC,464,121,"Cristiano et al, 2019;Snyder et al, 2016","Jiang et al, 2015",441,True,Proposed_LSN_ICC,3,0.25,True,False
+Hybrid_MultiScale,464,121,"Cristiano et al, 2019;Snyder et al, 2016","Jiang et al, 2015",403,True,Hybrid_MultiScale,3,0.25,True,False
+EB-TargetMap,464,121,"Cristiano et al, 2019;Snyder et al, 2016","Jiang et al, 2015",723,True,InFold_ComBat,3,0.25,True,False

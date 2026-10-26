@@ -1,9 +1,9 @@
 {
   "cff-version": "1.2.0",
-  "message": "Please cite the manuscript and versioned code release if used.",
+  "message": "Please cite this software version and its manuscript. The v0.2.0 package is prepared locally; its archival DOI is not yet assigned.",
   "type": "software",
   "title": "cfDNA Scale Tradeoff Audit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "authors": [
     {
       "family-names": "Ma",
@@ -21,6 +21,5 @@
     "fragmentomics",
     "cross-study validation",
     "normalization"
-  ],
-  "doi": "10.5281/zenodo.23653766"
+  ]
 }

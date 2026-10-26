@@ -1,0 +1,19 @@
+{
+  "version": "v0.2.0",
+  "status": "prepared_locally_not_published",
+  "classifier_fits": 0,
+  "model_selection_runs": 0,
+  "clinical_statistics_recomputed": false,
+  "patients": 585,
+  "stage_counts": {
+    "II": 102,
+    "I": 44,
+    "IV": 35,
+    "III": 34,
+    "0": 2,
+    "X": 1
+  },
+  "stage_total": 218,
+  "source_metadata_sha256": "81a0c124ff1003121e7c4ea5164ab1a20c445582fbe3e6ce29d9bdac3d598eec",
+  "selected_scores_sha256": "51762390eec1dfd9ea53eaaf78a6b15e710bc26b35ddedb9e8f7113917ba3362"
+}

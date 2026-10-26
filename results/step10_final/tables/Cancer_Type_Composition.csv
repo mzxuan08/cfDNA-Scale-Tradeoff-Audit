@@ -1,0 +1,27 @@
+center,label,cancer_type,n
+"Cristiano et al, 2019",0,Healthy,209
+"Cristiano et al, 2019",1,Bile Duct,23
+"Cristiano et al, 2019",1,Breast,51
+"Cristiano et al, 2019",1,Colorectal,24
+"Cristiano et al, 2019",1,Duodenal,1
+"Cristiano et al, 2019",1,Gastric,26
+"Cristiano et al, 2019",1,Lung,35
+"Cristiano et al, 2019",1,Ovarian,27
+"Cristiano et al, 2019",1,Pancreatic,31
+"Jiang et al, 2015",0,Healthy,32
+"Jiang et al, 2015",1,Hepatocellular,89
+"Snyder et al, 2016",0,Healthy,1
+"Snyder et al, 2016",1,Bladder,2
+"Snyder et al, 2016",1,Breast,5
+"Snyder et al, 2016",1,Colorectal,2
+"Snyder et al, 2016",1,Esophageal,2
+"Snyder et al, 2016",1,Head And Neck,2
+"Snyder et al, 2016",1,Hepatocellular,2
+"Snyder et al, 2016",1,Lung,7
+"Snyder et al, 2016",1,Melanoma,2
+"Snyder et al, 2016",1,Ovarian,2
+"Snyder et al, 2016",1,Pancreatic,3
+"Snyder et al, 2016",1,Prostate,1
+"Snyder et al, 2016",1,Renal,2
+"Snyder et al, 2016",1,Testicular,2
+"Snyder et al, 2016",1,Uterine,2

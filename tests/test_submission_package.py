@@ -47,11 +47,17 @@ def test_citation_and_artifact_integrity_if_package_present():
     if not (out/'verification/reference_verification.json').exists():
         pytest.skip('submission artifacts are not required for research unit tests')
     reference = json.loads((out/'verification/reference_verification.json').read_text(encoding='utf-8'))
-    assert len(reference['references']) == 28
+    expected = 29 if (ROOT/'results/step09_major/reports/analysis_summary.json').exists() else 28
+    assert len(reference['references']) == expected
     item = next(r for r in reference['references'] if r['doi']=='10.1126/sciadv.ady9432')
     assert (item['year'], item['volume'], item['issue'], item['pages_or_article']) == (2026,'12','28','eady9432')
     author = json.loads((ROOT/'config/submission_author.json').read_text(encoding='utf-8'))
-    result = typesetting.validate_package()
+    if expected == 29:
+        revision_spec=importlib.util.spec_from_file_location('major_package',ROOT/'scripts/12_build_major_revision_package.py')
+        revision=importlib.util.module_from_spec(revision_spec);revision_spec.loader.exec_module(revision)
+        result=revision.validate_package()
+    else:
+        result = typesetting.validate_package()
     assert len(result) == 8
     assert result['04_bioRxiv_Integrated_Preprint.docx']['status']=='passed'
 
@@ -64,7 +70,8 @@ def test_typesetting_preserves_every_original_numeric_table_cell():
     source=manuscript.read_text(encoding='utf-8')
     blocks=re.findall(r'(?m)(?:^\|.*\n)+',source)
     tables=Document(ROOT/'submission_package/04_bioRxiv_Integrated_Preprint.docx').tables
-    assert len(blocks)==len(tables)==7
+    assert len(blocks)==len(tables)
+    assert len(tables)==(5 if (ROOT/'results/step09_major/reports/analysis_summary.json').exists() else 7)
     for block,table in zip(blocks,tables):
         rows=[line.strip().strip('|').split('|') for line in block.strip().splitlines()]
         for expected,actual in zip(rows[2:],table.rows[1:]):

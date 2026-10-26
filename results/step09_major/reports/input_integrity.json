@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "protected_unchanged": 1411,
+  "authorized_code_extension": [
+    "src/evaluation.py"
+  ],
+  "changed_scientific_data": []
+}

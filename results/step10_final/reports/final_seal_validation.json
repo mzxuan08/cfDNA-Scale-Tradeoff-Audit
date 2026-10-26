@@ -1,0 +1,91 @@
+{
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "status": "prepared_locally_not_published",
+  "zenodo_doi": null,
+  "historical_zenodo_doi": "10.5281/zenodo.23653766",
+  "classifier_fits_this_polish": 0,
+  "check_status": "passed",
+  "tests": {
+    "tests": 10,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "prior_full_test_run": {
+    "passed": 93,
+    "skipped": 1,
+    "scope": "preceding Step 9"
+  },
+  "current_test_scope": "Read-only publication checks; no classifier fitting",
+  "protected_files": 1479,
+  "rendered_documents": [
+    {
+      "file": "01_Title_Page.docx",
+      "sha256": "fbd1ea023c501817fb32317dbcebf98e0f63bbb2dd931487e9a84f3abe326504",
+      "returncode": 0,
+      "pages": 2,
+      "seconds": 12.172000000020489
+    },
+    {
+      "file": "02_Highlights.docx",
+      "sha256": "078571bf73ad61a2d930070359821cd888a479347c9fa1430292d27294d992cf",
+      "returncode": 0,
+      "pages": 1,
+      "seconds": 11.73399999999674
+    },
+    {
+      "file": "03_Manuscript_DoubleSpaced_LineNumbered.docx",
+      "sha256": "ea624ab29e9492d1ed46a14d3929bad952e22f75c2270899a2af501641426c71",
+      "returncode": 0,
+      "pages": 26,
+      "seconds": 13.25
+    },
+    {
+      "file": "04_bioRxiv_Integrated_Preprint.docx",
+      "sha256": "96786f0ea750fd8886fcecf02a53793b2df221910ab71e6537381e639b8aa26c",
+      "returncode": 0,
+      "pages": 21,
+      "seconds": 16.42099999997299
+    },
+    {
+      "file": "05_Supplementary_Material.docx",
+      "sha256": "009f23877422cf6df0a8f3e57c51df96c35d203b9ef8c89801d2014775ead840",
+      "returncode": 0,
+      "pages": 4,
+      "seconds": 11.98399999999674
+    },
+    {
+      "file": "06_Cover_Letter.docx",
+      "sha256": "804fbdd1dc0af8d8ecfb21e36a7101a9218a0115ed62cf3e2d0a59fa59dd705a",
+      "returncode": 0,
+      "pages": 1,
+      "seconds": 10.329000000027008
+    },
+    {
+      "file": "06b_Cover_Letter_Alternative_CBM.docx",
+      "sha256": "9cce8d00420d78b484c2c95783cff71b78c0658e5471c5ac7a6b0ca1d3eec9a6",
+      "returncode": 0,
+      "pages": 1,
+      "seconds": 10.360000000044238
+    },
+    {
+      "file": "07_Declaration_of_Interest.docx",
+      "sha256": "9e16e483482048c35a6c820fe1f4b2bd1d2bd66b043c5d77473ceb5fb5a3734f",
+      "returncode": 0,
+      "pages": 1,
+      "seconds": 10.170999999972992
+    }
+  ],
+  "pdf_pages": 21,
+  "pdf_sha256": "974079b5cf32be057ed6720b5855d68812ea841017202fd3732cec72f311a2b7",
+  "classifier_fits": 0,
+  "figure_titles": [
+    "Study: unique Type III R²=0.656; p=0.001",
+    "Disease: unique Type III R²=0.008; p=0.001"
+  ],
+  "minimum_embedded_figure_font_pt": 8.755102040816327,
+  "code_files_checked": 57,
+  "public_release_created": false,
+  "biorxiv_revision_uploaded": false
+}

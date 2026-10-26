@@ -1,0 +1,11 @@
+target,method,median_abs_mean_075_minus_025,max_abs_mean_075_minus_025,max_probability_range,distinction
+"Cristiano et al, 2019",EB-TargetMap,0.018004661202430716,0.059218658208847086,0.2622874975204468,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal
+"Cristiano et al, 2019",Global_Zscore,0.0,0.0,0.0,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal
+"Cristiano et al, 2019",Hybrid_MultiScale,0.0,0.0,0.0,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal
+"Cristiano et al, 2019",Local_LSN_ICC,0.0,0.0,0.0,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal
+"Cristiano et al, 2019",Raw_Ratio,0.0,0.0,0.0,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal
+"Jiang et al, 2015",EB-TargetMap,0.06599456101655962,0.11901583433151242,0.692307859659195,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal
+"Jiang et al, 2015",Global_Zscore,0.0,0.0,0.0,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal
+"Jiang et al, 2015",Hybrid_MultiScale,0.0,0.0,0.0,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal
+"Jiang et al, 2015",Local_LSN_ICC,0.0,0.0,0.0,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal
+"Jiang et al, 2015",Raw_Ratio,0.0,0.0,0.0,mean_prevalence_contrast_vs_within_fixed_prevalence_identity_spread; finite_real_patient_diagnostic_not_causal

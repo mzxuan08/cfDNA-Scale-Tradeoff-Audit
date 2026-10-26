@@ -1,0 +1,467 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2026-10-26T02:55:51Z",
+      "timestamp": 1792983351203,
+      "version": "4.5.0"
+    },
+    "reference-count": 50,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2005,
+              10,
+              20
+            ]
+          ],
+          "date-time": "2005-10-20T00:00:00Z",
+          "timestamp": 1129766400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biometrics"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2006,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    <jats:bold>\n                      <jats:sc>Summary</jats:sc>\n                    </jats:bold>\n                    The traditional likelihood\u2010based test for differences in multivariate dispersions is known to be sensitive to nonnormality. It is also impossible to use when the number of variables exceeds the number of observations. Many biological and ecological data sets have many variables, are highly skewed, and are zero\u2010inflated. The traditional test and even some more robust alternatives are also unreasonable in many contexts where measures of dispersion based on a non\u2010Euclidean dissimilarity would be more appropriate. Distance\u2010based tests of homogeneity of multivariate dispersions, which can be based on any dissimilarity measure of choice, are proposed here. They rely on the rotational invariance of either the multivariate centroid or the spatial median to obtain measures of spread using principal coordinate axes. The tests are straightforward multivariate extensions of Levene's test, with\n                    <jats:italic>P</jats:italic>\n                    \u2010values obtained either using the traditional\n                    <jats:italic>F</jats:italic>\n                    \u2010distribution or using permutation of either least\u2010squares or LAD residuals. Examples illustrate the utility of the approach, including the analysis of stabilizing selection in sparrows, biodiversity of New Zealand fish assemblages, and the response of Indonesian reef corals to an El Ni\u00f1o. Monte Carlo simulations from the real data sets show that the distance\u2010based tests are robust and powerful for relevant alternative hypotheses of real differences in spread.\n                  </jats:p>",
+    "DOI": "10.1111/j.1541-0420.2005.00440.x",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2005,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2005-10-20T10:01:33Z",
+      "timestamp": 1129802493000
+    },
+    "page": "245-253",
+    "source": "Crossref",
+    "is-referenced-by-count": 3045,
+    "title": [
+      "Distance\u2010Based Tests for Homogeneity of Multivariate Dispersions"
+    ],
+    "prefix": "10.1093",
+    "volume": "62",
+    "author": [
+      {
+        "given": "Marti J.",
+        "family": "Anderson",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2005,
+          10,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_6_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/76.4.643"
+      },
+      {
+        "key": "e_1_2_6_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1442-9993.2001.01070.pp.x"
+      },
+      {
+        "key": "e_1_2_6_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jembe.2003.12.011"
+      },
+      {
+        "key": "e_1_2_6_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-842X.00156"
+      },
+      {
+        "key": "e_1_2_6_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00401706.1989.10488477"
+      },
+      {
+        "key": "e_1_2_6_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0378-3758(89)90051-7"
+      },
+      {
+        "key": "e_1_2_6_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/36.3-4.317"
+      },
+      {
+        "key": "e_1_2_6_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1942268"
+      },
+      {
+        "key": "e_1_2_6_10_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1111/j.2517-6161.1983.tb01226.x",
+        "article-title": "Statistical uses of the spatial median",
+        "volume": "45",
+        "author": "Brown B. M.",
+        "year": "1983",
+        "journal-title": "Journal of the Royal Statistical Society, Series B"
+      },
+      {
+        "key": "e_1_2_6_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1974.10482955"
+      },
+      {
+        "key": "e_1_2_6_12_1",
+        "unstructured": "Bumpus H. C.(1898).The elimination of the unfit as illustrated by the introduced sparrow Passer domesticus. Biological Lectures Marine Biology Laboratory Woods Hole Massachusetts 11th Lecture pp.209\u2013226."
+      },
+      {
+        "key": "e_1_2_6_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2533050"
+      },
+      {
+        "key": "e_1_2_6_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0981(95)00017-L"
+      },
+      {
+        "key": "e_1_2_6_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1442-9993.1993.tb00438.x"
+      },
+      {
+        "key": "e_1_2_6_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00401706.1981.10487680"
+      },
+      {
+        "key": "e_1_2_6_17_1",
+        "volume-title": "Randomization Tests",
+        "author": "Edgington E. S.",
+        "year": "1995"
+      },
+      {
+        "key": "e_1_2_6_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00038687"
+      },
+      {
+        "key": "e_1_2_6_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2844116"
+      },
+      {
+        "key": "e_1_2_6_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/env.494"
+      },
+      {
+        "key": "e_1_2_6_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/53.3-4.325"
+      },
+      {
+        "key": "e_1_2_6_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2347150"
+      },
+      {
+        "key": "e_1_2_6_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9876.00168"
+      },
+      {
+        "key": "e_1_2_6_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01896809"
+      },
+      {
+        "key": "e_1_2_6_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/35.3-4.414"
+      },
+      {
+        "key": "e_1_2_6_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/000313001300339897"
+      },
+      {
+        "key": "e_1_2_6_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2281178"
+      },
+      {
+        "key": "e_1_2_6_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00146952"
+      },
+      {
+        "key": "e_1_2_6_29_1",
+        "first-page": "461",
+        "article-title": "A Monte Carlo comparison of tests for equality of covariance matrices",
+        "volume": "61",
+        "author": "Layard M. W. J.",
+        "year": "1974",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "e_1_2_6_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1890/0012-9615(1999)069[0001:DBRATM]2.0.CO;2"
+      },
+      {
+        "key": "e_1_2_6_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s004420100716"
+      },
+      {
+        "key": "e_1_2_6_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/000313001317098149"
+      },
+      {
+        "key": "e_1_2_6_33_1",
+        "first-page": "278",
+        "volume-title": "Contributions to Probability and Statistics",
+        "author": "Levene H.",
+        "year": "1960"
+      },
+      {
+        "key": "e_1_2_6_34_1",
+        "volume-title": "Multivariate Statistical Methods: A Primer",
+        "author": "Manly B. F. J.",
+        "year": "1994"
+      },
+      {
+        "key": "e_1_2_6_35_1",
+        "volume-title": "Randomization, Bootstrap and Monte Carlo Methods in Biology",
+        "author": "Manly B. F. J.",
+        "year": "1997"
+      },
+      {
+        "key": "e_1_2_6_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/4873"
+      },
+      {
+        "key": "e_1_2_6_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/03610927608827451"
+      },
+      {
+        "key": "e_1_2_6_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aoms/1177698418"
+      },
+      {
+        "key": "e_1_2_6_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2532347"
+      },
+      {
+        "key": "e_1_2_6_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1974.10480224"
+      },
+      {
+        "key": "e_1_2_6_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-2909.83.4.579"
+      },
+      {
+        "key": "e_1_2_6_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/3236308"
+      },
+      {
+        "key": "e_1_2_6_43_1",
+        "volume-title": "Multivariate Statistical Inference and Applications",
+        "author": "Rencher A. C.",
+        "year": "1998"
+      },
+      {
+        "key": "e_1_2_6_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0043-1354(90)90236-Y"
+      },
+      {
+        "key": "e_1_2_6_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0167-9473(99)00112-7"
+      },
+      {
+        "key": "e_1_2_6_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/189732a0"
+      },
+      {
+        "key": "e_1_2_6_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/03610928508829093"
+      },
+      {
+        "key": "e_1_2_6_48_1",
+        "first-page": "523",
+        "article-title": "Mathematics and the picturing of data",
+        "volume": "2",
+        "author": "Tukey J. W.",
+        "year": "1975",
+        "journal-title": "Proceedings of the International Congress of Mathematicians"
+      },
+      {
+        "key": "e_1_2_6_49_1",
+        "first-page": "33",
+        "article-title": "The statistics of variation",
+        "volume": "4",
+        "author": "Van Valen L.",
+        "year": "1978",
+        "journal-title": "Evolutionary Theory"
+      },
+      {
+        "key": "e_1_2_6_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0981(93)90098-9"
+      },
+      {
+        "key": "e_1_2_6_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00265008"
+      }
+    ],
+    "container-title": [
+      "Biometrics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1541-0420.2005.00440.x",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1541-0420.2005.00440.x",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          4
+        ]
+      ],
+      "date-time": "2025-01-04T21:39:34Z",
+      "timestamp": 1736026774000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/biometrics/article/62/1/245-253/7306369"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          10,
+          20
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/j.1541-0420.2005.00440.x"
+    ],
+    "URL": "https://doi.org/10.1111/j.1541-0420.2005.00440.x",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0006-341X",
+      "1541-0420"
+    ],
+    "issn-type": [
+      {
+        "value": "0006-341X",
+        "type": "print"
+      },
+      {
+        "value": "1541-0420",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          10,
+          20
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "figure": "Figure1_Batch_Vulnerability_Audit",
+    "minimum_text_pt": 8.8,
+    "width_inches": 6.5,
+    "height_inches": 7.5,
+    "png_dpi": 300
+  },
+  {
+    "figure": "Figure2_Primary_Ranking_Threshold_Transport",
+    "minimum_text_pt": 8.8,
+    "width_inches": 6.5,
+    "height_inches": 6.7,
+    "png_dpi": 300
+  },
+  {
+    "figure": "Figure3_Companion_Dependence_and_Invariance",
+    "minimum_text_pt": 8.8,
+    "width_inches": 6.5,
+    "height_inches": 7.0,
+    "png_dpi": 300
+  },
+  {
+    "figure": "Figure4_Genomic_Context_and_Ranks",
+    "minimum_text_pt": 8.8,
+    "width_inches": 6.5,
+    "height_inches": 7.6,
+    "png_dpi": 300
+  },
+  {
+    "figure": "FigureS5_Score_Comparability_and_Calibration",
+    "minimum_text_pt": 8.8,
+    "width_inches": 6.5,
+    "height_inches": 6.5,
+    "png_dpi": 300
+  },
+  {
+    "figure": "FigureS6_Secondary_Classifiers",
+    "minimum_text_pt": 8.8,
+    "width_inches": 6.5,
+    "height_inches": 3.3,
+    "png_dpi": 300
+  }
+]

@@ -80,6 +80,12 @@ def short_center(value):
     return value.replace(' et al, ',' ')
 
 
+def major_revision_figures(analysis):
+    """Read revision outputs and save new figures; frozen v1 panels stay intact."""
+    from .revision_plotting import revision_figures
+    return revision_figures(analysis)
+
+
 def clinical_style():
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':8,'axes.titlesize':10,
         'axes.labelsize':8,'legend.fontsize':7,'pdf.fonttype':42,'axes.spines.top':False,'axes.spines.right':False})
@@ -106,9 +112,9 @@ def clinical_figure1(meta,ratio,lengths,bins,embedding,perma,partition,drift,cfg
         g=e[e.center.eq(c)];axes[0].scatter(g.UMAP1,g.UMAP2,s=9,color=colors[i],alpha=.65,label=short_center(c))
     for y,color in [(0,colors[1]),(1,colors[0])]:
         g=e[e.label.eq(y)];axes[1].scatter(g.UMAP1,g.UMAP2,s=9,color=color,alpha=.65,label='Cancer' if y else 'Healthy')
-    for ax,term,title in zip(axes,['center','disease'],['b  Study','Disease']):
+    for ax,term,title in zip(axes,['center','disease'],['Study','Disease']):
         row=perma[perma.family.eq('raw_ratio')&perma.term.eq(term)].iloc[0]
-        ax.set(title=f'{title}\nMarginal R²={row.R2:.3f}; p={row.p:.3f}',xlabel='UMAP1',ylabel='UMAP2');ax.legend(loc='best')
+        ax.set(title=f'{title}: unique Type III R²={row.R2:.3f}; p={row.p:.3f}',xlabel='UMAP1',ylabel='UMAP2');ax.legend(loc='best')
     cax=fig.add_subplot(outer[1,0]);g=partition[partition.family.eq('raw_ratio')]
     offset=0;ticks=[];labels=[]
     for k,(chrom,group) in enumerate(g.groupby('chrom',sort=False)):

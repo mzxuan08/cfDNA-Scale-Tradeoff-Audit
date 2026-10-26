@@ -16,6 +16,39 @@ from .debiasing import FoldPreprocessor, ICCDesignError
 from .models import make_model, TorchClassifier
 
 
+def threshold_bootstrap(source_controls, target_scores, target_labels, repeats=1000, seed=2026):
+    """Conditional calibration uncertainty with source-only control resampling.
+
+    The outer model, calibration scores and target patients stay fixed. This is
+    not a model-refitting interval or a target-calibrated operating threshold.
+    """
+    controls=np.asarray(source_controls,dtype=float)
+    p=np.asarray(target_scores,dtype=float);y=np.asarray(target_labels)
+    if not len(controls) or not np.isfinite(controls).all():
+        raise ValueError('Finite held-out source-control scores required')
+    rng=np.random.default_rng(seed)
+    draws=rng.choice(controls,size=(repeats,len(controls)),replace=True)
+    thresholds=np.quantile(draws,.95,axis=1,method='higher')
+    h=p[y==0];c=p[y==1]
+    specificity=(h[None,:]<=thresholds[:,None]).mean(axis=1) if len(h) else np.full(repeats,np.nan)
+    sensitivity=(c[None,:]>thresholds[:,None]).mean(axis=1) if len(c) else np.full(repeats,np.nan)
+    return thresholds,specificity,sensitivity
+
+
+def paired_auc_difference_ci(labels, scores_a, scores_b, repeats=1000, seed=2026):
+    """Paired diagnosis-stratified patient bootstrap for two fixed target rules."""
+    y=np.asarray(labels);a=np.asarray(scores_a);b=np.asarray(scores_b)
+    if min(np.sum(y==0),np.sum(y==1))<2:raise ValueError('Two patients per class required')
+    rng=np.random.default_rng(seed);weights=np.zeros((repeats,len(y)),dtype=np.int32)
+    for label in [0,1]:
+        ids=np.flatnonzero(y==label)
+        weights[:,ids]=rng.multinomial(len(ids),np.full(len(ids),1/len(ids)),size=repeats)
+    delta=weighted_clinical_metrics(y,a,.5,weights)['auroc']-weighted_clinical_metrics(y,b,.5,weights)['auroc']
+    return {'delta_auroc':float(roc_auc_score(y,a)-roc_auc_score(y,b)),
+            'delta_low':float(np.quantile(delta,.025)),'delta_high':float(np.quantile(delta,.975)),
+            'bootstrap_replicates':repeats,'bootstrap_scope':'paired_patient_diagnosis_stratified_fixed_scores'}
+
+
 def bh_fdr(pvalues):
     p = np.asarray(pvalues, dtype=np.float64)
     out = np.full(p.shape, np.nan)

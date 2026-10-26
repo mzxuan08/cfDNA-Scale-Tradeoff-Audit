@@ -1,0 +1,5 @@
+family,term,F,p,permutations,center,bias_adjusted,permutation,q
+raw_ratio,study,78.36415327549672,0.001,999,centroid,True,intercept_only_residuals_of_fixed_centroid_distances,0.001
+raw_ratio,disease,94.87377538478908,0.001,999,centroid,True,intercept_only_residuals_of_fixed_centroid_distances,0.001
+length_frequency,study,36.08808503540534,0.001,999,centroid,True,intercept_only_residuals_of_fixed_centroid_distances,0.001
+length_frequency,disease,123.8650446451307,0.001,999,centroid,True,intercept_only_residuals_of_fixed_centroid_distances,0.001
