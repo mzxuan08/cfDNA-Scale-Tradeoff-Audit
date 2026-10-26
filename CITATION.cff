@@ -8,8 +8,9 @@
     {
       "family-names": "Ma",
       "given-names": "Zhenxuan",
-      "affiliation": "Hubei University of Medicine, Shiyan 442000, Hubei, China",
-      "email": "mzxmc08@gmail.com"
+      "affiliation": "School of Clinical Medicine, Hubei University of Medicine, Shiyan 442000, Hubei, China",
+      "email": "mzxmc08@gmail.com",
+      "orcid": "https://orcid.org/0009-0004-5432-4999"
     }
   ],
   "repository-code": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit",

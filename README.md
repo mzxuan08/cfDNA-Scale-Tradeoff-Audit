@@ -3,7 +3,9 @@
 **Scale Trade-offs in Within-Sample Self-Normalization for Cross-Study Generalization
 in Public cfDNA Cohorts**
 
-Zhenxuan Ma · Hubei University of Medicine, Shiyan 442000, Hubei, China
+Zhenxuan Ma · School of Clinical Medicine, Hubei University of Medicine, Shiyan 442000, Hubei, China
+
+ORCID: https://orcid.org/0009-0004-5432-4999
 
 ## What the audit resolves
 
@@ -123,10 +125,9 @@ unit tests; production clinical outputs use real public participants.
 RELEASE_MANIFEST_SHA256.json records relative paths and hashes for this prepared
 release. Compare those hashes before regeneration. The submission package's
 separate frozen-input audit confirms the original matrices, CSVs and figure
-files were unchanged during packaging. The recorded earlier research run had
-73 passing tests and one optional live-network test skipped; current package
-validation is reported separately and must not be described as a new full
-clinical extraction or benchmark run.
+files were unchanged during packaging. The Step 8.1 verification run had 80 passing tests and one optional
+live-network test skipped. This verified software and publication formatting;
+it did not repeat clinical extraction or benchmark fitting.
 
 Original software is MIT licensed. Third-party reference/clinical resources
 retain their own conditions; see DATA_PROVENANCE_AND_TERMS.md. Cite the original

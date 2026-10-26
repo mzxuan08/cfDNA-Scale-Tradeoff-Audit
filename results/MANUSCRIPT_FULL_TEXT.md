@@ -2,11 +2,11 @@
 
 **Author:** Zhenxuan Ma
 
-**Affiliation:** Hubei University of Medicine, Shiyan 442000, Hubei, China
+**Affiliation:** School of Clinical Medicine, Hubei University of Medicine, Shiyan 442000, Hubei, China
 
 **Corresponding author:** Zhenxuan Ma; mzxmc08@gmail.com
 
-**ORCID:** Not registered.
+**ORCID:** https://orcid.org/0009-0004-5432-4999
 
 ## Abstract
 
@@ -22,11 +22,11 @@
 
 ## 1. Introduction
 
-Cross-study cfDNA fragmentomics requires representations that retain disease-associated fragmentation contrasts while controlling study-source variation and maintaining interpretable scores in a new cohort. Plasma DNA fragmentation reflects nucleosome organization and tissue contribution, and genome-wide profiles support cancer classification alongside sequence-variant assays [1–3]. Study Source combines specimen processing, sequencing procedures, recruitment and population composition. Evaluating transport therefore requires both patient-level discrimination and the achieved operating point of a threshold locked in the source study.
+Cross-study cfDNA fragmentomics requires representations that retain disease-associated fragmentation contrasts while controlling study-source variation and maintaining interpretable scores in a new cohort. Plasma DNA fragmentation reflects nucleosome organization and tissue contribution, and genome-wide profiles support cancer classification alongside sequence-variant assays [1,2,3,4]. Fragment-size selection, transcription-associated coverage and lung-cancer fragmentome studies establish complementary uses of these signals [5,6,7]. Griffin further links nucleosome protection profiles with cancer phenotypes while explicitly addressing GC bias [8]. Study Source combines specimen processing, sequencing procedures, recruitment and population composition. This joint structure is consistent with the broader challenge of batch effects in high-throughput molecular data [9,10]. Evaluating transport therefore requires both patient-level discrimination and the achieved operating point of a threshold locked in the source study.
 
 Normalization scale offers a way to examine these requirements directly. Global normalization retains relative deviations across the genome while removing a sample-wide offset and scale. A local contrast compares adjacent windows and attenuates slowly varying backgrounds, including broad disease-associated differences. In the window-level audit, median absolute within-study disease contrasts were 0.384 for raw ratios and 0.263 for a local representation. This motivates a comparison of global, local and fused representations, with fragmentation contrast retention as the measured endpoint.
 
-Cross-sample alignment adds a separate dependence on cohort composition. An empirical-Bayes harmonizer estimates study-specific location and scale parameters [4]. Adapting it to an unseen study with target medians or quantiles makes those estimates properties of the target patient mixture. Under $F_c=(1-\pi_c)F_{0c}+\pi_cF_{1c}$, changing the case fraction $\pi_c$ can change batch-level quantiles while the evaluated individuals remain fixed. Within-sample transformations offer a precise alternative: each patient supplies the reference for their own transformation. This functional distinction can be tested by holding real patients fixed and changing their companions.
+Cross-sample alignment adds a separate dependence on cohort composition. An empirical-Bayes harmonizer estimates study-specific location and scale parameters [11]. Adapting it to an unseen study with target medians or quantiles makes those estimates properties of the target patient mixture. Under $F_c=(1-\pi_c)F_{0c}+\pi_cF_{1c}$, changing the case fraction $\pi_c$ can change batch-level quantiles while the evaluated individuals remain fixed. Within-sample transformations offer a precise alternative: each patient supplies the reference for their own transformation. This functional distinction can be tested by holding real patients fixed and changing their companions.
 
 We present a Scale Trade-off audit that connects representation, discrimination and score transport in public cfDNA cohorts. Global and same-arm local normalization quantify how scale changes broad fragmentation contrasts and residual GC-associated study variation; Hybrid tests their complementarity in a source-trained classifier. Bidirectional study-held-out testing and a separate external sensitivity cohort establish the evaluation scope. Pair concordance decomposition and fixed-patient composition stress tests then identify whether pooled score differences arise from within-study ranking, comparability across fitted models or target-batch adaptation.
 
@@ -34,7 +34,7 @@ We present a Scale Trade-off audit that connects representation, discrimination 
 
 ### 2.1. Data provenance and independent-participant cohort
 
-The analysis used the existing extracted feature matrix for 585 source-identified participants. Clinical metadata came from UNITE supplementary data file S1, sheet s2, and fragment intervals were streamed from explicit FinaleDB objects [5,6]. Inclusion required plasma WGS, original sequencing depth within 0.1–5.0× and explicit cancer or Healthy source labels. The extraction cohort contained 628 specimens. One prespecified specimen per known patient was retained by earliest time point, then shallowest sequencing depth, then sequencing-run identifier; a specimen with unresolved patient identity was isolated. Healthy controls required an explicit Healthy source category. Hepatitis, cirrhosis, inflammatory disease, transplantation and autoimmune disease retained their original categories.
+The analysis used the existing extracted feature matrix for 585 source-identified participants. Clinical metadata came from UNITE supplementary data file S1, sheet s2, and fragment intervals were streamed from explicit FinaleDB objects [12,13]. Inclusion required plasma WGS, original sequencing depth within 0.1–5.0× and explicit cancer or Healthy source labels. The extraction cohort contained 628 specimens. One prespecified specimen per known patient was retained by earliest time point, then shallowest sequencing depth, then sequencing-run identifier; a specimen with unresolved patient identity was isolated. Healthy controls required an explicit Healthy source category. Hepatitis, cirrhosis, inflammatory disease, transplantation and autoimmune disease retained their original categories.
 
 The primary cohort contained the Cristiano and Jiang studies. Each bilateral direction trained on one entire study and tested the other. The Snyder study was held out from all primary training, primary parameter selection and primary threshold calibration. Its high case burden makes cancer sensitivity the useful external endpoint; it does not supply an adequately sampled healthy specificity estimate. A separate secondary analysis used three-study LOCO across all participants, with the other two studies used for each held-out target. Snyder can therefore enter source training only in that explicitly secondary protocol, never in the primary bilateral experiment.
 
@@ -64,9 +64,9 @@ The hg19/GRCh37 reference retained 477 autosomal non-overlapping complete window
 
 $$R_{si}=\frac{S_{si}}{L_{si}+1}.$$
 
-Window counts, IQR and the global integer-length frequency distribution were retained in compact local tables. The analyses used float32 feature matrices. GC fractions came from reference sequence, while RepeatMasker and segmental-duplication fractions used interval unions. GM12878 chromatin compartments are a reference annotation, not a tumor accessibility assay.
+Window counts, IQR and the global integer-length frequency distribution were retained in compact local tables. Descriptive UMAP embeddings used the published manifold-learning implementation [14]; NumPy supported array operations [15]. The analyses used float32 feature matrices. GC fractions came from reference sequence, while RepeatMasker and segmental-duplication fractions used interval unions. GM12878 chromatin compartments are a reference annotation, not a tumor accessibility assay.
 
-Descriptive PERMANOVA and window variance models adjusted for disease status, study and original sequencing depth as appropriate. PERMANOVA used Euclidean geometry after descriptive column standardization and 999 restricted Freedman–Lane residual permutations. Window-level unique/type III eta-squared was the reduced-to-full residual sum-of-squares increment divided by total sum of squares; overlapping explanatory components can yield a sum different from one. Descriptive embeddings were kept separate from predictive preprocessing. GC associations were calculated independently for raw, global and local representations.
+Descriptive PERMANOVA and window variance models adjusted for disease status, study and original sequencing depth as appropriate. PERMANOVA used Euclidean geometry after descriptive column standardization and 999 restricted Freedman–Lane residual permutations [16,17]. Window-level unique/type III eta-squared was the reduced-to-full residual sum-of-squares increment divided by total sum of squares; overlapping explanatory components can yield a sum different from one. Descriptive embeddings were kept separate from predictive preprocessing. GC associations were calculated independently for raw, global and local representations.
 
 ### 2.3. Global, local and hybrid representations
 
@@ -83,19 +83,19 @@ The relative epsilon preserves global multiplicative invariance to numerical pre
 
 $$H_s=[G_s,L_s^{(3)}],$$
 
-and fitted its column scaler within the source training split. Both blocks and the fixed Hybrid radius were specified before outer evaluation. Elastic-net logistic regression supplied the primary classifier, learning regularized coefficients for the two correlated blocks. Additional fixed classifiers provided secondary algorithm comparisons.
+and fitted its column scaler within the source training split. Both blocks and the fixed Hybrid radius were specified before outer evaluation. Elastic-net logistic regression supplied the primary classifier, learning regularized coefficients for the two correlated blocks. Elastic-net regularization and the generalized-linear-model regularization path provide the methodological context for this penalized comparison [18,19]. Additional fixed classifiers provided secondary algorithm comparisons.
 
 The fixed LSN-ICC pipeline ranked healthy-center clustering scores within source training data, removed the highest quarter and applied RobustScaler. The scores are one-way between-center variance ratios among different healthy people. In a bilateral direction, the single source study makes cross-center filtering unidentifiable; the recorded operational representation is therefore LSN only. This fallback is labelled in the results and uses source data exclusively.
 
 ### 2.4. Nested source-only selection and locked thresholds
 
-Tuned LSN considered radii $k\in\{1,2,3,5,8\}$ and eligible exclusion fractions $\alpha\in\{0,0.15,0.25,0.35,0.50\}$. With one healthy source study, zero exclusion was the eligible setting. Three inner folds selected the highest mean validation AUROC across source strata containing at least two participants of each class, with deterministic tie-breaking and the prespecified ElasticNet model. This analysis evaluated source-only scale selection separately from fixed Hybrid.
+Tuned LSN considered radii $k\in\{1,2,3,5,8\}$ and eligible exclusion fractions $\alpha\in\{0,0.15,0.25,0.35,0.50\}$. With one healthy source study, zero exclusion was the eligible setting. Three inner folds selected the highest mean validation AUROC across source strata containing at least two participants of each class, with deterministic tie-breaking and the prespecified ElasticNet model. This analysis evaluated source-only scale selection separately from fixed Hybrid. All preprocessing and selection remained inside the source split, addressing the training/test separation failures documented in leakage audits [20].
 
 Source threshold calibration used three-fold out-of-fold predictions from source patients. For Tuned LSN, parameter selection was repeated inside each calibration-training split before predicting its validation patients. Thus calibration outcomes never participated in the parameter search that generated their own scores. Rare study/diagnosis strata remained training-only and supplied no in-sample substitute score. The higher empirical 0.95 quantile of eligible source-healthy out-of-fold probabilities locked the decision threshold. Probabilities strictly above that threshold were positive. A model was then fitted to all source patients and applied unchanged to the target patients. No target diagnosis selected a threshold, model setting, feature mask or scale. Random and bilateral validation shared the primary patient universe, but their training-set sizes differed; their contrast does not isolate a pure technical batch effect.
 
 ### 2.5. Comparator identifiability and classifier implementation
 
-The five core pipelines were Raw Ratio, Global Z-score, InFold ComBat, fixed Proposed LSN-ICC and Hybrid MultiScale. Tuned LSN used the primary ElasticNet classifier. Random Forest, CUDA XGBoost, LightGBM, CUDA MLP and source-only CUDA DANN supplied locked secondary models. DANN used training-source domains exclusively. Multi-source DANN and standard multi-batch source ComBat were estimable in mixed-study random CV and two-source/one-target Combined LOCO. Their one-source bilateral cells were marked unavailable.
+The five core pipelines were Raw Ratio, Global Z-score, InFold ComBat, fixed Proposed LSN-ICC and Hybrid MultiScale. Tuned LSN used the primary ElasticNet classifier. Random Forest, CUDA XGBoost, LightGBM, CUDA MLP and source-only CUDA DANN supplied locked secondary models. Random Forest and XGBoost follow their established ensemble formulations [21,22]. The gradient-reversal mechanism follows domain-adversarial representation learning [23]; here DANN used training-source domains exclusively. Multi-source DANN and standard multi-batch source ComBat were estimable in mixed-study random CV and two-source/one-target Combined LOCO. Their one-source bilateral cells were marked unavailable.
 
 InFold ComBat combined source-only empirical-Bayes harmonization with an unlabeled target median/IQR mapping for an unseen study. This explicitly transductive comparator evaluates a particular adaptation rule. The other fitted transformations process each target patient independently of companion patients; their source-trained scalers and classifiers still reflect the source training population.
 
@@ -122,7 +122,7 @@ All random operations used seed 2026. Neural hidden dimensions and batch sizes r
 
 We report direction-specific AUROC and AUPRC, pooled held-out predictions, equal-weight mean of the two primary study AUROCs, source-threshold sensitivity and specificity, Brier score and 10-bin expected calibration error. Specificity deviation is the achieved target specificity minus 0.95 in percentage points. We calculated 1000 patient bootstraps stratified by the fixed study and diagnosis, conditional on the fitted out-of-fold scoring rules. These intervals do not include refitting, method-development or new-center uncertainty. Exact binomial intervals supplement sensitivity and specificity estimates. The one-control cohort's AUROC interval was withheld from the primary presentation rather than displayed as an apparently precise bootstrap interval.
 
-Paired DeLong tests compared inductive scoring rules for the same independent patients within each held-out primary study [7]. Target-batch-fitted ComBat adaptation is not an individual fixed scoring rule, so its ordinary DeLong comparisons were explicitly unavailable; descriptive performance estimates were retained. BH correction covered finite tests within the primary comparison family; the secondary three-study family was separate [8]. Pooled predictions across different fitted models did not receive a pooled DeLong test. With two primary directions, center-level tests cannot establish broad population-center inference. AUPRC is interpreted together with case proportion because its baseline changes with prevalence.
+Paired DeLong tests compared inductive scoring rules for the same independent patients within each held-out primary study [24]. Target-batch-fitted ComBat adaptation is not an individual fixed scoring rule, so its ordinary DeLong comparisons were explicitly unavailable; descriptive performance estimates were retained. BH correction covered finite tests within the primary comparison family; the secondary three-study family was separate [25]. Pooled predictions across different fitted models did not receive a pooled DeLong test. With two primary directions, center-level tests cannot establish broad population-center inference. AUPRC is interpreted together with case proportion because its baseline changes with prevalence [26]. Calibration was evaluated separately from ranking, following the distinction emphasized in prediction-model evaluation [27].
 
 ### 2.7. Prevalence and score-comparability diagnostics
 
@@ -221,9 +221,9 @@ The fixed-anchor experiment directly identified target-composition dependence. A
 
 This audit separates three properties that are often combined in cross-study cfDNA evaluation: normalization scale, study-wise discrimination and comparability across fitted score scales. Global and local transformations change broad fragmentation contrasts and residual source variation in different ways. Pair decomposition explains how pooled AUROC combines within-study ranking with cross-study score comparability, while fixed real-patient anchors isolate companion dependence in unseen-target adaptation. Together, these analyses turn a single benchmark score into an interpretable account of representation and transport.
 
-Global and local normalization impose different reference scales. Global Z-scoring retains deviations relative to the full genome; the local log contrast references adjacent windows on the same arm. Attenuation of a smooth background can therefore accompany attenuation of a broad disease-associated contrast. Hybrid exposes both scales to a source-trained penalized classifier, making their complementarity testable. The observed target-specific comparisons identify the conditions in which the fused representation changes ranking and calibration; the Combined LOCO estimates favour Global Z-score over Hybrid for the fixed ElasticNet comparison.
+Global and local normalization impose different reference scales. Global Z-scoring retains deviations relative to the full genome; the local log contrast references adjacent windows on the same arm. Attenuation of a smooth background can therefore accompany attenuation of a broad disease-associated contrast. Hybrid exposes both scales to a source-trained penalized classifier, making their complementarity testable. Published low-coverage copy-number methods such as ichorCNA provide a separate route to estimating tumor fraction and broad genomic imbalance [28]. Fragmentation features therefore warrant comparison with matched copy-number measurements rather than automatic interpretation as CNA. The observed target-specific comparisons identify the conditions in which the fused representation changes ranking and calibration; the Combined LOCO estimates favour Global Z-score over Hybrid for the fixed ElasticNet comparison.
 
-The ComBat diagnostics locate a specific source of composition dependence. The evaluated system combines empirical-Bayes source adjustment and robust unseen-target mapping. A target quantile follows the mixture of patients, so changing that mixture can move the adapted features of a fixed individual. The anchor experiment measures the resulting probability change with all source fitting held constant. Preserved within-study Cohen d and the pair decomposition distinguish this adaptation effect from removal of univariate disease contrasts. The conclusion applies to the evaluated adaptation rule; other covariate-aware or reference-batch ComBat designs remain separate methods [4].
+The ComBat diagnostics locate a specific source of composition dependence. The evaluated system combines empirical-Bayes source adjustment and robust unseen-target mapping. A target quantile follows the mixture of patients, so changing that mixture can move the adapted features of a fixed individual. The anchor experiment measures the resulting probability change with all source fitting held constant. Preserved within-study Cohen d and the pair decomposition distinguish this adaptation effect from removal of univariate disease contrasts. The conclusion applies to the evaluated adaptation rule; other covariate-aware or reference-batch ComBat designs remain separate methods [9,10,11].
 
 Within-sample transformation makes a patient's representation independent of other target patients. For a frozen source model, adding or removing companions leaves the global, local and hybrid feature vectors and predictions unchanged. This property removes a defined route of target-composition dependence. Training-population composition, disease spectrum and prevalence-dependent predictive values remain separate determinants of performance, making calibration and source-locked threshold transport complementary evaluation targets.
 
@@ -279,19 +279,11 @@ During the preparation of this work, the author used OpenAI Codex (OpenAI; deskt
 
 **Figure 2. Study-held-out discrimination and source-locked operating-point transport.** (a) Random-CV and bilateral study-held-out macro AUROC for Raw Ratio and Hybrid across fixed classifiers in the primary patient cohort. Training-set sizes differ between schemes. (b) Bilateral macro-AUROC matrix; grey denotes unavailable ComBat, DANN and unrequested tuned-classifier combinations. Asterisks identify the LSN-only operational fallback when a healthy-center filter is unidentifiable from one source. (c) ElasticNet target specificity minus the source target in percentage points, with exact binomial intervals for the two primary healthy target groups. (d) Sensitivity in the separately held-out high-burden cohort at primary-source-locked thresholds, with exact binomial intervals. The single healthy outcome is retained in the accompanying numerical table.
 
-**Figure 3. Multiscale representation and fixed-patient composition dependence.** (a) Global and same-arm local branches, training-only scaling, concatenation and ElasticNet classification; bars show the two directional AUROCs. (b) Descriptive primary pooled held-out ROC and precision–recall curves, with target-specific DeLong comparisons against Global Z-score. (c) Primary calibration curves and Brier scores. (d) Maximum probability range of fixed real anchor patients as the target batch case fraction changes with source fitting frozen. Labels define the diagnostic compositions after benchmarking. The explanatory workflow in panel a was drawn with code assisted by OpenAI Codex (OpenAI; October 2026 desktop session; exact build and model version not recorded) and checked by the author.
+**Figure 3. Multiscale representation and fixed-patient composition dependence.** (a) Global and same-arm local branches, training-only scaling, concatenation and ElasticNet classification; bars show the two directional AUROCs. (b) Descriptive primary pooled held-out ROC and precision–recall curves, with target-specific DeLong comparisons against Global Z-score. Target-specific Hybrid-versus-Global DeLong tests were Cristiano: p=0.001042, BH q=0.003301; Jiang: p=0.083436, BH q=0.144117. These comparisons concern the separate held-out studies; the pooled curves are descriptive. (c) Primary calibration curves and Brier scores. (d) Maximum probability range of fixed real anchor patients as the target batch case fraction changes with source fitting frozen. Labels define the diagnostic compositions after benchmarking. The explanatory workflow in panel a was drawn with code assisted by OpenAI Codex (OpenAI; October 2026 desktop session; exact build and model version not recorded) and checked by the author.
 
 **Figure 4. Genomic context and fixed-pipeline feature retention.** (a) Raw-feature study variance associations with reference GC and telomere distance. (b) Reference-region odds ratios for majority-fold filtering under the fixed LSN-ICC protocol, with corrected results in the accompanying table. (c) Observed chromosome trajectories before and after local contrast, including gaps across removed windows. (d) Fixed-pipeline coefficient rank concordance across the original three-study LOCO fits. The reference context and coefficient ranks describe the fixed local representation.
 
 **Supplementary Figure S5. Pair concordance and cross-fold score comparability.** Within-study and cross-study cancer–control pair contributions sum to the secondary pooled AUROC. The paired summary compares pooled discrimination with the equal-weight mean of the two primary held-out target AUROCs, separating their weighting and score-comparability requirements.
-
-## Highlights
-
-- Normalization scale shapes cross-study cfDNA discrimination and calibration.
-- Pair concordance separates study-wise ranking from pooled score comparability.
-- Fixed patient anchors expose composition-dependent batch adaptation.
-- Within-sample transforms preserve anchor scores across target compositions.
-- Source-locked thresholds reveal operating-point drift across public studies.
 
 ## References
 
@@ -301,12 +293,52 @@ During the preparation of this work, the author used OpenAI Codex (OpenAI; deskt
 
 3. Snyder MW, Kircher M, Hill AJ, Daza RM, Shendure J. Cell-free DNA Comprises an In Vivo Nucleosome Footprint that Informs Its Tissues-Of-Origin. Cell. 2016;164(1-2):57-68. https://doi.org/10.1016/j.cell.2015.11.050
 
-4. Johnson WE, Li C, Rabinovic A. Adjusting batch effects in microarray expression data using empirical Bayes methods. Biostatistics. 2007;8(1):118-127. https://doi.org/10.1093/biostatistics/kxj037
+4. Lo YMD, Han DSC, Jiang P, Chiu RWK. Epigenetics, fragmentomics, and topology of cell-free DNA in liquid biopsies. Science. 2021;372(6538):eaaw3616. https://doi.org/10.1126/science.aaw3616
 
-5. Zheng H, Zhu MS, Liu Y. FinaleDB: a browser and database of cell-free DNA fragmentation patterns. Bioinformatics. 2021;37(16):2502-2503. https://doi.org/10.1093/bioinformatics/btaa999
+5. Mouliere F, Chandrananda D, Piskorz AM, et al. Enhanced detection of circulating tumor DNA by fragment size analysis. Science Translational Medicine. 2018;10(466):eaat4921. https://doi.org/10.1126/scitranslmed.aat4921
 
-6. Wang H, Mennea PD, McAndrew G, et al. A scalable deep-learning framework for cancer detection using cell-free DNA shallow whole-genome sequencing. Science Advances. 2026;12(28):eady9432. https://doi.org/10.1126/sciadv.ady9432
+6. Ulz P, Thallinger GG, Auer M, et al. Inferring expressed genes by whole-genome sequencing of plasma DNA. Nature Genetics. 2016;48(10):1273-1278. https://doi.org/10.1038/ng.3648
 
-7. DeLong ER, DeLong DM, Clarke-Pearson DL. Comparing the Areas under Two or More Correlated Receiver Operating Characteristic Curves: A Nonparametric Approach. Biometrics. 1988;44(3):837-845. https://doi.org/10.2307/2531595
+7. Mathios D, Johansen JS, Cristiano S, et al. Detection and characterization of lung cancer using cell-free DNA fragmentomes. Nature Communications. 2021;12(1):5060. https://doi.org/10.1038/s41467-021-24994-w
 
-8. Benjamini Y, Hochberg Y. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. Journal of the Royal Statistical Society: Series B (Methodological). 1995;57(1):289-300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x
+8. Doebley AL, Ko M, Liao H, et al. A framework for clinical cancer subtyping from nucleosome profiling of cell-free DNA. Nature Communications. 2022;13(1):7475. https://doi.org/10.1038/s41467-022-35076-w
+
+9. Leek JT, Scharpf RB, Bravo HC, et al. Tackling the widespread and critical impact of batch effects in high-throughput data. Nature Reviews Genetics. 2010;11(10):733-739. https://doi.org/10.1038/nrg2825
+
+10. Goh WWB, Wang W, Wong L. Why Batch Effects Matter in Omics Data, and How to Avoid Them. Trends in Biotechnology. 2017;35(6):498-507. https://doi.org/10.1016/j.tibtech.2017.02.012
+
+11. Johnson WE, Li C, Rabinovic A. Adjusting batch effects in microarray expression data using empirical Bayes methods. Biostatistics. 2007;8(1):118-127. https://doi.org/10.1093/biostatistics/kxj037
+
+12. Zheng H, Zhu MS, Liu Y. FinaleDB: a browser and database of cell-free DNA fragmentation patterns. Bioinformatics. 2021;37(16):2502-2503. https://doi.org/10.1093/bioinformatics/btaa999
+
+13. Wang H, Mennea PD, McAndrew G, et al. A scalable deep-learning framework for cancer detection using cell-free DNA shallow whole-genome sequencing. Science Advances. 2026;12(28):eady9432. https://doi.org/10.1126/sciadv.ady9432
+
+14. McInnes L, Healy J, Saul N, Großberger L. UMAP: Uniform Manifold Approximation and Projection. Journal of Open Source Software. 2018;3(29):861. https://doi.org/10.21105/joss.00861
+
+15. Harris CR, Millman KJ, van der Walt SJ, et al. Array programming with NumPy. Nature. 2020;585(7825):357-362. https://doi.org/10.1038/s41586-020-2649-2
+
+16. Anderson MJ. A new method for non‐parametric multivariate analysis of variance. Austral Ecology. 2001;26(1):32-46. https://doi.org/10.1111/j.1442-9993.2001.01070.pp.x
+
+17. Freedman D, Lane D. A Nonstochastic Interpretation of Reported Significance Levels. Journal of Business & Economic Statistics. 1983;1(4):292-298. https://doi.org/10.1080/07350015.1983.10509354
+
+18. Zou H, Hastie T. Regularization and Variable Selection Via the Elastic Net. Journal of the Royal Statistical Society Series B: Statistical Methodology. 2005;67(2):301-320. https://doi.org/10.1111/j.1467-9868.2005.00503.x
+
+19. Friedman J, Hastie T, Tibshirani R. Regularization Paths for Generalized Linear Models via Coordinate Descent. Journal of Statistical Software. 2010;33(1):1-22. https://doi.org/10.18637/jss.v033.i01
+
+20. Kapoor S, Narayanan A. Leakage and the reproducibility crisis in machine-learning-based science. Patterns. 2023;4(9):100804. https://doi.org/10.1016/j.patter.2023.100804
+
+21. Breiman L. Random Forests. Machine Learning. 2001;45(1):5-32. https://doi.org/10.1023/A:1010933404324
+
+22. Chen T, Guestrin C. XGBoost: A Scalable Tree Boosting System. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 2016. p. 785-794. https://doi.org/10.1145/2939672.2939785
+
+23. Ganin Y, Ustinova E, Ajakan H, et al. Domain-Adversarial Training of Neural Networks. In: Csurka G, editor. Domain Adaptation in Computer Vision Applications. Cham: Springer International Publishing; 2017. p. 189-209. https://doi.org/10.1007/978-3-319-58347-1_10
+
+24. DeLong ER, DeLong DM, Clarke-Pearson DL. Comparing the Areas under Two or More Correlated Receiver Operating Characteristic Curves: A Nonparametric Approach. Biometrics. 1988;44(3):837-845. https://doi.org/10.2307/2531595
+
+25. Benjamini Y, Hochberg Y. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. Journal of the Royal Statistical Society: Series B (Methodological). 1995;57(1):289-300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x
+
+26. Saito T, Rehmsmeier M. The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets. PLOS ONE. 2015;10(3):e0118432. https://doi.org/10.1371/journal.pone.0118432
+
+27. Van Calster B, McLernon DJ, van Smeden M, Wynants L, Steyerberg EW; on behalf of the STRATOS Topic Group on diagnostic tests and prediction models. Calibration: the Achilles heel of predictive analytics. BMC Medicine. 2019;17(1):230. https://doi.org/10.1186/s12916-019-1466-7
+
+28. Adalsteinsson VA, Ha G, Freeman SS, et al. Scalable whole-exome sequencing of cell-free DNA reveals high concordance with metastatic tumors. Nature Communications. 2017;8(1):1324. https://doi.org/10.1038/s41467-017-00965-y

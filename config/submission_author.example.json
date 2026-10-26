@@ -2,11 +2,11 @@
   "name": "Zhenxuan Ma",
   "given_names": "Zhenxuan",
   "family_names": "Ma",
-  "affiliation": "Hubei University of Medicine, Shiyan 442000, Hubei, China",
+  "affiliation": "School of Clinical Medicine, Hubei University of Medicine, Shiyan 442000, Hubei, China",
   "email": "mzxmc08@gmail.com",
-  "orcid": null,
+  "orcid": "0009-0004-5432-4999",
   "repository_url": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.23653766",
   "manual_review_confirmed": false,
   "note": "For submission packaging only. Supply a complete locally approved author configuration; research scripts do not require this file."
 }
