@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "github_release_url": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.0",
+  "tag_commit": "b62b4e695734005f19e1b95b4e94dcd3f30952fe",
+  "zenodo_record_id": 23659205,
+  "zenodo_doi": "10.5281/zenodo.23659205",
+  "concept_doi": "10.5281/zenodo.23653765",
+  "archive_filename": "mzxuan08/cfDNA-Scale-Tradeoff-Audit-v0.2.0.zip",
+  "archive_checksum": "md5:b4ab0e657934872462f7f0caeb0d0905",
+  "archive_sha256": "0220636082ba73446e1c05c70e847163aec47d0ff7a7c419303803a13d12344f",
+  "verified_files": 272,
+  "status": "published_and_download_verified",
+  "published_at": "2026-10-26T07:18:12.797372+00:00"
+}

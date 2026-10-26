@@ -6,4 +6,4 @@ Cristiano stage counts from the 218 selected cancer participants: Stage 0: 2; St
 
 The shared-depth and GI-versus-HCC results are post-hoc exploratory sensitivity analyses from the same public cohorts with altered target size/composition, not independent external validation or confirmatory evidence.
 
-Software v0.2.0 is a complete local release package. No new Zenodo DOI or public release is asserted. The v0.1.0 DOI remains historical.
+Software v0.2.0 is published on GitHub and archived at https://doi.org/10.5281/zenodo.23659205. The complete 272-file archive was downloaded and verified. The v0.2.0 tag remains immutable; no classifier was retrained during publication metadata alignment.

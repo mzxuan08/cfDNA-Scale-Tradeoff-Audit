@@ -1,6 +1,6 @@
 {
   "version": "v0.2.0",
-  "status": "prepared_locally_not_published",
+  "status": "published",
   "classifier_fits": 0,
   "model_selection_runs": 0,
   "clinical_statistics_recomputed": false,
@@ -15,5 +15,7 @@
   },
   "stage_total": 218,
   "source_metadata_sha256": "81a0c124ff1003121e7c4ea5164ab1a20c445582fbe3e6ce29d9bdac3d598eec",
-  "selected_scores_sha256": "51762390eec1dfd9ea53eaaf78a6b15e710bc26b35ddedb9e8f7113917ba3362"
+  "selected_scores_sha256": "51762390eec1dfd9ea53eaaf78a6b15e710bc26b35ddedb9e8f7113917ba3362",
+  "zenodo_doi": "10.5281/zenodo.23659205",
+  "github_release_url": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.0"
 }

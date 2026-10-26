@@ -1,10 +1,13 @@
 {
   "version": "0.2.0",
   "tag": "v0.2.0",
-  "status": "prepared_locally_not_published",
-  "zenodo_doi": null,
+  "status": "published",
+  "zenodo_doi": "10.5281/zenodo.23659205",
   "historical_zenodo_doi": "10.5281/zenodo.23653766",
   "classifier_fits_this_polish": 0,
+  "github_release_url": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.0",
+  "tag_commit": "b62b4e695734005f19e1b95b4e94dcd3f30952fe",
+  "concept_zenodo_doi": "10.5281/zenodo.23653765",
   "check_status": "passed",
   "tests": {
     "tests": 10,
@@ -22,63 +25,63 @@
   "rendered_documents": [
     {
       "file": "01_Title_Page.docx",
-      "sha256": "fbd1ea023c501817fb32317dbcebf98e0f63bbb2dd931487e9a84f3abe326504",
+      "sha256": "aaaa010572033648f9cd5f52c9dd2d55af4a637956d99e52001d47fdcefcbdc3",
       "returncode": 0,
       "pages": 2,
-      "seconds": 12.172000000020489
+      "seconds": 11.452999999979511
     },
     {
       "file": "02_Highlights.docx",
-      "sha256": "078571bf73ad61a2d930070359821cd888a479347c9fa1430292d27294d992cf",
+      "sha256": "357b096b68d579ff4bdefc5b7325808cba70dd82fb57b3226563940f6407dfe9",
       "returncode": 0,
       "pages": 1,
-      "seconds": 11.73399999999674
+      "seconds": 10.920999999972992
     },
     {
       "file": "03_Manuscript_DoubleSpaced_LineNumbered.docx",
-      "sha256": "ea624ab29e9492d1ed46a14d3929bad952e22f75c2270899a2af501641426c71",
+      "sha256": "e0f589b123cddd9a1c426e1b18b0d824d16cba9ea41eaa667615726e8e8364b9",
       "returncode": 0,
       "pages": 26,
-      "seconds": 13.25
+      "seconds": 12.875
     },
     {
       "file": "04_bioRxiv_Integrated_Preprint.docx",
-      "sha256": "96786f0ea750fd8886fcecf02a53793b2df221910ab71e6537381e639b8aa26c",
+      "sha256": "c278174088c7ffcec7feaafc9c727e025a02b57ec152b231901c5b3b2e1d2130",
       "returncode": 0,
       "pages": 21,
-      "seconds": 16.42099999997299
+      "seconds": 16.39000000001397
     },
     {
       "file": "05_Supplementary_Material.docx",
-      "sha256": "009f23877422cf6df0a8f3e57c51df96c35d203b9ef8c89801d2014775ead840",
+      "sha256": "d5807ebb295b470963b3e85c4bd066431dd2639cd09f69899549cd6fd0111aa9",
       "returncode": 0,
       "pages": 4,
-      "seconds": 11.98399999999674
+      "seconds": 11.719000000040978
     },
     {
       "file": "06_Cover_Letter.docx",
-      "sha256": "804fbdd1dc0af8d8ecfb21e36a7101a9218a0115ed62cf3e2d0a59fa59dd705a",
+      "sha256": "434ba41d8b7949d617867384bd1023d5fb20d7400607f6fc5921543cd1ec2b84",
       "returncode": 0,
       "pages": 1,
-      "seconds": 10.329000000027008
+      "seconds": 10.438000000023749
     },
     {
       "file": "06b_Cover_Letter_Alternative_CBM.docx",
-      "sha256": "9cce8d00420d78b484c2c95783cff71b78c0658e5471c5ac7a6b0ca1d3eec9a6",
+      "sha256": "d631d4b253290ebb9cc30fd179e3fa15964b8d3a9c6668ea76684af9dc9cdb78",
       "returncode": 0,
       "pages": 1,
-      "seconds": 10.360000000044238
+      "seconds": 10.312999999965541
     },
     {
       "file": "07_Declaration_of_Interest.docx",
-      "sha256": "9e16e483482048c35a6c820fe1f4b2bd1d2bd66b043c5d77473ceb5fb5a3734f",
+      "sha256": "4d24dc8ebbc15f2882677b308693afcbc34385e357445d91c59ba19f2f423b93",
       "returncode": 0,
       "pages": 1,
-      "seconds": 10.170999999972992
+      "seconds": 9.875
     }
   ],
   "pdf_pages": 21,
-  "pdf_sha256": "974079b5cf32be057ed6720b5855d68812ea841017202fd3732cec72f311a2b7",
+  "pdf_sha256": "0da799c2b1d6c3b07e95956dfe7ae737b4c7d3cd2018489a0fec1e3848de52df",
   "classifier_fits": 0,
   "figure_titles": [
     "Study: unique Type III R²=0.656; p=0.001",
@@ -86,6 +89,6 @@
   ],
   "minimum_embedded_figure_font_pt": 8.755102040816327,
   "code_files_checked": 57,
-  "public_release_created": false,
+  "public_release_created": true,
   "biorxiv_revision_uploaded": false
 }

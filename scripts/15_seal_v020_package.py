@@ -18,6 +18,9 @@ def validate_frozen():
 
 def sync():
     validate_frozen()
+    state_path=ROOT/'config/release.json'
+    previous=json.loads(read(state_path)) if state_path.exists() else {}
+    published=previous.get('status')=='published' and bool(previous.get('zenodo_doi'))
     for folder in ['src','scripts','tests','config']:
         for p in (ROOT/folder).rglob('*'):
             if not p.is_file() or any(x in p.parts for x in ['__pycache__','.pytest_cache','.git']):continue
@@ -38,17 +41,22 @@ def sync():
     author=json.loads(read(ROOT/'config/submission_author.json'))
     citation=json.loads(read(RELEASE/'CITATION.cff'))
     citation.update(version=VERSION,message='Please cite this software version and its manuscript. The v0.2.0 package is prepared locally; its archival DOI is not yet assigned.')
-    citation.pop('doi',None);dump(RELEASE/'CITATION.cff',citation);copy(RELEASE/'CITATION.cff',ROOT/'CITATION.cff')
+    if published:
+        citation.update(doi=previous['zenodo_doi'],message='Please cite the version-specific Zenodo DOI for software v0.2.0 and its manuscript.')
+    else:citation.pop('doi',None)
+    dump(RELEASE/'CITATION.cff',citation);copy(RELEASE/'CITATION.cff',ROOT/'CITATION.cff')
     zen=json.loads(read(RELEASE/'.zenodo.json'));zen['version']=VERSION
     zen['description']='Software v0.2.0 for the normalization-scale audit of public cfDNA cohorts. Includes source-only calibration, repeated real-patient anchors, post-hoc exploratory shared-depth and GI-versus-HCC analyses, chromosome-block inference, PERMDISP, complete numeric CSV outputs and current figures. Third-party data retain their original terms.'
     zen['related_identifiers']=[{'identifier':'10.5281/zenodo.23653766','relation':'isNewVersionOf','resource_type':'software'}]
     dump(RELEASE/'.zenodo.json',zen)
     release_status={'version':VERSION,'tag':'v'+VERSION,'status':'prepared_locally_not_published','zenodo_doi':None,
         'historical_zenodo_doi':'10.5281/zenodo.23653766','classifier_fits_this_polish':0}
+    if published:release_status.update(previous)
     dump(ROOT/'config/release.json',release_status);copy(ROOT/'config/release.json',RELEASE/'config/release.json')
     example=RELEASE/'config/submission_author.example.json'
     if example.exists():
         obj=json.loads(read(example));obj.update(software_version=VERSION,zenodo_doi=None,zenodo_status='v0.2.0 prepared; DOI not assigned')
+        if published:obj.update(zenodo_doi=previous['zenodo_doi'],zenodo_status='v0.2.0 published and archive verified')
         dump(example,obj)
     header='''# cfDNA Scale Tradeoff Audit v0.2.0
 
@@ -128,9 +136,14 @@ Original software is MIT licensed. Cite the original public data papers and the
 software version actually used. AI assistance is documented in the manuscript;
 publication disclosures are distinct from research-code authorship metadata.
 '''
+    if published:
+        section=f"## Version and archival status\n\nVersion **v0.2.0** is published at {previous['github_release_url']}.\nThe immutable version archive is https://doi.org/{previous['zenodo_doi']}.\nIts complete code and numerical outputs were downloaded and verified against\nthe 272-file release manifest. The v0.2.0 tag is preserved unchanged; DOI and\npublication metadata were refreshed on main after archival assignment.\n\n"
+        header=re.sub(r'## Version and archival status\n.*?(?=## Package contents)',section,header,flags=re.S)
     header+='\nAuthor: '+author['name']+'; '+author['affiliation']+'\n\nORCID: https://orcid.org/'+author['orcid']+'\n'
     (RELEASE/'README.md').write_text(header,encoding='utf-8');copy(RELEASE/'README.md',ROOT/'README.md')
     (OUT/'figures_and_tables/README_CURRENT_REVISION.md').write_text('# Current v0.2.0 materials\n\nUse step10_final/figures and step10_final/tables for this manuscript. Other subfolders retain historical scientific outputs and submitted-version provenance.\n',encoding='utf-8')
+    receipt=OUT/'verification/V020_Publication_Receipt.json'
+    if receipt.exists():copy(receipt,RELEASE/'results/reports/V020_Publication_Receipt.json')
     for name in ['04_bioRxiv_Integrated_Preprint','05_Supplementary_Material']:
         p=ROOT/'work/step08/render'/name/(name+'.pdf')
         if p.exists():copy(p,OUT/(name+'.pdf'))
@@ -168,7 +181,7 @@ def finalize():
         rendered_documents=status,pdf_pages=len(PdfReader(OUT/'04_bioRxiv_Integrated_Preprint.pdf').pages),
         pdf_sha256=sha(OUT/'04_bioRxiv_Integrated_Preprint.pdf'),classifier_fits=0,figure_titles=titles,
         minimum_embedded_figure_font_pt=min(x['minimum_embedded_text_pt'] for x in effective),
-        code_files_checked=len(python_files),public_release_created=False,biorxiv_revision_uploaded=False)
+        code_files_checked=len(python_files),public_release_created=state.get('status')=='published',biorxiv_revision_uploaded=False)
     dump(OUT/'verification/Build_Summary.json',summary)
     dump(OUT/'verification/Current_Test_Results.json',tests)
     dump(OUT/'verification/Current_Test_Summary.json',dict(tests,scope=summary['current_test_scope']))
@@ -191,6 +204,9 @@ def finalize():
 **发布状态**：本轮完成的是本地 v0.2.0 封版与归档包；未创建远端 GitHub Release、未发布新 Zenodo 记录、未上传 bioRxiv 修订版。历史 DOI 10.5281/zenodo.23653766 仅对应 v0.1.0，未冒充新版 DOI。
 '''
     checklist+=f'\n本轮非训练校验：{tests["tests"]} 项全部通过，{tests["skipped"]} 跳过；分类器训练次数为 0；{len(frozen)} 个受保护文件哈希一致；图文 PDF 共 {summary["pdf_pages"]} 页。\n'
+    if state.get('status')=='published':
+        line=f"**发布状态**：GitHub v0.2.0 已发布：{state['github_release_url']}；Zenodo 版本 DOI 为 https://doi.org/{state['zenodo_doi']}。已下载归档并逐项核验 272 个文件。版本标签保持不变；主分支中的 DOI 元数据在归档后回填。未上传 bioRxiv 修订版。"
+        checklist=re.sub(r'\*\*发布状态\*\*：[^\n]*',line,checklist)
     (OUT/'FINAL_5_POINTS_CHECK.md').write_text(checklist,encoding='utf-8')
     (OUT/'SUBMISSION_CHECKLIST_FOR_AUTHOR.md').write_text(checklist+'\n当前文件：01 Title Page、02 Highlights、03 双倍行距连续行号盲审稿、04 图文整合稿及 PDF、05 补充材料及 PDF、06/06b 两个目标期刊投稿信、07 利益冲突声明。使用 figures_and_tables/step10_final 中的图表。\n',encoding='utf-8')
     for p in (FINAL/'reports').glob('*'):
@@ -199,7 +215,8 @@ def finalize():
         copy(p,RELEASE/'results/reports'/p.name)
     archives=builder.pack.finalize_archives()
     versioned=ROOT/f'cfDNA-Scale-Tradeoff-Audit-v{VERSION}.zip'
-    copy(OUT/'github_zenodo_release.zip',versioned)
+    official=ROOT/'work/release_v020/published_code_asset.zip'
+    copy(official if state.get('status')=='published' and official.exists() else OUT/'github_zenodo_release.zip',versioned)
     archives.update(versioned_code_zip=str(versioned),versioned_code_zip_sha256=sha(versioned))
     dump(ROOT/'work/step10_final/final_package.json',dict(summary,archives=archives))
     print(json.dumps({'version':VERSION,'tests':tests,'classifier_fits':0,'protected':len(frozen),'pages':summary['pdf_pages'],'archives':archives},indent=2))

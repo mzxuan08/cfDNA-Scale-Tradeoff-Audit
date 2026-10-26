@@ -8,6 +8,6 @@
 
 代码已去掉硬编码的工具品牌与重复图注署名；论文必需的 AI 使用声明如实保留。历史已提交稿件和历史统计记录用于可追溯，不冒充当前版本。
 
-**发布状态**：本轮完成的是本地 v0.2.0 封版与归档包；未创建远端 GitHub Release、未发布新 Zenodo 记录、未上传 bioRxiv 修订版。历史 DOI 10.5281/zenodo.23653766 仅对应 v0.1.0，未冒充新版 DOI。
+**发布状态**：GitHub v0.2.0 已发布：https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.0；Zenodo 版本 DOI 为 https://doi.org/10.5281/zenodo.23659205。已下载归档并逐项核验 272 个文件。版本标签保持不变；主分支中的 DOI 元数据在归档后回填。未上传 bioRxiv 修订版。
 
 本轮非训练校验：10 项全部通过，0 跳过；分类器训练次数为 0；1479 个受保护文件哈希一致；图文 PDF 共 21 页。

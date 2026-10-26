@@ -12,11 +12,11 @@ they are not independent external validation or confirmatory evidence.
 
 ## Version and archival status
 
-This package is version **v0.2.0**, prepared locally for GitHub/Zenodo publication.
-No Zenodo DOI has been assigned to v0.2.0. The existing DOI
-https://doi.org/10.5281/zenodo.23653766 identifies the historical v0.1.0 archive.
-Public repository: https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit.
-This package does not imply that a v0.2.0 tag, release or new DOI is already public.
+Version **v0.2.0** is published at https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.0.
+The immutable version archive is https://doi.org/10.5281/zenodo.23659205.
+Its complete code and numerical outputs were downloaded and verified against
+the 272-file release manifest. The v0.2.0 tag is preserved unchanged; DOI and
+publication metadata were refreshed on main after archival assignment.
 
 ## Package contents
 
