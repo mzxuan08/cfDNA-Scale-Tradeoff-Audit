@@ -1,0 +1,11 @@
+pipeline,target_study,anchors,batch_n,max_anchor_probability_range,mean_anchor_probability_range,source_training_studies,scope
+Raw_Ratio,"Cristiano et al, 2019",10,32,0.0,0.0,"Jiang et al, 2015;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models
+Global_Zscore,"Cristiano et al, 2019",10,32,0.0,0.0,"Jiang et al, 2015;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models
+InFold_ComBat,"Cristiano et al, 2019",10,32,0.0750049352645874,0.05366756394505501,"Jiang et al, 2015;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models
+Proposed_LSN_ICC,"Cristiano et al, 2019",10,32,0.0,0.0,"Jiang et al, 2015;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models
+Hybrid_MultiScale,"Cristiano et al, 2019",10,32,0.0,0.0,"Jiang et al, 2015;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models
+Raw_Ratio,"Jiang et al, 2015",10,32,0.0,0.0,"Cristiano et al, 2019;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models
+Global_Zscore,"Jiang et al, 2015",10,32,0.0,0.0,"Cristiano et al, 2019;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models
+InFold_ComBat,"Jiang et al, 2015",10,32,0.21412891149520874,0.10569801181554794,"Cristiano et al, 2019;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models
+Proposed_LSN_ICC,"Jiang et al, 2015",10,32,0.0,0.0,"Cristiano et al, 2019;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models
+Hybrid_MultiScale,"Jiang et al, 2015",10,32,0.0,0.0,"Cristiano et al, 2019;Snyder et al, 2016",diagnostic_target_labels_used_only_to_construct_real_patient_composition_not_to_tune_models

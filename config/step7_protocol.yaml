@@ -1,0 +1,20 @@
+version: step7_v1
+seed: 2026
+primary_studies: ['Cristiano et al, 2019', 'Jiang et al, 2015']
+external_study: 'Snyder et al, 2016'
+pipelines: [Raw_Ratio, Global_Zscore, InFold_ComBat, Proposed_LSN_ICC, Hybrid_MultiScale]
+models: [elasticnet, rf, xgboost, lightgbm, mlp, dann]
+hybrid_radius: 3
+hybrid_classifier_primary: elasticnet
+tuned_pipeline: Tuned_LSN_ICC
+tuning_model: elasticnet
+radius_grid: [1, 2, 3, 5, 8]
+alpha_grid: [0.0, 0.15, 0.25, 0.35, 0.50]
+inner_folds: 3
+bootstrap_replicates: 1000
+single_source_icc: bypass_filter_with_explicit_effective_pipeline_LSN_only
+single_source_combat: not_estimable_no_invented_batch
+single_source_dann: not_estimable_no_invented_domain
+external_threshold: source_only_nested_OOF_95th_percentile_no_external_label_tuning
+prevalence_stress: deterministic_real_patient_subsets_for_diagnostics_only
+prevalence_stress_fractions: [0.25, 0.5, 0.75]

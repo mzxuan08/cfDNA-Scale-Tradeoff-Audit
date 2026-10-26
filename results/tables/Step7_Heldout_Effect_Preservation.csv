@@ -1,0 +1,13 @@
+target_study,pipeline,block,windows,median_abs_raw_d,median_abs_transformed_d,max_abs_d_change,interpretation
+"Cristiano et al, 2019",Raw_Ratio,all,477,0.5380828101646135,0.5380828186149367,2.37138794156877e-08,samplewise_nonlinear_or_filtered_representation
+"Cristiano et al, 2019",Global_Zscore,all,477,0.5380828101646135,0.255303096244632,1.5926377954099662,samplewise_nonlinear_or_filtered_representation
+"Cristiano et al, 2019",InFold_ComBat,all,477,0.5380828101646135,0.5380828104408663,3.042716301138171e-08,positive_per_feature_affine_maps_preserve_within_study_standardized_mean_differences
+"Cristiano et al, 2019",Proposed_LSN_ICC,all,357,0.5380828101646135,0.2117910263701922,,samplewise_nonlinear_or_filtered_representation
+"Cristiano et al, 2019",Hybrid_MultiScale,global,477,0.5380828101646135,0.255303096244632,1.5926377954099662,samplewise_nonlinear_or_filtered_representation
+"Cristiano et al, 2019",Hybrid_MultiScale,local,477,0.5380828101646135,0.21882872343979345,1.3224458110973332,samplewise_nonlinear_or_filtered_representation
+"Jiang et al, 2015",Raw_Ratio,all,477,0.23513466625831306,0.2351346748907871,4.239934087157948e-08,samplewise_nonlinear_or_filtered_representation
+"Jiang et al, 2015",Global_Zscore,all,477,0.23513466625831306,0.3811641141447749,1.5796820180211741,samplewise_nonlinear_or_filtered_representation
+"Jiang et al, 2015",InFold_ComBat,all,477,0.23513466625831306,0.23513467216276204,3.0448337517974267e-08,positive_per_feature_affine_maps_preserve_within_study_standardized_mean_differences
+"Jiang et al, 2015",Proposed_LSN_ICC,all,357,0.23513466625831306,0.32855672885128956,,samplewise_nonlinear_or_filtered_representation
+"Jiang et al, 2015",Hybrid_MultiScale,global,477,0.23513466625831306,0.3811641141447749,1.5796820180211741,samplewise_nonlinear_or_filtered_representation
+"Jiang et al, 2015",Hybrid_MultiScale,local,477,0.23513466625831306,0.3329572706632496,1.5246797624672281,samplewise_nonlinear_or_filtered_representation

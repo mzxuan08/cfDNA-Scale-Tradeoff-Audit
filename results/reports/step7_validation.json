@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "independent_patients": 585,
+  "primary_patients": 548,
+  "external_patients": 37,
+  "outer_primary_split_count": 7,
+  "new_outer_model_fits": 218,
+  "inner_calibration_folds_checked": 654,
+  "source_only_tuning_jobs": 40,
+  "oof_prediction_rows": 47778,
+  "metric_rows": 341,
+  "estimable_metric_rows": 311,
+  "unavailable_metric_rows": 30,
+  "max_torch_reserved_bytes": 73400320,
+  "predictor_state_frozen": true,
+  "raw_data_and_identity_hashes_unchanged": true,
+  "ordinary_DeLong_excludes_target_batch_adaptation": true,
+  "full_manuscript_word_count": 5179
+}

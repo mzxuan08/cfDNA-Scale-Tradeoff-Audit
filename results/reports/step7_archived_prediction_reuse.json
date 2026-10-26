@@ -1,0 +1,6 @@
+{
+  "source": "F:\\test\\cfDNA-BatchAudit\\results\\archive_step06\\tables\\Clinical_OOF_Predictions.parquet",
+  "sha256": "6e650f7bbaa1349a6cc8ee13f88e3406372cfe485b22551fe8106f1a56e90a78",
+  "scope": "unchanged four-pipeline three-study LOCO; external fold source patients equal primary cohort",
+  "model_file_sha256": "c1bf06c4b3c9b9ddb8340ad8b93f4d6dd2b66ff4a83bce0776e1c1c23eecf767"
+}

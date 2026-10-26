@@ -1,0 +1,131 @@
+seed: 2026
+paths:
+  reference: data/ref
+  metadata: data/metadata/cohort.parquet
+  processed: data/processed
+  results: results
+reference:
+  genome: hg19
+  assembly: GRCh37
+  # Attempt the requested source first. UCSC's alternative hostname has a valid
+  # certificate for the identical GoldenPath table; never disable TLS validation.
+  resources:
+    cytoband:
+      filename: hg19.cytoBand.txt.gz
+      url: https://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz
+      mirrors: [https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz]
+    chrominfo:
+      filename: hg19.chromInfo.txt.gz
+      url: https://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/chromInfo.txt.gz
+      mirrors: [https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/chromInfo.txt.gz]
+    blacklist:
+      filename: hg19.blacklist.bed.gz
+      url: https://github.com/Boyle-Lab/Blacklist/raw/master/lists/hg19-blacklist.v2.bed.gz
+      mirrors: [https://raw.githubusercontent.com/Boyle-Lab/Blacklist/master/lists/hg19-blacklist.v2.bed.gz]
+  window_table: hg19_5mb_bins.parquet
+  window_filter:
+    full_windows_only: true
+    telomere_buffer_bp: 1000000
+    max_blacklist_fraction: 0.20
+    # Cytogenetic proxies for difficult-to-map regions, not measured mappability.
+    excluded_cytoband_stains: [gvar, stalk]
+  chrom_sizes_urls:
+    hg19: https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes
+    hg38: https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes
+  blacklist_urls:
+    hg19: https://raw.githubusercontent.com/Boyle-Lab/Blacklist/master/lists/hg19-blacklist.v2.bed.gz
+    hg38: https://raw.githubusercontent.com/Boyle-Lab/Blacklist/master/lists/hg38-blacklist.v2.bed.gz
+  # Optional streamed reference FASTA; never materialized on disk.
+  gc_urls:
+    hg19: https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
+    hg38: https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
+metadata:
+  discovery_url: https://finaledb.research.cchmc.org/api/v1/seqrun?limit=5
+  # Metadata discovery is evidence only. Clinical labels/centers require source verification.
+  published_supplement_url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13353424/supplementaryFiles
+  published_metadata_citation: https://pmc.ncbi.nlm.nih.gov/articles/PMC13353424/
+  public_s3_base: https://s3.us-east-2.amazonaws.com/finaledb.epifluidlab.cchmc.org
+  api_urls:
+    - http://finaledb.research.cchmc.org/api/v1/seqrun?limit=500&offset=0
+    - https://finaledb.research.cchmc.org/api/v1/seqrun?limit=500&offset=0
+cohort:
+  min_centers: 3
+  min_per_center: 20
+  min_samples: 600
+  max_samples: 1500
+  max_per_center: 500
+  min_depth: 0.1
+  max_depth: 5.0
+  require_both_labels_per_study: true
+  healthy_label: Healthy
+  # Clinical specimens may repeat a patient; identities are retained for grouped CV.
+  one_measurement_per_specimen: true
+extraction:
+  workers: 6
+  checkpoint_every: 25
+  chunk_rows: 250000
+  min_effective_fragments: 50000
+  checkpoint_file: cfdna_features_checkpoint.parquet
+  final_file: cfdna_multicenter_features.parquet
+  # Published matrices are kept in a separate namespace unless all definitions match.
+  fallback_lucas_url: https://raw.githubusercontent.com/cancer-genomics/artemis2024/main/code/rlucas/data/lucas_5mb.rda
+  fallback_lucas_metadata_url: https://raw.githubusercontent.com/cancer-genomics/artemis2024/main/code/rlucas/data/metadata.rda
+network:
+  max_retries: 5
+  backoff_seconds: 1
+  connect_timeout: 15
+  read_timeout: 90
+features:
+  bin_size: 5000000
+  chromosomes: [chr1, chr2, chr3, chr4, chr5, chr6, chr7, chr8, chr9, chr10, chr11, chr12, chr13, chr14, chr15, chr16, chr17, chr18, chr19, chr20, chr21, chr22]
+  short: [100, 150]
+  long: [151, 220]
+  histogram: [80, 400]
+  mapq_min: 30
+  normalize_chr_prefix: true
+  min_long_count: 1
+  min_accepted_fragments: 1000
+  assignment: midpoint
+  pseudocount: 0.5
+debiasing:
+  # Frozen design choices, not a claim of having no hyperparameters.
+  local_radius: 2
+  icc_threshold: 0.75
+  icc_min_subjects: 5
+evaluation:
+  models: [elasticnet, rf, xgboost, lightgbm, mlp, dann]
+  methods: [raw, lsn, icc, lsn_icc, combat]
+  random_folds: 5
+  bootstrap_replicates: 2000
+  ece_bins: 10
+  n_jobs: 4
+  require_cuda: true
+  torch_batch_size: 128
+  torch_hidden: 128
+  torch_epochs: 50
+  torch_lr: 0.001
+study:
+  radius: 3
+  exclusion_fraction: 0.25
+  relative_epsilon: 0.000001
+  bootstrap_replicates: 1000
+  inner_calibration_folds: 3
+  sensitivity_model: elasticnet
+  radius_grid: [1, 2, 3, 5, 8]
+  exclusion_grid: [0.0, 0.15, 0.25, 0.35, 0.50]
+  permutations: 999
+  participant_policy: earliest_specimen_then_shallowest_depth_then_run_id
+  annotations:
+    repeatmasker: https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/rmsk.txt.gz
+    segmental_duplications: https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/genomicSuperDups.txt.gz
+    compartments: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63525/suppl/GSE63525_GM12878_subcompartments.bed.gz
+audit:
+  permutations: 999
+  pca_components: 10
+  umap: true
+  covariates: [age, sex, log_fragments]
+plotting:
+  dpi: 300
+  palette: NPG_nrc
+  colors: ['#E64B35', '#4DBBD5', '#00A087', '#3C5488', '#F39B7F', '#8491B4', '#91D1C2', '#DC0000', '#7E6148', '#B09C85']
+

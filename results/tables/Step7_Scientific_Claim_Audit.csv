@@ -1,0 +1,6 @@
+claim,assessment,evidence,source
+Raw GC association applies unchanged after Global Z-score,not_supported,Observed raw rho=0.606342; Global rho=0.158177,Step7_Residual_Batch_GC_Associations.csv
+Low pooled ComBat AUROC proves destruction of within-study feature signal,not_supported,Within-study pair AUROC=0.668621; cross-study pair AUROC=0.366117; max within-study Cohen d change=3.04483375e-08,Step7_AUC_Pair_Decomposition.csv; Step7_Heldout_Effect_Preservation.csv
+Sample-wise transforms are immune to all prevalence confounding,scope_must_be_restricted,Hybrid fixed-anchor maximum probability range=0; source fitting and predictive values still depend on population composition,Step7_Prevalence_Stress_Summary.csv
+Reduced local contrast proves loss of measured chromosome-arm copy number,not_identified_without_copy_number_ground_truth,Arm-averaged fragmentation contrasts are measured; matched copy-number truth is not available for this interpretation,Step7_Arm_Level_Disease_Contrasts.csv
+Healthy cross-center ICC can be estimated in a one-source bilateral fold,not_identifiable,Only one real source study; filter bypass is explicit and alpha is zero,Step7_Selected_Parameters.csv

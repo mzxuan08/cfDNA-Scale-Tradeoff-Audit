@@ -1,0 +1,16 @@
+{
+  "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/chromInfo.txt.gz",
+  "sha256": "97db140af022e356b82572ead3166959f0a601a03851d9cb78168742cd70037e",
+  "bytes": 2694,
+  "http_status": 200,
+  "response_url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/chromInfo.txt.gz",
+  "requested_url": "https://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/chromInfo.txt.gz",
+  "failures": [
+    {
+      "url": "https://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/chromInfo.txt.gz",
+      "error": "URL=https://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/chromInfo.txt.gz HTTP=NO_HTTP_RESPONSE attempt=6: SSLError: HTTPSConnectionPool(host='hgdownload.cse.ucsc.edu', port=443): Max retries exceeded with url: /goldenPath/hg19/database/chromInfo.txt.gz (Caused by SSLError(CertificateError(\"hostname 'hgdownload.cse.ucsc.edu' doesn't match either of 'hgdownload.soe.ucsc.edu', 'hgdownload2.gi.ucsc.edu', 'hgdownload.gi.ucsc.edu', 'hgdownload2.soe.ucsc.edu', 'hgdownload3.gi.ucsc.edu', 'hgdownload3.soe.ucsc.edu'\")))"
+    }
+  ],
+  "mirror_used": true,
+  "reused_checkpoint": false
+}

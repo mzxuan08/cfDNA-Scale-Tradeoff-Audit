@@ -1,0 +1,23 @@
+{
+  "genome": "hg19",
+  "assembly": "GRCh37",
+  "contract": "b1145e155e404ce4190e58421f3afe692c3d0ecaa3147ef16d2e5e2ef145fe6a",
+  "sha256": "30f7dcd429265a001a874d75457ec1d0e8c8d23ba3c3c1f192d9766bf8b2a6d3",
+  "source_sha256": {
+    "hg19.cytoBand.txt.gz": "f9b82309b2bca1eb9d91a5cb2c6aa0528351158e6e20b51d82cca36d01735cba",
+    "hg19.chromInfo.txt.gz": "97db140af022e356b82572ead3166959f0a601a03851d9cb78168742cd70037e",
+    "hg19.blacklist.bed.gz": "1a4ba636f791936ab8952cb068f496ccbd55ec4753539547c5d3d055ed00642a"
+  },
+  "n_candidates": 589,
+  "n_retained": 477,
+  "filter_parameters": {
+    "full_windows_only": true,
+    "telomere_buffer_bp": 1000000,
+    "max_blacklist_fraction": 0.2,
+    "excluded_cytoband_stains": [
+      "gvar",
+      "stalk"
+    ]
+  },
+  "distance_definition": "Window edge to same-arm telomere or centromere boundary, in bp; midpoint distances stored separately"
+}

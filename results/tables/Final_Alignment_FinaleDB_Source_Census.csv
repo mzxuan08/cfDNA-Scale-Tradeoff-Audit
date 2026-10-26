@@ -1,0 +1,11 @@
+study,runs,known_patients,healthy_runs,healthy_patients,cancer_runs,cancer_patients,other_condition_runs,unresolved_patient_id_runs,meets_cancer_and_10_healthy,screen,already_in_analysis,additional_eligible,assay_scope
+"Adalsteinsson et al, 2017",1508,528,0,0,1508,528,0,0,False,plasma_snapshot_no_depth_restriction,False,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check
+"Cristiano et al, 2019",538,493,262,262,276,231,0,1,True,plasma_snapshot_no_depth_restriction,True,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check
+"Jiang et al, 2015",225,225,32,32,90,90,103,0,True,plasma_snapshot_no_depth_restriction,True,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check
+"Snyder et al, 2016",60,60,4,4,48,48,8,0,False,plasma_snapshot_no_depth_restriction,True,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check
+"Sun et al, 2019",31,25,0,0,18,12,13,0,False,plasma_snapshot_no_depth_restriction,False,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check
+"Adalsteinsson et al, 2017",1202,468,0,0,1202,468,0,0,False,locked_depth_and_published_QC,False,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check
+"Cristiano et al, 2019",470,427,209,209,261,218,0,1,True,locked_depth_and_published_QC,True,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check
+"Jiang et al, 2015",220,220,32,32,89,89,99,0,True,locked_depth_and_published_QC,True,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check
+"Snyder et al, 2016",41,41,1,1,36,36,4,0,False,locked_depth_and_published_QC,True,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check
+"Sun et al, 2019",31,25,0,0,18,12,13,0,False,locked_depth_and_published_QC,False,False,published human plasma cfDNA WGS clinical snapshot; no new object availability check

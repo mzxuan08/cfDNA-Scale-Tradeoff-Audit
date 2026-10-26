@@ -1,0 +1,28 @@
+{
+  "sha256": "5a4c8b1fcaaaeacb3a0df50cc7d259666db360fc070ade7a5105e792e65dedfb",
+  "window_sha256": "30f7dcd429265a001a874d75457ec1d0e8c8d23ba3c3c1f192d9766bf8b2a6d3",
+  "compartment_parser_version": 2,
+  "sources": {
+    "gc": {
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz",
+      "compressed_sha256": "ac73947d38df63ccb00724520a5c31d880c1ca423702ca7ccb7e6c2182a362d9",
+      "compressed_bytes": 948731419
+    },
+    "repeatmasker": {
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/rmsk.txt.gz",
+      "compressed_sha256": "af22a795f18a4b7d8dbe9c065f8a83f53271cbff1e04bc519ab31a5159a74416",
+      "compressed_bytes": 148359433
+    },
+    "segmental_duplications": {
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/genomicSuperDups.txt.gz",
+      "compressed_sha256": "832689d7379f4b63266f450da949e10df48547a9561699b7ea33ca669d01b88e",
+      "compressed_bytes": 3002024
+    },
+    "compartments": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63525/suppl/GSE63525_GM12878_subcompartments.bed.gz",
+      "sha256": "be4bef5d57565ac6329dd29891b091480e6bae34d47ed1b9479cf1d9cd00de19",
+      "unclassified_intervals": 215,
+      "reference": "GM12878 lymphoblastoid, hg19; not tumor-specific; A fraction is covered bp / full window, not an imputed B label"
+    }
+  }
+}

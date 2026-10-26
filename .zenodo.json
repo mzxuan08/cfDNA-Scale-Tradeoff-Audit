@@ -1,0 +1,27 @@
+{
+  "title": "cfDNA Scale Tradeoff Audit: reproducible analysis of normalization scale and cross-study score transport",
+  "upload_type": "software",
+  "description": "Reproducible software and compact statistical outputs accompanying the Scale Trade-offs in Within-Sample Self-Normalization audit of public cfDNA cohorts. Includes source-isolated preprocessing, global/local/Hybrid comparisons, pair concordance decomposition, fixed real-patient composition stress tests, automated tests and checksum-verifiable provenance. Original software is MIT licensed; third-party data and reference annotations retain their original terms.",
+  "creators": [
+    {
+      "name": "Ma, Zhenxuan",
+      "affiliation": "Hubei University of Medicine, Shiyan 442000, Hubei, China"
+    }
+  ],
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [
+    "cfDNA",
+    "fragmentomics",
+    "normalization",
+    "cross-study validation",
+    "batch composition"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/tree/v0.1.0",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}

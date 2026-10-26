@@ -1,0 +1,133 @@
+cohort_scope,model,center,method,comparator,status,auc_a,auc_b,delta,variance,p,q
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.6081164128001405,0.7245950572845793,-0.1164786444844387,0.000986361604844,0.0002082802479895,0.0008794054915112223
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.6081164128001405,0.6318423247443045,-0.0237259119441639,5.236176302313568e-05,0.0010424709976823,0.003301158159327284
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.6081164128001405,0.6069312146086652,0.0011851981914753,9.186957390136617e-05,0.9015899202010244,0.9516782491010812
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Tuned_LSN_ICC,Raw_Ratio,fixed_models_independent_heldout_study,0.6223826873271586,0.7245950572845793,-0.1022123699574206,0.0009591742812255,0.0009657818780373,0.003301158159327284
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Tuned_LSN_ICC,Global_Zscore,fixed_models_independent_heldout_study,0.6223826873271586,0.6318423247443045,-0.0094596374171458,0.0001729241499001,0.4719187476662174,0.5977637470438754
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Tuned_LSN_ICC,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.6223826873271586,0.6069312146086652,0.0154514727184934,0.000104824554146,0.1312551635240602,0.20782067557976194
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Tuned_LSN_ICC,Hybrid_MultiScale,fixed_models_independent_heldout_study,0.6223826873271586,0.6081164128001405,0.0142662745270181,0.0001207309783471,0.1941574044671516,0.2935775951491943
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.8771067415730337,0.7587780898876404,0.1183286516853933,0.0015086542973876,0.0023155561688694,0.0067685488013105545
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.8771067415730337,0.8588483146067416,0.018258426966292,0.0001112470645505,0.08343611810826,0.14411693127790362
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.8771067415730337,0.8160112359550562,0.0610955056179775,0.00054793753096,0.0090537082254069,0.022936060837697482
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Tuned_LSN_ICC,Raw_Ratio,fixed_models_independent_heldout_study,0.797752808988764,0.7587780898876404,0.0389747191011236,0.0016561721023701,0.3382131958711226,0.45900362296795205
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Tuned_LSN_ICC,Global_Zscore,fixed_models_independent_heldout_study,0.797752808988764,0.8588483146067416,-0.0610955056179776,0.0007413729835585,0.0248430303975058,0.05244639750584558
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Tuned_LSN_ICC,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.797752808988764,0.8160112359550562,-0.0182584269662922,0.000470345318556,0.3998499679994302,0.5239413373785637
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Tuned_LSN_ICC,Hybrid_MultiScale,fixed_models_independent_heldout_study,0.797752808988764,0.8771067415730337,-0.0793539325842697,0.0005680653455773,0.0008702533139583,0.003301158159327284
+Primary_Bilateral,lightgbm,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.6560510952109214,0.5162745270181291,0.1397765681927922,0.0009222651883243,4.171804687355546e-06,3.1705715623902146e-05
+Primary_Bilateral,lightgbm,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.6560510952109214,0.6428163820727799,0.0132347131381415,3.6058043692122456e-05,0.0275236795660931,0.0550473591321862
+Primary_Bilateral,lightgbm,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.6560510952109214,0.6315569992537641,0.0244940959571573,0.0003667139270902,0.200868880891554,0.2935775951491943
+Primary_Bilateral,lightgbm,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Primary_Bilateral,lightgbm,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.8465589887640449,0.5093047752808989,0.337254213483146,0.0040715259905187,1.2542272088982046e-07,2.3830316969065888e-06
+Primary_Bilateral,lightgbm,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.8465589887640449,0.8837780898876404,-0.0372191011235955,0.0002137619376989,0.0109070829547551,0.025904322017543363
+Primary_Bilateral,lightgbm,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.8465589887640449,0.8521769662921348,-0.0056179775280899,0.0007878560918399,0.8413629260323697,0.9134797482637157
+Primary_Bilateral,lightgbm,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Primary_Bilateral,mlp,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.7104385233308459,0.619529432421755,0.0909090909090909,0.0014700330133548,0.0177368300253019,0.03964703182126308
+Primary_Bilateral,mlp,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.7104385233308459,0.708386374610421,0.0020521487204249,3.297701696107849e-05,0.7208240374673698,0.8056268654047074
+Primary_Bilateral,mlp,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.7104385233308459,0.7044466880294983,0.0059918353013476,0.0001143764385694,0.5753003774015054,0.7052069142341034
+Primary_Bilateral,mlp,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Primary_Bilateral,mlp,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.9371488764044944,0.7356039325842697,0.2015449438202247,0.0015576319946876,3.278512920185793e-07,4.152783032235338e-06
+Primary_Bilateral,mlp,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.9371488764044944,0.9304775280898876,0.0066713483146068,0.0001802353446131,0.6192396906935834,0.7353471326986303
+Primary_Bilateral,mlp,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.9371488764044944,0.8855337078651685,0.0516151685393259,0.0003475678638702,0.0056300649203779,0.01528160478388287
+Primary_Bilateral,mlp,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Primary_Bilateral,rf,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.7142245731091699,0.5415258329309512,0.1726987401782186,0.0013138525414846,1.893377060759613e-06,1.7987082077216323e-05
+Primary_Bilateral,rf,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.7142245731091699,0.6876344322022738,0.026590140906896,4.5621948947269534e-05,8.260540324340732e-05,0.0003923756654061848
+Primary_Bilateral,rf,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.7142245731091699,0.7148281462622361,-0.0006035731530662,0.0001631229439325,0.9623078575719956,0.9883161780469144
+Primary_Bilateral,rf,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Primary_Bilateral,rf,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.9339887640449438,0.4487359550561798,0.485252808988764,0.0038457283545243,5.0806352926180705e-15,1.9306414111948667e-13
+Primary_Bilateral,rf,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.9339887640449438,0.9073033707865168,0.0266853932584268,0.0002682234103445,0.1032303092241174,0.17055442393549833
+Primary_Bilateral,rf,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.9339887640449438,0.9269662921348316,0.0070224719101122,0.0003118737920834,0.6908884797854818,0.7955685524802518
+Primary_Bilateral,rf,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Primary_Bilateral,xgboost,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.6322593389227865,0.4962468723936614,0.1360124665291251,0.001081868372322,3.547193883472919e-05,0.00019256195367424418
+Primary_Bilateral,xgboost,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.6322593389227865,0.6322812870374435,-2.1948114656944465e-05,6.568021803501282e-05,0.9978391756859244,0.9978391756859244
+Primary_Bilateral,xgboost,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.6322593389227865,0.6527588780123788,-0.0204995390895922,0.0003286842825955,0.2581734495355943,0.36335522527231795
+Primary_Bilateral,xgboost,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Primary_Bilateral,xgboost,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.8223314606741573,0.5581109550561798,0.2642205056179775,0.0038964194491607,2.3074051610049767e-05,0.00014613566019698186
+Primary_Bilateral,xgboost,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.8223314606741573,0.8623595505617978,-0.0400280898876405,0.0004120401415001,0.0486157274758053,0.08797131638479054
+Primary_Bilateral,xgboost,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.8223314606741573,0.8883426966292135,-0.0660112359550562,0.0009464212591771,0.0318943103122712,0.06059918959331527
+Primary_Bilateral,xgboost,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,method_not_estimable_in_this_design,,,,,,
+Combined_LOCO,dann,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.7482441508274439,0.5672051270795838,0.18103902374786,0.0012103772011447,1.9536457359480317e-07,9.551156931301488e-07
+Combined_LOCO,dann,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.7482441508274439,0.7424937447873228,0.0057504060401211,0.0001445588583828,0.6324556817430642,0.7950871427627093
+Combined_LOCO,dann,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.7482441508274439,0.7161011369123392,0.0321430139151046,0.0002671459049951,0.0492312761905864,0.10315124535170483
+Combined_LOCO,dann,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.7482441508274439,0.6672226855713094,0.0810214652561345,0.0010719924755363,,
+Combined_LOCO,dann,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.8830758426966292,0.4648876404494382,0.418188202247191,0.0021102038445783,8.744684538923603e-20,1.9238305985631926e-18
+Combined_LOCO,dann,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.8830758426966292,0.8844803370786517,-0.0014044943820225,0.0003438898387117,0.9396280285032952,0.9896890711076535
+Combined_LOCO,dann,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.8830758426966292,0.8834269662921348,-0.0003511235955055,0.0007382107966381,0.9896890711076536,0.9896890711076535
+Combined_LOCO,dann,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.8830758426966292,0.6811797752808989,0.2018960674157303,0.0028326335343025,,
+Combined_LOCO,dann,"Snyder et al, 2016",Hybrid_MultiScale,Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,dann,"Snyder et al, 2016",Hybrid_MultiScale,Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,dann,"Snyder et al, 2016",Hybrid_MultiScale,Proposed_LSN_ICC,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,dann,"Snyder et al, 2016",Hybrid_MultiScale,InFold_ComBat,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.6364075325929502,0.6240726921557438,0.0123348404372064,0.0014425832005598,0.7453623988401982,0.8553790136212803
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.6364075325929502,0.6864053377814846,-0.0499978051885343,0.0001890894179028,0.0002769632235663,0.0009374139874551693
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.6364075325929502,0.6596725341293183,-0.023265001536368,0.0001459344031578,0.0541221178063854,0.1082442356127708
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.6364075325929502,0.6560071989816075,-0.0195996663886572,0.0010411622787793,,
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Tuned_LSN_ICC,Raw_Ratio,fixed_models_independent_heldout_study,0.6737412756244239,0.6240726921557438,0.04966858346868,0.0013408010094207,0.1749601849810746,0.29608646689104934
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Tuned_LSN_ICC,Global_Zscore,fixed_models_independent_heldout_study,0.6737412756244239,0.6864053377814846,-0.0126640621570607,0.0003501749021611,0.4985623509717058,0.6647498012956078
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Tuned_LSN_ICC,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.6737412756244239,0.6596725341293183,0.0140687414951056,0.0001703249468308,0.2810366828147038,0.44058142536002803
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Tuned_LSN_ICC,Hybrid_MultiScale,fixed_models_independent_heldout_study,0.6737412756244239,0.6364075325929502,0.0373337430314736,0.0001652806206753,0.0036847573399112,0.0101330826847558
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.8641151685393258,0.5207162921348315,0.3433988764044943,0.0026567425473325,2.695764578744604e-11,1.694480592353751e-10
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.8641151685393258,0.8500702247191011,0.0140449438202246,0.000176465124781,0.2903832121691094,0.44058142536002803
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.8641151685393258,0.8160112359550562,0.0481039325842695,0.0006512599209856,0.0594344956780255,0.11370077434057052
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.8641151685393258,0.8679775280898876,-0.0038623595505618,0.0012418218515855,,
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Tuned_LSN_ICC,Raw_Ratio,fixed_models_independent_heldout_study,0.8040730337078652,0.5207162921348315,0.2833567415730337,0.002801153120651,8.610855082539973e-08,4.735970295396985e-07
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Tuned_LSN_ICC,Global_Zscore,fixed_models_independent_heldout_study,0.8040730337078652,0.8500702247191011,-0.0459971910112358,0.0007498979177187,0.0930168181120924,0.17053083320550275
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Tuned_LSN_ICC,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.8040730337078652,0.8160112359550562,-0.0119382022471909,0.0008097735677699,0.6748329906006763,0.8180730857937106
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Tuned_LSN_ICC,Hybrid_MultiScale,fixed_models_independent_heldout_study,0.8040730337078652,0.8641151685393258,-0.0600421348314605,0.0005301586920091,0.0091159909449764,0.022283533421053422
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Hybrid_MultiScale,Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Hybrid_MultiScale,Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Hybrid_MultiScale,Proposed_LSN_ICC,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Hybrid_MultiScale,InFold_ComBat,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Tuned_LSN_ICC,Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Tuned_LSN_ICC,Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Tuned_LSN_ICC,Proposed_LSN_ICC,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Tuned_LSN_ICC,Hybrid_MultiScale,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,lightgbm,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.7165839954347921,0.4938984241253676,0.2226855713094245,0.0009601829715535,6.649222816605055e-13,7.314145098265561e-12
+Combined_LOCO,lightgbm,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.7165839954347921,0.7257802554760546,-0.0091962600412625,0.0001477578256843,0.4493212165947802,0.6178166728178227
+Combined_LOCO,lightgbm,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.7165839954347921,0.6384487072560467,0.0781352881787453,0.000326623637667,1.5365670864659973e-05,6.146268345863989e-05
+Combined_LOCO,lightgbm,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.7165839954347921,0.5795180194021333,0.1370659760326588,0.0009891977478323,,
+Combined_LOCO,lightgbm,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.8451544943820225,0.5319522471910112,0.3132022471910113,0.0040037274510845,7.426818593154183e-07,3.267800180987841e-06
+Combined_LOCO,lightgbm,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.8451544943820225,0.8623595505617978,-0.0172050561797753,0.0003155415131313,0.332763306560914,0.4880528496226739
+Combined_LOCO,lightgbm,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.8451544943820225,0.8476123595505618,-0.0024578651685392,0.0014960123287258,0.9493314683425552,0.9896890711076535
+Combined_LOCO,lightgbm,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.8451544943820225,0.6969803370786517,0.1481741573033708,0.0028422572120444,,
+Combined_LOCO,lightgbm,"Snyder et al, 2016",Hybrid_MultiScale,Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,lightgbm,"Snyder et al, 2016",Hybrid_MultiScale,Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,lightgbm,"Snyder et al, 2016",Hybrid_MultiScale,Proposed_LSN_ICC,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,lightgbm,"Snyder et al, 2016",Hybrid_MultiScale,InFold_ComBat,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,mlp,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.7610618497871033,0.5294982660989421,0.2315635836881612,0.0011758612900292,1.4488936142491032e-11,1.0625219837826757e-10
+Combined_LOCO,mlp,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.7610618497871033,0.7613032790483297,-0.0002414292612263,5.2855415126429415e-05,0.973508569721538,0.9896890711076535
+Combined_LOCO,mlp,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.7610618497871033,0.7399258153724595,0.0211360344146438,9.20091298786948e-05,0.0275613163930271,0.06382620638385222
+Combined_LOCO,mlp,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.7610618497871033,0.6650937184495852,0.0959681313375181,0.0009802782329624,,
+Combined_LOCO,mlp,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.925561797752809,0.8683286516853933,0.0572331460674157,0.0012850030347449,0.1103553763048743,0.19422546229657875
+Combined_LOCO,mlp,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.925561797752809,0.9213483146067416,0.0042134831460673,0.0001872972758436,0.7581768529824985,0.8553790136212803
+Combined_LOCO,mlp,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.925561797752809,0.8851825842696629,0.0403792134831461,0.0003488379810806,0.0306219046997334,0.06736819033941348
+Combined_LOCO,mlp,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.925561797752809,0.8721910112359551,0.0533707865168538,0.0013826862742837,,
+Combined_LOCO,mlp,"Snyder et al, 2016",Hybrid_MultiScale,Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,mlp,"Snyder et al, 2016",Hybrid_MultiScale,Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,mlp,"Snyder et al, 2016",Hybrid_MultiScale,Proposed_LSN_ICC,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,mlp,"Snyder et al, 2016",Hybrid_MultiScale,InFold_ComBat,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,rf,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.7677231025854879,0.4051402484526579,0.36258285413283,0.0012746546821655,3.124746145341128e-24,1.3748883039500963e-22
+Combined_LOCO,rf,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.7677231025854879,0.7550261182564417,0.0126969843290462,0.000129202933307,0.2639819825032207,0.4301928603756189
+Combined_LOCO,rf,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.7677231025854879,0.7170119836706027,0.0507111189148852,0.0002206465947285,0.000640330871864,0.0018783038908010666
+Combined_LOCO,rf,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.7677231025854879,0.6342017470699267,0.1335213555155612,0.0009402466963456,,
+Combined_LOCO,rf,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.9037921348314608,0.434691011235955,0.4691011235955056,0.0035470654264715,3.3674749989435746e-15,4.938963331783909e-14
+Combined_LOCO,rf,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.9037921348314608,0.9006320224719101,0.0031601123595506,0.0001903313844772,0.8188230756339389,0.9007053831973326
+Combined_LOCO,rf,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.9037921348314608,0.8883426966292135,0.0154494382022472,0.0007548409080322,0.5738967378794407,0.7426898960792762
+Combined_LOCO,rf,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.9037921348314608,0.7103230337078652,0.1934691011235955,0.002315251939423,,
+Combined_LOCO,rf,"Snyder et al, 2016",Hybrid_MultiScale,Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,rf,"Snyder et al, 2016",Hybrid_MultiScale,Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,rf,"Snyder et al, 2016",Hybrid_MultiScale,Proposed_LSN_ICC,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,rf,"Snyder et al, 2016",Hybrid_MultiScale,InFold_ComBat,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,xgboost,"Cristiano et al, 2019",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.7096483912031957,0.4942386199025503,0.2154097713006453,0.0009709954534001,4.75029852755029e-12,4.180262704244255e-11
+Combined_LOCO,xgboost,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.7096483912031957,0.6975769281418727,0.012071463061323,0.0001822393812581,0.3712103453495408,0.5268791998509611
+Combined_LOCO,xgboost,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.7096483912031957,0.6533734252227734,0.0562749659804222,0.0002606328911746,0.000490694718273,0.0015421834002865714
+Combined_LOCO,xgboost,"Cristiano et al, 2019",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.7096483912031957,0.5859817391686054,0.1236666520345902,0.0010429797963169,,
+Combined_LOCO,xgboost,"Jiang et al, 2015",Hybrid_MultiScale,Raw_Ratio,fixed_models_independent_heldout_study,0.807935393258427,0.5679424157303371,0.2399929775280899,0.0043152151779719,0.0002587899148674,0.0009374139874551693
+Combined_LOCO,xgboost,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.807935393258427,0.855688202247191,-0.0477528089887639,0.0003206557866866,0.0076592707680155,0.019823994928981296
+Combined_LOCO,xgboost,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.807935393258427,0.8254915730337079,-0.0175561797752809,0.001910363121832,0.6879250948719839,0.8180730857937106
+Combined_LOCO,xgboost,"Jiang et al, 2015",Hybrid_MultiScale,InFold_ComBat,DeLong_not_applicable_transductive_target_batch_dependency,0.807935393258427,0.6799508426966292,0.1279845505617978,0.0032265092009937,,
+Combined_LOCO,xgboost,"Snyder et al, 2016",Hybrid_MultiScale,Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,xgboost,"Snyder et al, 2016",Hybrid_MultiScale,Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,xgboost,"Snyder et al, 2016",Hybrid_MultiScale,Proposed_LSN_ICC,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,xgboost,"Snyder et al, 2016",Hybrid_MultiScale,InFold_ComBat,DeLong needs >=2 positives and negatives,,,,,,

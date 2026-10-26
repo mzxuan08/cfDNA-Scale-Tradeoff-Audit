@@ -1,0 +1,2 @@
+requested_title,adopted_title,rationale
+Within-Sample Multi-Scale Self-Normalization Overcomes Center-Specific Batch Drift and Prevalence Confounding in Multi-Center Cell-Free DNA Fragmentomics,Scale Trade-offs in Within-Sample Self-Normalization for Cross-Study Generalization in Public cfDNA Cohorts,"Systematic scale-trade-off audit in public cohorts; Hybrid is a fusion probe, not a baseline-beating algorithm. CNA preservation is unverified without matched copy-number truth."

@@ -1,0 +1,109 @@
+pipeline,radius,alpha,fold,center,model,auroc,n,selection
+LSN_only,3,0.0,0,"Cristiano et al, 2019",elasticnet,0.6665861902462579,427,prespecified_no_outer_score_parameter_selection
+LSN_only,3,0.0,1,"Jiang et al, 2015",elasticnet,0.8128511235955056,121,prespecified_no_outer_score_parameter_selection
+LSN_only,3,0.0,2,"Snyder et al, 2016",elasticnet,0.6111111111111112,37,prespecified_no_outer_score_parameter_selection
+LSN_only,3,0.0,-1,MacroCenters,elasticnet,0.6968494749842916,585,prespecified_no_outer_score_parameter_selection
+ICC_only,3,0.25,0,"Cristiano et al, 2019",elasticnet,0.6216145033141653,427,prespecified_no_outer_score_parameter_selection
+ICC_only,3,0.25,1,"Jiang et al, 2015",elasticnet,0.5340589887640449,121,prespecified_no_outer_score_parameter_selection
+ICC_only,3,0.25,2,"Snyder et al, 2016",elasticnet,0.5555555555555556,37,prespecified_no_outer_score_parameter_selection
+ICC_only,3,0.25,-1,MacroCenters,elasticnet,0.5704096825445887,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.0,0,"Cristiano et al, 2019",elasticnet,0.6511786137570783,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.0,1,"Jiang et al, 2015",elasticnet,0.7103230337078652,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.0,2,"Snyder et al, 2016",elasticnet,0.6944444444444444,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.0,-1,MacroCenters,elasticnet,0.6853153639697961,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.15,0,"Cristiano et al, 2019",elasticnet,0.6618234493656995,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.15,1,"Jiang et al, 2015",elasticnet,0.7271769662921348,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.15,2,"Snyder et al, 2016",elasticnet,0.75,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.15,-1,MacroCenters,elasticnet,0.7130001385526114,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.25,0,"Cristiano et al, 2019",elasticnet,0.6541196611211098,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.25,1,"Jiang et al, 2015",elasticnet,0.7292837078651686,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.25,2,"Snyder et al, 2016",elasticnet,0.75,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.25,-1,MacroCenters,elasticnet,0.7111344563287595,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.35,0,"Cristiano et al, 2019",elasticnet,0.6613186427285895,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.35,1,"Jiang et al, 2015",elasticnet,0.7405196629213483,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.35,2,"Snyder et al, 2016",elasticnet,0.6388888888888888,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.35,-1,MacroCenters,elasticnet,0.680242398179609,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.5,0,"Cristiano et al, 2019",elasticnet,0.6690004828585225,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.5,1,"Jiang et al, 2015",elasticnet,0.7320926966292135,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.5,2,"Snyder et al, 2016",elasticnet,0.5277777777777778,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,1,0.5,-1,MacroCenters,elasticnet,0.6429569857551712,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.0,0,"Cristiano et al, 2019",elasticnet,0.6721610113691233,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.0,1,"Jiang et al, 2015",elasticnet,0.8040730337078652,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.0,2,"Snyder et al, 2016",elasticnet,0.6388888888888888,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.0,-1,MacroCenters,elasticnet,0.7050409779886259,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.15,0,"Cristiano et al, 2019",elasticnet,0.6708660726043634,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.15,1,"Jiang et al, 2015",elasticnet,0.829002808988764,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.15,2,"Snyder et al, 2016",elasticnet,0.6666666666666666,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.15,-1,MacroCenters,elasticnet,0.722178516086598,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.25,0,"Cristiano et al, 2019",elasticnet,0.6785040165049823,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.25,1,"Jiang et al, 2015",elasticnet,0.8458567415730337,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.25,2,"Snyder et al, 2016",elasticnet,0.7222222222222222,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.25,-1,MacroCenters,elasticnet,0.7488609934334128,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.35,0,"Cristiano et al, 2019",elasticnet,0.682652210175146,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.35,1,"Jiang et al, 2015",elasticnet,0.8286516853932584,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.35,2,"Snyder et al, 2016",elasticnet,0.6666666666666666,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.35,-1,MacroCenters,elasticnet,0.7259901874116904,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.5,0,"Cristiano et al, 2019",elasticnet,0.691607040955182,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.5,1,"Jiang et al, 2015",elasticnet,0.8177668539325842,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.5,2,"Snyder et al, 2016",elasticnet,0.7777777777777778,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,2,0.5,-1,MacroCenters,elasticnet,0.7623838908885147,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.0,0,"Cristiano et al, 2019",elasticnet,0.6665861902462579,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.0,1,"Jiang et al, 2015",elasticnet,0.8128511235955056,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.0,2,"Snyder et al, 2016",elasticnet,0.6111111111111112,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.0,-1,MacroCenters,elasticnet,0.6968494749842916,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.15,0,"Cristiano et al, 2019",elasticnet,0.6680347658136165,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.15,1,"Jiang et al, 2015",elasticnet,0.8384831460674158,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.15,2,"Snyder et al, 2016",elasticnet,0.6666666666666666,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.15,-1,MacroCenters,elasticnet,0.7243948595158997,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.25,0,"Cristiano et al, 2019",elasticnet,0.6596725341293184,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.25,1,"Jiang et al, 2015",elasticnet,0.8160112359550562,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.25,2,"Snyder et al, 2016",elasticnet,0.6388888888888888,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.25,-1,MacroCenters,elasticnet,0.7048575529910878,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.35,0,"Cristiano et al, 2019",elasticnet,0.6621746192002107,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.35,1,"Jiang et al, 2015",elasticnet,0.8114466292134832,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.35,2,"Snyder et al, 2016",elasticnet,0.7222222222222222,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.35,-1,MacroCenters,elasticnet,0.7319478235453053,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.5,0,"Cristiano et al, 2019",elasticnet,0.6461744436152934,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.5,1,"Jiang et al, 2015",elasticnet,0.810744382022472,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.5,2,"Snyder et al, 2016",elasticnet,0.6944444444444444,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,3,0.5,-1,MacroCenters,elasticnet,0.7171210900274033,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.0,0,"Cristiano et al, 2019",elasticnet,0.6715025679294149,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.0,1,"Jiang et al, 2015",elasticnet,0.8202247191011236,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.0,2,"Snyder et al, 2016",elasticnet,0.8333333333333334,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.0,-1,MacroCenters,elasticnet,0.7750202067879574,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.15,0,"Cristiano et al, 2019",elasticnet,0.6832887055001975,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.15,1,"Jiang et al, 2015",elasticnet,0.8332162921348315,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.15,2,"Snyder et al, 2016",elasticnet,0.8888888888888888,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.15,-1,MacroCenters,elasticnet,0.8017979621746393,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.25,0,"Cristiano et al, 2019",elasticnet,0.6931434089811686,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.25,1,"Jiang et al, 2015",elasticnet,0.8219803370786516,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.25,2,"Snyder et al, 2016",elasticnet,0.8611111111111112,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.25,-1,MacroCenters,elasticnet,0.7920782857236438,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.35,0,"Cristiano et al, 2019",elasticnet,0.7058074711382292,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.35,1,"Jiang et al, 2015",elasticnet,0.8163623595505618,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.35,2,"Snyder et al, 2016",elasticnet,0.8888888888888888,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.35,-1,MacroCenters,elasticnet,0.8036862398592266,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.5,0,"Cristiano et al, 2019",elasticnet,0.7008252491111014,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.5,1,"Jiang et al, 2015",elasticnet,0.819873595505618,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.5,2,"Snyder et al, 2016",elasticnet,1.0,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,5,0.5,-1,MacroCenters,elasticnet,0.8402329482055731,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.0,0,"Cristiano et al, 2019",elasticnet,0.6565339537333743,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.0,1,"Jiang et al, 2015",elasticnet,0.8332162921348316,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.0,2,"Snyder et al, 2016",elasticnet,0.5277777777777778,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.0,-1,MacroCenters,elasticnet,0.6725093412153279,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.15,0,"Cristiano et al, 2019",elasticnet,0.6737412756244238,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.15,1,"Jiang et al, 2015",elasticnet,0.8669241573033708,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.15,2,"Snyder et al, 2016",elasticnet,0.5,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.15,-1,MacroCenters,elasticnet,0.6802218109759316,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.25,0,"Cristiano et al, 2019",elasticnet,0.7008033009964443,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.25,1,"Jiang et al, 2015",elasticnet,0.8563904494382022,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.25,2,"Snyder et al, 2016",elasticnet,0.5277777777777778,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.25,-1,MacroCenters,elasticnet,0.6949905094041414,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.35,0,"Cristiano et al, 2019",elasticnet,0.7080022826039243,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.35,1,"Jiang et al, 2015",elasticnet,0.8521769662921348,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.35,2,"Snyder et al, 2016",elasticnet,0.8333333333333334,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.35,-1,MacroCenters,elasticnet,0.7978375274097975,585,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.5,0,"Cristiano et al, 2019",elasticnet,0.7082437118651508,427,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.5,1,"Jiang et al, 2015",elasticnet,0.8525280898876404,121,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.5,2,"Snyder et al, 2016",elasticnet,0.8333333333333334,37,prespecified_no_outer_score_parameter_selection
+Proposed_LSN_ICC,8,0.5,-1,MacroCenters,elasticnet,0.7980350450287083,585,prespecified_no_outer_score_parameter_selection

@@ -1,0 +1,6 @@
+cohort_scope,fold,training_n,test_study,selected_radius,selected_alpha,icc_bypassed
+Primary_Bilateral,0,121,"Cristiano et al, 2019",8,0.0,True
+Primary_Bilateral,1,427,"Jiang et al, 2015",2,0.0,True
+External_HighBurden,0,548,"Snyder et al, 2016",5,0.0,False
+Combined_LOCO,0,158,"Cristiano et al, 2019",8,0.15,False
+Combined_LOCO,1,464,"Jiang et al, 2015",2,0.0,False

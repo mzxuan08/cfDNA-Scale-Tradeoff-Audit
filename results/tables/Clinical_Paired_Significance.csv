@@ -1,0 +1,49 @@
+test,model,center,comparator,status,auc_a,auc_b,delta,variance,p,q
+paired_DeLong,dann,"Cristiano et al, 2019",Raw_Ratio,computed_heldout_center_fixed_models,0.7161011369123392,0.5672051270795838,0.14889600983275542,0.001320937604734194,4.1894923594551833e-05,0.00016757969437820733
+paired_DeLong,dann,"Cristiano et al, 2019",Global_Zscore,computed_heldout_center_fixed_models,0.7161011369123392,0.7424937447873228,-0.026392607874983542,0.0005447303551460267,0.2581330132370666,0.3717115390613759
+paired_DeLong,dann,"Jiang et al, 2015",Raw_Ratio,computed_heldout_center_fixed_models,0.8834269662921348,0.4648876404494382,0.4185393258426966,0.0024087983497214135,1.491813880197834e-17,5.370529968712202e-16
+paired_DeLong,dann,"Jiang et al, 2015",Global_Zscore,computed_heldout_center_fixed_models,0.8834269662921348,0.8844803370786517,-0.001053370786516905,0.0012339795195584707,0.9760777363071037,1.0
+paired_DeLong,dann,"Snyder et al, 2016",Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,dann,"Snyder et al, 2016",Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,elasticnet,"Cristiano et al, 2019",Raw_Ratio,computed_heldout_center_fixed_models,0.6596725341293183,0.6240726921557438,0.035599841973574464,0.0013533500179450852,0.33319169954520167,0.4442555993936022
+paired_DeLong,elasticnet,"Cristiano et al, 2019",Global_Zscore,computed_heldout_center_fixed_models,0.6596725341293183,0.6864053377814846,-0.026732803652166348,0.0003518111255760197,0.1540862049688639,0.3466939611799438
+paired_DeLong,elasticnet,"Jiang et al, 2015",Raw_Ratio,computed_heldout_center_fixed_models,0.8160112359550562,0.5207162921348315,0.2952949438202247,0.003126551600203356,1.284206388151907e-07,7.705238328911441e-07
+paired_DeLong,elasticnet,"Jiang et al, 2015",Global_Zscore,computed_heldout_center_fixed_models,0.8160112359550562,0.8500702247191011,-0.034058988764044895,0.0009819396187623125,0.2770812618327916,0.38365097792232683
+paired_DeLong,elasticnet,"Snyder et al, 2016",Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,elasticnet,"Snyder et al, 2016",Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,lightgbm,"Cristiano et al, 2019",Raw_Ratio,computed_heldout_center_fixed_models,0.6384487072560467,0.4938984241253676,0.14455028313067914,0.0010575988946133403,8.794758846332613e-06,3.957641480849676e-05
+paired_DeLong,lightgbm,"Cristiano et al, 2019",Global_Zscore,computed_heldout_center_fixed_models,0.6384487072560467,0.7257802554760546,-0.08733154822000788,0.0005541666623991154,0.00020741978882983948,0.0006788283998067474
+paired_DeLong,lightgbm,"Jiang et al, 2015",Raw_Ratio,computed_heldout_center_fixed_models,0.8476123595505618,0.5319522471910112,0.3156601123595506,0.0034574330190221443,7.944936843079267e-08,5.720354527017072e-07
+paired_DeLong,lightgbm,"Jiang et al, 2015",Global_Zscore,computed_heldout_center_fixed_models,0.8476123595505618,0.8623595505617978,-0.014747191011236005,0.0012851092393935662,0.6807966192429453,0.7610158098441553
+paired_DeLong,lightgbm,"Snyder et al, 2016",Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,lightgbm,"Snyder et al, 2016",Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,mlp,"Cristiano et al, 2019",Raw_Ratio,computed_heldout_center_fixed_models,0.7399258153724595,0.5294982660989421,0.21042754927351737,0.0012387896250630412,2.249813076402025e-09,2.0248317687618225e-08
+paired_DeLong,mlp,"Cristiano et al, 2019",Global_Zscore,computed_heldout_center_fixed_models,0.7399258153724595,0.7613032790483297,-0.021377463675870234,0.0001910458044526391,0.12195163648854047,0.3135899223991041
+paired_DeLong,mlp,"Jiang et al, 2015",Raw_Ratio,computed_heldout_center_fixed_models,0.8851825842696629,0.8683286516853933,0.016853932584269593,0.0015060582942279452,0.6640774784096818,0.7610158098441553
+paired_DeLong,mlp,"Jiang et al, 2015",Global_Zscore,computed_heldout_center_fixed_models,0.8851825842696629,0.9213483146067416,-0.036165730337078705,0.0006291904142309726,0.14935770699133474,0.3466939611799438
+paired_DeLong,mlp,"Snyder et al, 2016",Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,mlp,"Snyder et al, 2016",Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,rf,"Cristiano et al, 2019",Raw_Ratio,computed_heldout_center_fixed_models,0.7170119836706027,0.4051402484526579,0.3118717352179448,0.001399113257193078,7.570869848379385e-17,1.3627565727082892e-15
+paired_DeLong,rf,"Cristiano et al, 2019",Global_Zscore,computed_heldout_center_fixed_models,0.7170119836706027,0.7550261182564417,-0.03801413458583902,0.0004970142416033766,0.08816784196685333,0.24415710083128614
+paired_DeLong,rf,"Jiang et al, 2015",Raw_Ratio,computed_heldout_center_fixed_models,0.8883426966292135,0.43469101123595505,0.45365168539325845,0.004023796491597423,8.57587286776418e-13,1.0291047441317015e-11
+paired_DeLong,rf,"Jiang et al, 2015",Global_Zscore,computed_heldout_center_fixed_models,0.8883426966292135,0.9006320224719101,-0.012289325842696597,0.0010002955782931235,0.6975978256904757,0.7610158098441553
+paired_DeLong,rf,"Snyder et al, 2016",Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,rf,"Snyder et al, 2016",Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,xgboost,"Cristiano et al, 2019",Raw_Ratio,computed_heldout_center_fixed_models,0.6533734252227734,0.49423861990255036,0.15913480532022306,0.001054342959561159,9.54074607302523e-07,4.906669408984404e-06
+paired_DeLong,xgboost,"Cristiano et al, 2019",Global_Zscore,computed_heldout_center_fixed_models,0.6533734252227734,0.6975769281418727,-0.04420350291909925,0.00044855554948723794,0.036876789292690976,0.11063036787807294
+paired_DeLong,xgboost,"Jiang et al, 2015",Raw_Ratio,computed_heldout_center_fixed_models,0.8254915730337079,0.5679424157303371,0.2575491573033708,0.004392182545494391,0.00010184515387325778,0.000366642553943728
+paired_DeLong,xgboost,"Jiang et al, 2015",Global_Zscore,computed_heldout_center_fixed_models,0.8254915730337079,0.855688202247191,-0.030196629213483095,0.0016370839182790115,0.4554762964733712,0.5856123811800487
+paired_DeLong,xgboost,"Snyder et al, 2016",Raw_Ratio,DeLong needs >=2 positives and negatives,,,,,,
+paired_DeLong,xgboost,"Snyder et al, 2016",Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+paired_Wilcoxon_centers,dann,AllCenters,Raw_Ratio,3_paired_centers,,,0.14889600983275542,,0.25,0.3717115390613759
+paired_Wilcoxon_centers,dann,AllCenters,Global_Zscore,3_paired_centers,,,-0.026392607874983542,,0.25,0.3717115390613759
+paired_Wilcoxon_centers,elasticnet,AllCenters,Raw_Ratio,3_paired_centers,,,0.035599841973574464,,1.0,1.0
+paired_Wilcoxon_centers,elasticnet,AllCenters,Global_Zscore,3_paired_centers,,,-0.034058988764044895,,0.25,0.3717115390613759
+paired_Wilcoxon_centers,lightgbm,AllCenters,Raw_Ratio,3_paired_centers,,,0.14455028313067914,,0.5,0.6
+paired_Wilcoxon_centers,lightgbm,AllCenters,Global_Zscore,3_paired_centers,,,-0.08733154822000788,,0.25,0.3717115390613759
+paired_Wilcoxon_centers,mlp,AllCenters,Raw_Ratio,3_paired_centers,,,0.02777777777777779,,0.25,0.3717115390613759
+paired_Wilcoxon_centers,mlp,AllCenters,Global_Zscore,3_paired_centers,,,-0.021377463675870234,,1.0,1.0
+paired_Wilcoxon_centers,rf,AllCenters,Raw_Ratio,3_paired_centers,,,0.3118717352179448,,0.25,0.3717115390613759
+paired_Wilcoxon_centers,rf,AllCenters,Global_Zscore,3_paired_centers,,,-0.012289325842696597,,0.25,0.3717115390613759
+paired_Wilcoxon_centers,xgboost,AllCenters,Raw_Ratio,3_paired_centers,,,0.15913480532022306,,0.5,0.6
+paired_Wilcoxon_centers,xgboost,AllCenters,Global_Zscore,3_paired_centers,,,-0.04420350291909925,,0.25,0.3717115390613759

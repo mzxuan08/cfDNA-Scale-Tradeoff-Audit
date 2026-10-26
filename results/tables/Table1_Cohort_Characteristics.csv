@@ -1,0 +1,4 @@
+center,selected_samples,selected_patients,selected_cancer,selected_healthy,extracted_samples,pending_samples,retained_samples,retained_cancer,retained_healthy,cancer_fraction,median_effective_fragments,qc_exclusions,qc_exclusion_rate,median_original_sequencing_depth
+"Cristiano et al, 2019",470,427,261,209,470,0,470,261,209,0.5553191489361702,33282552.0,0,0.0,3.5897631645202637
+"Jiang et al, 2015",121,121,89,32,121,0,121,89,32,0.7355371900826446,30927137.0,0,0.0,3.33219051361084
+"Snyder et al, 2016",37,37,36,1,37,0,37,36,1,0.972972972972973,28910209.0,0,0.0,4.089338302612305

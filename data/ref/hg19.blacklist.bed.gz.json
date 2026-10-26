@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/Boyle-Lab/Blacklist/raw/master/lists/hg19-blacklist.v2.bed.gz",
+  "sha256": "1a4ba636f791936ab8952cb068f496ccbd55ec4753539547c5d3d055ed00642a",
+  "bytes": 7731,
+  "http_status": 200,
+  "response_url": "https://raw.githubusercontent.com/Boyle-Lab/Blacklist/master/lists/hg19-blacklist.v2.bed.gz",
+  "requested_url": "https://github.com/Boyle-Lab/Blacklist/raw/master/lists/hg19-blacklist.v2.bed.gz",
+  "failures": [],
+  "mirror_used": false,
+  "reused_checkpoint": false
+}

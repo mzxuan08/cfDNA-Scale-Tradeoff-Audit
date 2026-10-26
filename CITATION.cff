@@ -1,0 +1,24 @@
+{
+  "cff-version": "1.2.0",
+  "message": "Please cite the manuscript and versioned code release if used.",
+  "type": "software",
+  "title": "cfDNA Scale Tradeoff Audit",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "family-names": "Ma",
+      "given-names": "Zhenxuan",
+      "affiliation": "Hubei University of Medicine, Shiyan 442000, Hubei, China",
+      "email": "mzxmc08@gmail.com"
+    }
+  ],
+  "repository-code": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit",
+  "license": "MIT",
+  "abstract": "A reproducible audit of global/local normalization scale and study-source confounding in public human cfDNA cohorts; Hybrid fusion is a diagnostic comparator.",
+  "keywords": [
+    "cfDNA",
+    "fragmentomics",
+    "cross-study validation",
+    "normalization"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63525/suppl/GSE63525_GM12878_subcompartments.bed.gz",
+  "sha256": "be4bef5d57565ac6329dd29891b091480e6bae34d47ed1b9479cf1d9cd00de19",
+  "bytes": 31804,
+  "http_status": 200,
+  "response_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63525/suppl/GSE63525_GM12878_subcompartments.bed.gz"
+}

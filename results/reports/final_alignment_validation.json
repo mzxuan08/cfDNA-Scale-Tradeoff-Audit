@@ -1,0 +1,9 @@
+{
+  "tests": 10,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "runtime_seconds": 3.452,
+  "refitting_entrypoint_guard_passed": true,
+  "clinical_inputs_and_fitted_results_unchanged": true
+}

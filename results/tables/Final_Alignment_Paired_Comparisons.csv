@@ -1,0 +1,11 @@
+cohort_scope,model,center,method,comparator,status,auc_a,auc_b,delta,variance,p,q
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.6081164128001405,0.6318423247443045,-0.0237259119441639,5.236176302313568e-05,0.0010424709976823,0.0033011581593272
+Primary_Bilateral,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.6081164128001405,0.6069312146086652,0.0011851981914753,9.186957390136617e-05,0.9015899202010244,0.9516782491010812
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.8771067415730337,0.8588483146067416,0.018258426966292,0.0001112470645505,0.08343611810826,0.1441169312779036
+Primary_Bilateral,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.8771067415730337,0.8160112359550562,0.0610955056179775,0.00054793753096,0.0090537082254069,0.0229360608376974
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.6364075325929502,0.6864053377814846,-0.0499978051885343,0.0001890894179028,0.0002769632235663,0.0009374139874551
+Combined_LOCO,elasticnet,"Cristiano et al, 2019",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.6364075325929502,0.6596725341293183,-0.023265001536368,0.0001459344031578,0.0541221178063854,0.1082442356127708
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Global_Zscore,fixed_models_independent_heldout_study,0.8641151685393258,0.8500702247191011,0.0140449438202246,0.000176465124781,0.2903832121691094,0.440581425360028
+Combined_LOCO,elasticnet,"Jiang et al, 2015",Hybrid_MultiScale,Proposed_LSN_ICC,fixed_models_independent_heldout_study,0.8641151685393258,0.8160112359550562,0.0481039325842695,0.0006512599209856,0.0594344956780255,0.1137007743405705
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Hybrid_MultiScale,Global_Zscore,DeLong needs >=2 positives and negatives,,,,,,
+Combined_LOCO,elasticnet,"Snyder et al, 2016",Hybrid_MultiScale,Proposed_LSN_ICC,DeLong needs >=2 positives and negatives,,,,,,

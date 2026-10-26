@@ -1,0 +1,7 @@
+family,term,pseudo_F,R2,partial_R2,p,permutations,adjustment,permutation,q
+raw_ratio,center,720.8529117295079,0.6562821033115899,0.7131135532826159,0.001,999,other_term_and_original_coverage_depth,Freedman_Lane_within_disease,0.001
+raw_ratio,disease,18.298324082218624,0.008329620662101002,0.030583946746446267,0.001,999,other_term_and_original_coverage_depth,Freedman_Lane_within_center,0.001
+median_centered_ratio,center,22.39602616862146,0.07027612748424035,0.07169113654644504,0.001,999,other_term_and_original_coverage_depth,Freedman_Lane_within_disease,0.001
+median_centered_ratio,disease,5.3898819484763,0.008456411599188654,0.009207337049516507,0.001,999,other_term_and_original_coverage_depth,Freedman_Lane_within_center,0.001
+length_frequency,center,139.13032052794338,0.30939082143742413,0.3242146123741068,0.001,999,other_term_and_original_coverage_depth,Freedman_Lane_within_disease,0.001
+length_frequency,disease,11.041766233069323,0.012277054749842274,0.018681871339554627,0.001,999,other_term_and_original_coverage_depth,Freedman_Lane_within_center,0.001

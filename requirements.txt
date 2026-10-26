@@ -1,0 +1,22 @@
+# Validated on Python 3.10 / Windows. Use the CUDA wheel index for PyTorch.
+--extra-index-url https://download.pytorch.org/whl/cu121
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==24.0.0
+scipy==1.15.3
+scikit-learn==1.7.2
+statsmodels==0.15.0
+xgboost==2.1.4
+lightgbm==4.6.0
+torch==2.5.1+cu121; sys_platform == 'win32' or sys_platform == 'linux'
+torch==2.5.1; sys_platform == 'darwin'
+umap-learn==0.5.12
+matplotlib==3.10.9
+seaborn==0.13.2
+requests==2.34.2
+tqdm==4.67.3
+pyyaml==6.0
+pytest==8.4.2
+tabulate==0.10.0
+openpyxl>=3.1,<4
+pyreadr==0.5.8

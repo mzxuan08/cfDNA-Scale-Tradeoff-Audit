@@ -1,0 +1,31 @@
+# Regenerable environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+work/
+submission_package/
+*.log
+# Never commit clinical raw intervals, BAM, FASTQ or large processed inputs
+*.bam
+*.bai
+*.fastq*
+*.fq*
+*.frag.tsv.bgz*
+*.bed.bgz*
+data/processed/
+data/metadata/
+results/step7_cv_checkpoints/
+results/clinical_cv_checkpoints/*
+!results/clinical_cv_checkpoints/selection_loco_*_Proposed_LSN_ICC.parquet
+*.pt
+*.pth
+*.ckpt
+# Local credentials
+.env
+.env.*
+*.pem
+*.key

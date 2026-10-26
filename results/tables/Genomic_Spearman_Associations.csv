@@ -1,0 +1,8 @@
+annotation,rho,p,n,interpretation,q
+gc_fraction,0.6063420878116569,3.2091337330112967e-49,477,exploratory_genomic_association_not_causal_proof,2.2463936131079075e-48
+gc_extremeness,0.32927738990497024,1.589541256648379e-13,477,exploratory_genomic_association_not_causal_proof,2.781697199134663e-13
+log_telomere_distance,-0.2633629041071558,5.212007170665321e-09,477,exploratory_genomic_association_not_causal_proof,7.2968100389314505e-09
+log_centromere_distance,-0.03293590496710109,0.472980261580193,477,exploratory_genomic_association_not_causal_proof,0.4729802615801931
+repeat_fraction,0.03493837734035747,0.446480249966256,477,exploratory_genomic_association_not_causal_proof,0.4729802615801931
+segdup_fraction,0.33554441033433635,5.1313512975267566e-14,477,exploratory_genomic_association_not_causal_proof,1.1973153027562432e-13
+A_compartment_fraction,0.34939234252865276,3.8447486554543084e-15,477,exploratory_genomic_association_not_causal_proof,1.345662029409008e-14

@@ -1,0 +1,15 @@
+parameter,value
+seed,2026.0
+inner_folds,3.0
+bootstrap_replicates,1000.0
+hybrid_radius,3.0
+core_pipelines,5.0
+classifiers,6.0
+window_bp,5000000.0
+fragment_min_bp,80.0
+fragment_max_bp,400.0
+mapq_min,30.0
+source_depth_min,0.1
+source_depth_max,5.0
+target_specificity,0.95
+primary_studies,2.0
