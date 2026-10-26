@@ -24,7 +24,7 @@ Fixed ElasticNet Combined LOCO AUROCs are Global 0.759, Hybrid 0.731, fixed LSN-
 
 Public repository: https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit
 
-First software release: v0.1.0; Zenodo registration follows repository linkage.
+Immutable software release v0.1.0: https://doi.org/10.5281/zenodo.23653766
 
 ## Publication materials
 

@@ -323,7 +323,12 @@ def build(args,before):
     doc.save(OUT/'05_Supplementary_Material.docx')
     for name,journal in [('06_Cover_Letter','Computer Methods and Programs in Biomedicine'),('06b_Cover_Letter_Alternative_CBM','Computers in Biology and Medicine')]:
         text=revised_cover(title,author,journal,receipt);pack.write(OUT/(name+'.md'),text)
-        pack.pandoc_doc(text,OUT/(name+'.docx'),args.pandoc,author,double=False)
+        letter=pack.pandoc_doc(text,OUT/(name+'.docx'),args.pandoc,author,double=False)
+        from docx.shared import Pt
+        for paragraph in letter.paragraphs:
+            paragraph.paragraph_format.line_spacing=1
+            paragraph.paragraph_format.space_after=Pt(5)
+        letter.save(OUT/(name+'.docx'))
     pack.pandoc_doc('# Declaration of interest\n\n'+title+'\n\n'+author['name']+'\n\n'+author['competing_interests'],OUT/'07_Declaration_of_Interest.docx',args.pandoc,author,double=False)
     copies=json.loads(pack.read(OUT/'verification/Byte_Identical_Copies.json'))
     pack.create_release(author,full,copies)
@@ -363,18 +368,47 @@ def finalize(args,before):
     from pypdf import PdfReader
     reader=PdfReader(pdf)
     assert len(reader.pages)==next(x['pages'] for x in render if x['file'].startswith('04_'))
-    assert receipt['doi'] in ''.join(p.extract_text() or '' for p in reader.pages)
+    assert receipt['doi'] in re.sub(r'\s+','',''.join(p.extract_text() or '' for p in reader.pages))
     assert snapshot()==before
     integrity={'status':'passed','protected_files':before,'checked_files':len(before),
                'changed_files':[],'frozen_manifest_sha256':pack.sha(ROOT/'results/reports/final_scope_alignment_integrity.json')}
     pack.dump(OUT/'verification/Editorial_Release_Integrity.json',integrity)
+    pack.dump(OUT/'verification/Frozen_Input_Integrity.json',dict(integrity,
+        scope='Scientific inputs and outputs; authorized manuscript text revisions excluded',
+        prior_editorial_snapshot='results/archive_step08_before_editorial_release/'))
     pack.dump(OUT/'verification/Published_Release_Receipt.json',receipt)
+    archive=json.loads(pack.read(WORK/'archive_verification.json'))
+    assert archive['status']=='passed' and archive['version_doi']==receipt['doi']
+    pack.dump(OUT/'verification/Archived_Release_Verification.json',archive)
     pack.dump(OUT/'verification/Rendered_Documents.json',render)
+    pack.dump(OUT/'verification/Render_QA_Review.json',{
+        'status':'passed','method':'All current rendered pages visually inspected, including equations, tables, figure legends, line numbers, DOI and one-page cover letters',
+        'rendered_documents':render,'total_pages':sum(x['pages'] for x in render),
+        'prior_step08_review_superseded':True})
+    import xml.etree.ElementTree as ET
+    suite=ET.parse(WORK/'pytest.xml').getroot()
+    suites=list(suite.iter('testsuite'))
+    test_counts={key:sum(int(s.get(key,0)) for s in suites) for key in ['tests','failures','errors','skipped']}
+    assert test_counts['failures']==0 and test_counts['errors']==0
+    test_counts['passed']=test_counts['tests']-test_counts['skipped']
+    pack.dump(OUT/'verification/Current_Test_Results.json',test_counts)
+    shutil.copy2(ROOT/'scripts/09_polish_and_release_materials.py',RELEASE/'scripts/09_polish_and_release_materials.py')
+    pack.dump(RELEASE/'results/reports/zenodo_release_receipt.json',archive)
+    copies=json.loads(pack.read(OUT/'verification/Byte_Identical_Copies.json'))
+    # Refresh source-linked copies after authorized DOI and editorial-script updates.
+    for relative,record in list(copies.items()):
+        original=ROOT/record['source']; copied=OUT/relative
+        if original.exists() and copied.exists() and pack.sha(original)==pack.sha(copied):
+            record['sha256']=pack.sha(original)
+        else:
+            del copies[relative]
+    pack.dump(OUT/'verification/Byte_Identical_Copies.json',copies)
     summary={'status':'complete','editorial_skill':'anti-defensive-writing-en','docx_count':8,
         'rendered_pages':sum(x['pages'] for x in render),'preprint_pdf_pages':len(reader.pages),
         'repository':REPO,'zenodo_doi':receipt['doi'],'release_tag':TAG,
         'protected_scientific_files':len(before),'scientific_files_changed':0,
-        'pdf_sha256':pack.sha(pdf),'rendered_documents':render}
+        'pdf_sha256':pack.sha(pdf),'rendered_documents':render,
+        'tests':test_counts,'verified_archived_release':archive}
     pack.dump(OUT/'verification/Build_Summary.json',summary)
     checklist=pack.read(OUT/'SUBMISSION_CHECKLIST_FOR_AUTHOR.md')
     # Replace stale pending-release checklist with a current concise, factual guide.

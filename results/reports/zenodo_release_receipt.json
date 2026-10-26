@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "version_doi": "10.5281/zenodo.23653766",
+  "concept_doi": "10.5281/zenodo.23653765",
+  "tag": "v0.1.0",
+  "git_commit": "e43d0e134d3ba5e471627f4e1d57da0d81b25a94",
+  "archived_file_count_verified": 152,
+  "zenodo_file_md5": "399e0d4a1cc62b8eba70bbecb8193f79",
+  "zenodo_file_sha256": "9d504e921d9b990b0bee783a5c16b0b99677af1670866456b996e725d8473f76",
+  "archived_zip_bytes": 2021561
+}
