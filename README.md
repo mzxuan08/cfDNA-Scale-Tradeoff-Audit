@@ -1,4 +1,4 @@
-# cfDNA Scale Tradeoff Audit v0.2.0
+# cfDNA Scale Tradeoff Audit v0.2.1
 
 Scale Trade-offs in Within-Sample Self-Normalization for Cross-Study Generalization
 in Public cfDNA Cohorts
@@ -12,11 +12,10 @@ they are not independent external validation or confirmatory evidence.
 
 ## Version and archival status
 
-Version **v0.2.0** is published at https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.0.
-The immutable version archive is https://doi.org/10.5281/zenodo.23659205.
-Its complete code and numerical outputs were downloaded and verified against
-the 272-file release manifest. The v0.2.0 tag is preserved unchanged; DOI and
-publication metadata were refreshed on main after archival assignment.
+Current patch release: **v0.2.1**, https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.1.
+Archive collection DOI: https://doi.org/10.5281/zenodo.23653765. The exact version is identified by the v0.2.1 Git tag; its version-specific DOI is assigned by Zenodo after publication.
+
+This patch corrects formula rendering and reference attribution, and includes current publication documents in `publication/`. Scientific inputs and numerical results are unchanged. Previous v0.2.0 remains immutable at https://doi.org/10.5281/zenodo.23659205.
 
 ## Package contents
 
@@ -35,6 +34,8 @@ publication metadata were refreshed on main after archival assignment.
 - `results/step10_final/figures/`: current Figure 1–4 and Supplementary S5/S6,
   each supplied as vector PDF and 300 DPI PNG.
 - `results/MANUSCRIPT_FULL_TEXT.md`: current manuscript and one AI-use disclosure.
+- `publication/`: current editable Word manuscripts, integrated PDFs and file guide.
+- `scripts/17_sync_editorial_release.py`: publication-only patch synchronization; no classifier fitting.
 
 Per-patient diagnostic CSVs contain repeated public source identifiers; repeated
 anchor observations are not additional independent participants. Raw sequencing
@@ -55,7 +56,7 @@ For the final polish, run `python scripts/14_final_polish.py` against the comple
 local frozen workspace. It reads existing scores, stage metadata and coordinates
 and does not train or select a classifier. Use the document authoring runtime,
 Pandoc, python-docx and LibreOffice to run script 12 and render all documents;
-script 15 synchronizes the package and seals manifests. The final packaging
+script 15 seals the historical v0.2.0 package. For later editorial patches, use script 17 to synchronize and pack existing results. The final packaging
 helpers require the complete local publication workspace and author configuration.
 Scripts 01–11 are research-replication entry points, not part of the no-training
 final-polish command sequence.

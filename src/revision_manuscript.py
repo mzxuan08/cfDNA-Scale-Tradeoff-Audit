@@ -31,6 +31,7 @@ def compile_revision(root):
 **Keywords:** cell-free DNA; fragmentomics; normalization scale; study-held-out validation; threshold transport; companion dependence
 '''
     intro=old.split('## 1. Introduction\n\n')[1].split('\n\nNormalization scale offers')[0]
+    intro=intro.replace('Griffin further links nucleosome protection profiles with cancer phenotypes while explicitly addressing GC bias [8].', 'Doebley et al. further link nucleosome protection profiles with cancer phenotypes while explicitly addressing GC bias [8].')
     body=author+'## Abstract\n\n'+abstract+'\n## 1. Introduction\n\n'+intro+r'''
 
 Global and local normalization define different genomic references. A genome-wide reference preserves broad relative deviations, while a same-arm local contrast emphasizes departures from nearby windows. Combining the scales makes their complementary information testable. A useful evaluation must distinguish the disease contrasts preserved by a representation from the study on which a classifier is tested and the threshold at which it is operated.
@@ -58,7 +59,7 @@ $$R_{si}=\frac{S_{si}}{L_{si}+1}.$$
 
 Global Z-score references the individual's window mean and standard deviation. Local self-normalization (LSN) references other retained windows on the same chromosome arm, up to three on each side:
 
-$$G_{si}=\frac{R_{si}-\bar R_s}{\operatorname{sd}_i R_{si}}.$$
+$$G_{si}=\frac{R_{si}-\overline{R}_{s}}{\operatorname{sd}_{i}(R_{si})}.$$
 
 $$\mathrm{LSN}_{si}=\log_2\frac{R_{si}+\epsilon_s}{\operatorname{median}_{j\in N_3(i),j\ne i}R_{sj}+\epsilon_s}.$$
 
@@ -203,8 +204,11 @@ Within-sample normalization guarantees companion-independent target preprocessin
     availability=source_description+'\n\nThe v0.2.0 software release package accompanies this manuscript and is prepared for deposit at https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit. It includes source-only calibration and anchor-resampling code, post-hoc exploratory sensitivity analyses, chromosome-block inference, PERMDISP, complete numeric CSV outputs and the current figures. No Zenodo DOI has yet been assigned to v0.2.0. The historical v0.1.0 archive remains available at https://doi.org/10.5281/zenodo.23653766; this DOI identifies the earlier archive rather than v0.2.0. Original software is MIT licensed; raw fragment streams, specimen feature matrices and fitted-model caches are excluded. Published data and third-party annotations retain their original terms.\n\n'
     release_file=root/'config/release.json'
     release=json.loads(release_file.read_text(encoding='utf-8')) if release_file.exists() else {}
-    if release.get('status')=='published' and release.get('zenodo_doi'):
-        availability=source_description+f'\n\nSoftware version v0.2.0 is publicly released at [{release["github_release_url"]}]({release["github_release_url"]}) and archived in Zenodo at [https://doi.org/{release["zenodo_doi"]}](https://doi.org/{release["zenodo_doi"]}). This version-specific DOI identifies the complete frozen v0.2.0 code, numeric CSV outputs and current figures. The archive includes source-only calibration, real-patient anchor resampling, post-hoc exploratory sensitivity analyses, chromosome-block inference and PERMDISP. The repository is https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit. Original software is MIT licensed; raw fragment streams, specimen feature matrices and fitted-model caches are excluded. Published data and third-party annotations retain their original terms.\n\n'
+    if release.get('version'):
+        version=release['version']
+        doi=release.get('zenodo_doi') or release.get('concept_zenodo_doi')
+        scope='version-specific' if release.get('zenodo_doi') else 'collection (all versions)'
+        availability=source_description+f'\n\nSoftware version v{version} and its publication files are identified by [{release["github_release_url"]}]({release["github_release_url"]}). The Zenodo {scope} DOI is [https://doi.org/{doi}](https://doi.org/{doi}). The Git tag identifies the frozen code, numeric CSV outputs and current figures for this version. The archive includes source-only calibration, real-patient anchor resampling, post-hoc exploratory sensitivity analyses, chromosome-block inference and PERMDISP. The repository is https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit. Original software is MIT licensed; raw fragment streams, specimen feature matrices and fitted-model caches are excluded. Published data and third-party annotations retain their original terms.\n\n'
     body=re.sub(r'## Data and code availability\n.*?(?=## CRediT authorship)', '## Data and code availability\n\n'+availability,body,flags=re.S)
 
     # One complete AI declaration in the entire manuscript.

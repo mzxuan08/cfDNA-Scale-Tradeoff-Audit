@@ -1,9 +1,9 @@
 {
   "cff-version": "1.2.0",
-  "message": "Please cite the version-specific Zenodo DOI for software v0.2.0 and its manuscript.",
+  "message": "Please cite the release tag and its Zenodo archive.",
   "type": "software",
   "title": "cfDNA Scale Tradeoff Audit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "authors": [
     {
       "family-names": "Ma",
@@ -22,5 +22,5 @@
     "cross-study validation",
     "normalization"
   ],
-  "doi": "10.5281/zenodo.23659205"
+  "url": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.1"
 }

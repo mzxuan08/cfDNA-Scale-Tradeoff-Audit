@@ -22,7 +22,7 @@
 
 ## 1. Introduction
 
-Cross-study cfDNA fragmentomics requires representations that retain disease-associated fragmentation contrasts while controlling study-source variation and maintaining interpretable scores in a new cohort. Plasma DNA fragmentation reflects nucleosome organization and tissue contribution, and genome-wide profiles support cancer classification alongside sequence-variant assays [1,2,3,4]. Fragment-size selection, transcription-associated coverage and lung-cancer fragmentome studies establish complementary uses of these signals [5,6,7]. Griffin further links nucleosome protection profiles with cancer phenotypes while explicitly addressing GC bias [8]. Study Source combines specimen processing, sequencing procedures, recruitment and population composition. This joint structure is consistent with the broader challenge of batch effects in high-throughput molecular data [9,10]. Evaluating transport therefore requires both patient-level discrimination and the achieved operating point of a threshold locked in the source study.
+Cross-study cfDNA fragmentomics requires representations that retain disease-associated fragmentation contrasts while controlling study-source variation and maintaining interpretable scores in a new cohort. Plasma DNA fragmentation reflects nucleosome organization and tissue contribution, and genome-wide profiles support cancer classification alongside sequence-variant assays [1,2,3,4]. Fragment-size selection, transcription-associated coverage and lung-cancer fragmentome studies establish complementary uses of these signals [5,6,7]. Doebley et al. further link nucleosome protection profiles with cancer phenotypes while explicitly addressing GC bias [8]. Study Source combines specimen processing, sequencing procedures, recruitment and population composition. This joint structure is consistent with the broader challenge of batch effects in high-throughput molecular data [9,10]. Evaluating transport therefore requires both patient-level discrimination and the achieved operating point of a threshold locked in the source study.
 
 Global and local normalization define different genomic references. A genome-wide reference preserves broad relative deviations, while a same-arm local contrast emphasizes departures from nearby windows. Combining the scales makes their complementary information testable. A useful evaluation must distinguish the disease contrasts preserved by a representation from the study on which a classifier is tested and the threshold at which it is operated.
 
@@ -66,7 +66,7 @@ $$R_{si}=\frac{S_{si}}{L_{si}+1}.$$
 
 Global Z-score references the individual's window mean and standard deviation. Local self-normalization (LSN) references other retained windows on the same chromosome arm, up to three on each side:
 
-$$G_{si}=\frac{R_{si}-\bar R_s}{\operatorname{sd}_i R_{si}}.$$
+$$G_{si}=\frac{R_{si}-\overline{R}_{s}}{\operatorname{sd}_{i}(R_{si})}.$$
 
 $$\mathrm{LSN}_{si}=\log_2\frac{R_{si}+\epsilon_s}{\operatorname{median}_{j\in N_3(i),j\ne i}R_{sj}+\epsilon_s}.$$
 
@@ -248,7 +248,7 @@ Within-sample normalization guarantees companion-independent target preprocessin
 
 Source data are described in Cristiano et al. (2019), Jiang et al. (2015) and Snyder et al. (2016). Fragment intervals were accessed through FinaleDB (https://finaledb.research.cchmc.org/); source-linked metadata are documented in UNITE supplementary data file S1, sheet s2 (https://doi.org/10.1126/sciadv.ady9432). Source URLs, eligibility rules and provenance are recorded in the extraction configuration and manifests.
 
-Software version v0.2.0 is publicly released at [https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.0](https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.0) and archived in Zenodo at [https://doi.org/10.5281/zenodo.23659205](https://doi.org/10.5281/zenodo.23659205). This version-specific DOI identifies the complete frozen v0.2.0 code, numeric CSV outputs and current figures. The archive includes source-only calibration, real-patient anchor resampling, post-hoc exploratory sensitivity analyses, chromosome-block inference and PERMDISP. The repository is https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit. Original software is MIT licensed; raw fragment streams, specimen feature matrices and fitted-model caches are excluded. Published data and third-party annotations retain their original terms.
+Software version v0.2.1 and its publication files are identified by [https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.1](https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.1). The Zenodo collection (all versions) DOI is [https://doi.org/10.5281/zenodo.23653765](https://doi.org/10.5281/zenodo.23653765). The Git tag identifies the frozen code, numeric CSV outputs and current figures for this version. The archive includes source-only calibration, real-patient anchor resampling, post-hoc exploratory sensitivity analyses, chromosome-block inference and PERMDISP. The repository is https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit. Original software is MIT licensed; raw fragment streams, specimen feature matrices and fitted-model caches are excluded. Published data and third-party annotations retain their original terms.
 
 ## CRediT authorship contribution statement
 

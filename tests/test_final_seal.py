@@ -28,12 +28,12 @@ def test_permanova_qualifier_and_exploratory_scope_are_in_the_manuscript():
         value=text.split(section)[1].split('\n## ')[0]
         assert 'post-hoc exploratory sensitivity analyses' in value.lower()
         assert 'confirmatory evidence' in value
-    assert 'v0.2.0' in text
     state=json.loads((ROOT/'config/release.json').read_text(encoding='utf-8'))
     if state.get('status')=='published':
         assert 'https://doi.org/'+state['zenodo_doi'] in text
         assert 'No Zenodo DOI has yet been assigned to v0.2.0' not in text
-    else:assert 'No Zenodo DOI has yet been assigned to v0.2.0' in text
+    else:assert 'https://doi.org/'+state['concept_zenodo_doi'] in text
+    assert 'v'+state['version'] in text
 
 def test_all_previously_frozen_scientific_files_are_unchanged():
     before=json.loads((FINAL/'reports/frozen_inputs_sha256.json').read_text(encoding='utf-8'))
@@ -62,8 +62,8 @@ def test_versioned_release_contains_all_revision_outputs():
     release=ROOT/'submission_package/github_zenodo_release'
     if not (release/'results/step10_final').exists():pytest.skip('Release synchronization is the final packaging phase')
     citation=json.loads((release/'CITATION.cff').read_text(encoding='utf-8'))
-    assert citation['version']=='0.2.0'
     state=json.loads((ROOT/'config/release.json').read_text(encoding='utf-8'))
+    assert citation['version']==state['version']
     if state.get('status')=='published':assert citation['doi']==state['zenodo_doi']
     else:assert 'doi' not in citation
     for p in (FINAL/'tables').glob('*.csv'):assert (release/'results/step10_final/tables'/p.name).read_bytes()==p.read_bytes()

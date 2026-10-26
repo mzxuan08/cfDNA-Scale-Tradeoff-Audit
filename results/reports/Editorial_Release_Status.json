@@ -1,0 +1,13 @@
+{
+  "version": "0.2.1",
+  "status": "prepared_locally_not_published",
+  "zenodo_doi": null,
+  "concept_zenodo_doi": "10.5281/zenodo.23653765",
+  "protected_files": 1479,
+  "classifier_fits": 0,
+  "feature_extraction_runs": 0,
+  "publication_documents": 8,
+  "biorxiv_revision_uploaded": false,
+  "pdf_pages": 21,
+  "pdf_sha256": "bfc72d1258c0bd9e046ebb224e129208b56385c46d776efd0d19f4678562d56c"
+}
