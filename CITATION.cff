@@ -15,7 +15,7 @@
   ],
   "repository-code": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit",
   "license": "MIT",
-  "abstract": "A reproducible audit of global/local normalization scale and study-source confounding in public human cfDNA cohorts; Hybrid fusion is a diagnostic comparator.",
+  "abstract": "Reproducible software for measuring normalization-scale trade-offs, within-study discrimination and cross-study score comparability in public human cfDNA cohorts, including fixed-patient tests of target-composition dependence.",
   "keywords": [
     "cfDNA",
     "fragmentomics",

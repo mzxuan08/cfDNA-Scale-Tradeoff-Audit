@@ -30,7 +30,16 @@ Immutable software release v0.1.0: https://doi.org/10.5281/zenodo.23653766
 
 ## Publication materials
 
-The publication-facing manuscript, Highlights, legends and cover letters follow the normalization-scale and score-transport narrative. scripts/09_polish_and_release_materials.py is the editorial revision utility; it is separate from the research computation. It requires the local submission workspace and its preserved pre-edit manuscript snapshot. The light software release contains the approved text and research scripts; it does not reconstruct that private submission-author workspace.
+The approved manuscript is results/MANUSCRIPT_FULL_TEXT.md. Its abstract,
+interpretation, legends, submission letters and supplementary guide use the same
+normalization-scale and score-comparability framework.
+
+scripts/10_finalize_editorial_materials.py rebuilds the current submission
+documents from the preserved local publication snapshot. It uses the table and
+figure-placement helpers in scripts/08_1_final_typesetting.py. Both require the
+complete local publication workspace, author configuration, verified references,
+Pandoc and document-rendering dependencies. Research replication uses the
+analysis entry points below independently of this publication workspace.
 
 ## Included files and exclusions
 
@@ -97,15 +106,13 @@ first be reconstructed for scripts that load patient-level features. The light
 release alone does not run feature-dependent validations without those inputs.
 
 **Manuscript regeneration:** scripts/06_compile_manuscript_assets.py is the
-historical compiler. It can rewrite tables and reports; never run it on the
-frozen release to perform editorial packaging. The approved full text is supplied
-in results/MANUSCRIPT_FULL_TEXT.md. Editorial packaging uses the read-only-input
-scripts/08_build_submission_package.py and requires a complete author-confirmed
-local config/submission_author.json, python-docx, lxml and a Pandoc executable;
-it is not needed for research replication. A release without the full private
-analysis workspace should not claim the packaging integrity manifest is present.
+historical analysis compiler and can regenerate scientific tables. For editorial
+work, preserve the approved CSVs and use the publication entry point described
+above. The lightweight release supplies the approved text and research
+implementation; feature-dependent validation requires reconstructed clinical
+inputs and the original data terms.
 
-## Leakage controls and statistical limits
+## Fold isolation and statistical inference
 
 All fitted preprocessing, masks, nested parameter selection and source threshold
 calibration are confined to source training folds. Primary bilateral training has
@@ -132,4 +139,4 @@ it did not repeat clinical extraction or benchmark fitting.
 Original software is MIT licensed. Third-party reference/clinical resources
 retain their own conditions; see DATA_PROVENANCE_AND_TERMS.md. Cite the original
 data papers, the manuscript and the versioned code/Zenodo record once released.
-Do not use this exploratory public-data study as a validated screening device.
+This is research software for retrospective evaluation of public cfDNA cohorts.
