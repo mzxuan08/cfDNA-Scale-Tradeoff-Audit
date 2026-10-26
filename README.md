@@ -13,7 +13,7 @@ they are not independent external validation or confirmatory evidence.
 ## Version and archival status
 
 Current patch release: **v0.2.1**, https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit/releases/tag/v0.2.1.
-Archive collection DOI: https://doi.org/10.5281/zenodo.23653765. The exact version is identified by the v0.2.1 Git tag; its version-specific DOI is assigned by Zenodo after publication.
+Version-specific DOI: https://doi.org/10.5281/zenodo.23670173.
 
 This patch corrects formula rendering and reference attribution, and includes current publication documents in `publication/`. Scientific inputs and numerical results are unchanged. Previous v0.2.0 remains immutable at https://doi.org/10.5281/zenodo.23659205.
 

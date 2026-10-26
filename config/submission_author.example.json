@@ -6,9 +6,9 @@
   "email": "mzxmc08@gmail.com",
   "orcid": "0009-0004-5432-4999",
   "repository_url": "https://github.com/mzxuan08/cfDNA-Scale-Tradeoff-Audit",
-  "zenodo_doi": null,
+  "zenodo_doi": "10.5281/zenodo.23670173",
   "manual_review_confirmed": false,
   "note": "For submission packaging only. Supply a complete locally approved author configuration; research scripts do not require this file.",
   "software_version": "0.2.1",
-  "zenodo_status": "prepared_locally_not_published"
+  "zenodo_status": "published"
 }
